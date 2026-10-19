@@ -1,0 +1,16 @@
+step,records_changed
+standardise first_name,23
+standardise last_name,19
+standardise/repair email,31
+convert dob to ISO-8601,96
+map programme_code to code list,78
+map gender to code list,100
+map country to code list,100
+merge duplicate students,47
+drop duplicate enrolments,2
+infer missing programme from enrolments,29
+null out-of-range grades (flag for re-entry),42
+quarantine orphan enrolments,51
+quarantine enrolments dated before start year,39
+mark overdue 'active' students as graduated,89
+retire courses with no enrolments in 2 years,3

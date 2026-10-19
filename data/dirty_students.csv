@@ -1,0 +1,1051 @@
+student_id,first_name,last_name,email,dob,gender,programme_code,enrol_year,status,graduation_date,country,last_updated
+353,Sofia,Walker,sofia.walker@uni.example.ac.uk,2004-09-11,F,PSY,2022,graduated,2025-06-30,China,2025-09-15
+690,Ethan,Smith,ethan.smith3@uni.example.ac.uk,2001-02-12,M,PSY,2020,graduated,2023-06-30,United Kingdom,2023-09-15
+486,Grace,Nguyen,grace.nguyen2@uni.example.ac.uk,2007-09-26,F,CS,2025,active,,Ireland,2026-09-15
+389,Noah,Ali,noah.ali2@uni.example.ac.uk,2008-02-02,M,CS,2026,active,,Nigeria,2026-09-15
+32,Maya,Clarke,maya.clarke@uni.example.ac.uk,2003-11-17,X,PSY,2023,withdrawn,,Maroc,2024-01-10
+443,Chloe,Smith,chloe.smith@uni.example.ac.uk,1996-12-08,F,psy,2019,graduated,2022-06-30,United Kingdom,2022-09-15
+199,Hassan,Kowalski,hassan.kowalski@uni.example.ac.uk,2008-03-03,F,LAW,2026,active,,Ireland,2026-09-15
+426,Ryan,Clarke,ryan.clarke2@uni.example.ac.uk,,X,MTH,2020,withdrawn,,United Kingdom,2021-01-10
+108,Emily,Walker,emily.walker@uni.example.ac.uk,2006-08-04,M,CS,2024,active,,China,2026-09-15
+715,Emily,Haddad,emily.haddad@uni.example.ac.uk,2005-05-01,X,BUS,2023,graduated,2026-06-30,India,2026-09-15
+553,Daniel,Mensah,daniel.mensah2@uni.example.ac.uk,12 Jun 2002,X,PSY,2021,graduated,2024-06-30,United Kingdom,2024-09-15
+676,Mariam,Patel,mariam.patel@uni.example.ac.uk,07/05/2005,Male,IS,2024,active,,United Kingdom,2026-09-15
+159,Hannah,Patel,hannah.patel@uni.example.ac.uk,2006-02-17,X,MATH,2024,active,,U.K.,2026-09-15
+476,Aisha,Walker,aisha.walker@uni.example.ac.uk,2002-01-17,X,ENG,2021,graduated,2024-06-30,India,2024-09-15
+424,Adam,Clarke,adam.clarke@uni.example.ac.uk,2006-07-21,F,MATH,2026,active,,United Kingdom,2026-09-15
+1025,Aisha,Wilson,,2004-12-14,F,CS,2022,graduated,2025-06-30,United Kingdom,2025-09-15
+618,Mariam,Clarke,mariam.clarke3@uni.example.ac.uk,2006-02-28,X,CS,2025,active,,MA,2026-09-15
+484,Leila,Kowalski,leila.kowalski4@uni.example.ac.uk,2003-11-09,F,PSY,2021,active,,United Kingdom,2021-09-15
+885,Hassan,Ahmed,hassan.ahmed2@uni.example.ac.uk,2007-10-04,M,CS,2025,active,,United Kingdom,2026-09-15
+651,Layla,Hughes,layla.hughes2@uni.example.ac.uk,2002-11-15,X,Info Systems,2021,active,,United Kingdom,2021-09-15
+245,Fatima,Hall,fatima.hall@uni.example.ac.uk,2003-12-11,X,MATH,2021,graduated,2024-06-30,United Kingdom,2024-09-15
+848,Hassan,Haddad,,2003-04-04,F,Maths,2022,graduated,2025-06-30,England,2025-09-15
+983,Leila,Begum,leila.begum3@uni.example.ac.uk,2002-11-20,M,BIO,2022,withdrawn,,Ireland,2023-01-10
+829,Noah,Ibrahim,noah.ibrahim@uni.example.ac.uk,2007-09-09,X,Comp Sci,2026,active,,United Kingdom,2026-09-15
+571,Mariam,Roberts,mariam.roberts2@uni.example.ac.uk,2001-10-17,M,BUS,2024,active,,United Kingdom,2026-09-15
+60,Chloe,Clarke,chloe.clarke@uni.example.ac.uk,2006-10-23,X,Engineering,2025,withdrawn,,France,2026-01-10
+291,Hannah,Haddad,hannah.haddad2@uni.example.ac.uk,2007-01-21,M,BIO,2025,active,,United Kingdom,2026-09-15
+71,Samuel,Khan,samuel.khan@uni.example.ac.uk,2004-07-22,X,LAW,2024,active,,United Kingdom,2026-09-15
+345,Hassan,Roberts,hassan.roberts2@uni.example.ac.uk,2004-02-05,X,ENG,2022,graduated,2025-06-30,U.K.,2025-09-15
+185,Omar,Clarke,,2006-09-01,X,MATH,2026,active,,China,2026-09-15
+142,Lucas,Evans,lucas.evans2@uni.example.ac.uk,2005-03-22,Female,IS,2023,active,,United Kingdom,2023-09-15
+391,Amira,Brown,amira.brown@uni.example.ac.uk,2003-09-28,F,,2021,graduated,2024-06-30,China,2024-09-15
+492,Samuel,Wright,samuel.wright2@uni.example.ac.uk,2006-12-11,M,IS,2024,active,,Nigeria,2026-09-15
+827,Ryan,Khan,ryan.khan3@uni.example.ac.uk,2001-11-01,M,LAW,2020,active,,United Kingdom,2020-09-15
+102,Nadia,Brown,nadia.brown@uni.example.ac.uk,2003-05-17,Male,BIO,2026,active,,France,2026-09-15
+750,Isla,Kowalski,isla.kowalski3@uni.example.ac.uk,07/03/2003,F,BIO,2026,active,,Ireland,2026-09-15
+552,Lucas,Mafoud,lucas.mafoud2@uni.example.ac.uk,1996-05-08,M,LAW,2019,graduated,2022-06-30,United Kingdom,2022-09-15
+307,Oliver,Chen,oliver.chen@uni.example.ac.uk,2005-09-28,non-binary,CS,2025,active,,United Kingdom,2026-09-15
+987,Samuel,Khan,samuel.khan3@uni.example.ac.uk,,f,PSY,2019,graduated,2022-06-30,India,2022-09-15
+322,Noah,Brown,,2003-08-20,F,CS,2021,withdrawn,,France,2022-01-10
+800,Leila,Wilson,leila.wilson2@uni.example.ac.uk,2008-10-24,m,ENG,2026,active,,United Kingdom,2026-09-15
+731,Grace,Chen,grace.chen3@uni.example.ac.uk,2002-09-25,X,IS,2020,active,,France,2020-09-15
+678,Hannah,Mensah,hannah.mensah@uni.example.ac.uk,2003-09-10,m,IS,2026,active,,Nigeria,2026-09-15
+654,Omar,Hall,omar.hall@uni.example.ac.uk,2003-06-03,M,BUS,2026,active,,Ireland,2026-09-15
+77,Lucas,Chen,lucas.chen@uni.example.ac.uk,1999-08-21,M,,2022,graduated,2025-06-30,United Kingdom,2025-09-15
+193,Jacob,Wood,jacob.wood@uni.example.ac.uk,1996-06-09,F,ENG,2019,graduated,2022-06-30,Ireland,2022-09-15
+87,Zara,Roberts,zara.roberts@uni.example.ac.uk,2008-10-14,X,CS,2026,active,,India,2026-09-15
+459,Zara,Roberts,zara.roberts3uni.example.ac.uk,2004-12-28,M,BUS,2023,graduated,2026-06-30,United Kingdom,2026-09-15
+1049,Daniel,Thomas,daniel23@gmail.com,1999-07-17,F,MATH,2019,graduated,2022-06-30,United Kingdom,2022-09-15
+919,Omar,Ali,omar.ali2@uni.example.ac.uk,2002-06-06,M,,2020,graduated,2023-06-30,China,2023-09-15
+1004,Grace,Rhaman,grace94@gmail.com,1996-09-17,M,PSY,2019,graduated,2022-06-30,United Kingdom,2022-09-15
+310,Ryan,Walker,ryan.walker@uni.example.ac.uk,2003-06-13,X,BUS,2022,graduated,2025-06-30,United Kingdom,2025-09-15
+744,Grace,Khan,grace.khan2@uni.example.ac.uk,2005-08-20,X,IS,2023,graduated,2026-06-30,United Kingdom,2026-09-15
+874,Oliver,Wilson,oliver.wilson@uni.example.ac.uk,2002-09-02,M,BIO,2020,withdrawn,,United Kingdom,2021-01-10
+399,Zara,Roberts,zara.roberts2@uni.example.ac.uk,2007-07-16,F,ENG,2025,active,,U.K.,2026-09-15
+617,Grace,Hussain,grace.hussain2@uni.example.ac.uk,1996-10-13,F,LAW,2019,graduated,2022-06-30,United Kingdom,2022-09-15
+50,Chloe,Begum,chloe.begum@uni.example.ac.uk,2005-08-15,X,BIO,2024,active,,China,2026-09-15
+200,Aisha,Khan,,1998-08-12,F,BUS,2021,graduated,2024-06-30,Nigeria,2024-09-15
+599,Jacob,Clarke,jacob.clarke2@uni.example.ac.uk,2003-09-05,F,LAW,2021,graduated,2024-06-30,France,2024-09-15
+970,Ethan,Hughes,ethan.hughes@uni.example.ac.uk,2004-04-27,F,PSY,2022,graduated,2025-06-30,India,2025-09-15
+883,Ryan,Walker,ryan.walker4@uni.example.ac.uk,2003-11-19,F,BUS,2023,graduated,2026-06-30,Ireland,2026-09-15
+429,Mariam,Thomas,mariam.thomas@uni.example.ac.uk,2005-05-07,X,ENG,2024,active,,India,2026-09-15
+498,Sofia,Taylor,sofia.taylor@uni.example.ac.uk,1999-07-27,X,ENG,2022,graduated,2025-06-30,Morocco,2025-09-15
+604,Ethan,Walker,ethan.walker@uni.example.ac.uk,2005-06-08,F,CS,2023,graduated,2026-06-30,United Kingdom,2026-09-15
+11,Hannah,Ahmed,hannah.ahmed@uni.example.ac.uk,2004-03-15,F,BUS,2023,withdrawn,,Nigeria,2024-01-10
+889,Zara,Wilson,zara.wilson3@uni.example.ac.uk,2003-07-03,M,BUS,2021,withdrawn,,Ireland,2022-01-10
+671,Hannah,Clarke,hannah.clarke3@uni.example.ac.uk,2001-08-16,M,BIO,2024,active,,United Kingdom,2026-09-15
+938,Lucas,Clarke,lucas.clarke@uni.example.ac.uk,2003-09-05,M,BUS,2021,graduated,2024-06-30,China,2024-09-15
+929,Sofia,Khan,sofia.khan3@uni.example.ac.uk,2005-12-24,male,PSY,2024,active,,United Kingdom,2026-09-15
+558,Leila,Wright,leila.wright@uni.example.ac.uk,2003-09-26,X,CS,2021,graduated,2024-06-30,Nigeria,2024-09-15
+637,Hassan,Haddad,hassan.haddad2@uni.example.ac.uk,2003-04-19,F,LAW,2022,graduated,2025-06-30,FR,2025-09-15
+834,Hannah,Khan,hannah.khan4@uni.example.ac.uk,1999-01-05,F,CS,2019,graduated,2022-06-30,Morocco,2022-09-15
+372,Omar,Brown,omar.brown2@uni.example.ac.uk,2002-08-15,F,LAW,2020,active,,United Kingdom,2020-09-15
+835,Hannah,Thomas,hannah.thomas@uni.example.ac.uk,2001-06-12,F,MATH,2020,graduated,2023-06-30,United Kingdom,2023-09-15
+583,Grace,Rahman,grace.rahman@uni.example.ac.uk,2004-04-28,m,PSY,2023,graduated,2026-06-30,united kingdom,2026-09-15
+334,Hannah,Wright,hannah.wright@uni.example.ac.uk,1996-02-24,F,IS,2019,graduated,2022-06-30,Nigeria,2022-09-15
+946,Liam,Hughes,liam.hughes@uni.example.ac.uk,2007-09-02,M,PSY,2025,active,,Morocco,2026-09-15
+211,Fatima,Taylor,fatima.taylor@uni.example.ac.uk,2005-11-10,F,BUS,2023,graduated,2026-06-30,India,2026-09-15
+1020,Isla,Hguhes,isla85@gmail.com,2002-04-22,M,CS,2020,graduated,2023-06-30,India,2023-09-15
+458,Mariam,Roberts,mariam.roberts@uni.example.ac.uk,2000-02-12,M,IS,2023,graduated,2026-06-30,Ireland,2026-09-15
+89,Daniel,Jones,daniel.jones@uni.example.ac.uk,2003-07-15,Male,PSY,2021,graduated,2024-06-30,United Kingdom,2024-09-15
+880,Chloe,Brown,chloe.brown@uni.example.ac.uk,2001-03-02,M,BIO,2019,graduated,2022-06-30,Ireland,2022-09-15
+351,James,Mensah,james.mensah@uni.example.ac.uk,2000-09-10,X,ENG,2019,graduated,2022-06-30,Ireland,2022-09-15
+219,Leila,Ali,leila.ali@uni.example.ac.uk,2006-08-16,M,CS,2026,active,,United Kingdom,2026-09-15
+414,Leo,Rahman,leo.rahman@uni.example.ac.uk,2002-07-18,F,PSY,2020,active,,Nigeria,2020-09-15
+278,Ryan,Kowalski,ryan.kowalski2@uni.example.ac.uk,2006-03-24,M,CS,2024,active,,Nigeria,2026-09-15
+960,Amira,Clarke,amira.clarke2@uni.example.ac.uk,2006-05-21,F,CS,2026,active,,France,2026-09-15
+926,Isla,Kowalski,,2004-07-22,F,LAW,2023,graduated,2026-06-30,United Kingdom,2026-09-15
+214,Mariam,Green,mariam.green@uni.example.ac.uk,2000-05-16,M,PSY,2023,active,,France,2023-09-15
+97,Ethan,Hussain,ethan.hussain@uni.example.ac.uk,15 Jan 2005,F,LAW,2025,active,,United Kingdom,2026-09-15
+79,Layla,Mafoud,layla.mafoud@uni.example.ac.uk,2002-09-11,M,PSY,2025,active,,United Kingdom,2026-09-15
+704,Sofia,Green,,2001-12-16,M,IS,2019,graduated,2022-06-30,United Kingdom,2022-09-15
+137,Layla,Patel,layla.patel@uni.example.ac.uk,1996-11-17,F,CS,2019,graduated,2022-06-30,France,2022-09-15
+209,Mariam,Clarke,mariam.clarke@uni.example.ac.uk,07-17-2003,F,IS,2021,graduated,2024-06-30,Nigeria,2024-09-15
+523,Nadia,Silva,nadia.silva2@uni.example.ac.uk,2005-08-20,M,BIO,2024,withdrawn,,United Kingdom,2025-01-10
+838,Amira,Hall,amira.hall3@uni.example.ac.uk,11 Jan 2006,M,LAW,2026,active,,India,2026-09-15
+733,Mariam,Chen,mariam.chen@uni.example.ac.uk,1998-11-01,M,PSY,2021,graduated,2024-06-30,United Kingdom,2024-09-15
+569,Emily,Silva,emily.silva@uni.example.ac.uk,,X,ENG,2021,graduated,2024-06-30,United Kingdom,2024-09-15
+261,Fatima,Taylor,fatima.taylor2@uni.example.ac.uk,2002-11-14,F,MATH,2020,active,,United Kingdom,2020-09-15
+468,Jacob,Chen,,2008-02-16,F,IS,2026,active,,Ireland,2026-09-15
+40,Mariam,Begum,mariam.begum@uni.example.ac.uk,2001-12-11,M,MATH,2019,graduated,2022-06-30,United Kingdom,2022-09-15
+31,Chloe,Walker,chloe.walker@uni.example.ac.uk,2005-06-03,F,PSY,2023,graduated,2026-06-30,United Kingdom,2026-09-15
+698,Emily,Roberts,emily.roberts2@uni.example.ac.uk,2004-10-19,M,LAW,2023,graduated,2026-06-30,United Kingdom,2026-09-15
+452,Samuel,Ahmed,samuel.ahmed@uni.example.ac.uk,2008-10-07,other,MATH,2026,active,,United Kingdom,2026-09-15
+55,Daniel,Patel,daniel.patel@uni.example.ac.uk,26/03/2001,other,LAW,2020,graduated,2023-06-30,France,2023-09-15
+24,Mariam,Khan,mariam.khan2@uni.example.ac.uk,13/01/2002,M,PSY,2021,graduated,2024-06-30,Ireland,2024-09-15
+1008,GRACE,RAHMAN,,2004-04-28,M,PSY,2023,graduated,2026-06-30,United Kingdom,2026-09-15
+114,Sofia,Haddad,sofia.haddad@uni.example.ac.uk,08 Nov 2005,X,BUS,2025,active,,United Kingdom,2026-09-15
+110,Sofia,Silva,sofia.silva@uni.example.ac.uk,2001-09-13,M,CS,2024,active,,India,2026-09-15
+507,Mariam,Green,mariam.green3@uni.example.ac.uk,2003-03-08,F,MATH,2021,graduated,2024-06-30,United Kingdom,2024-09-15
+967,Nadia,Thomas,nadia.thomas2@uni.example.ac.uk,2005-03-27,F,IS,2024,active,,France,2026-09-15
+950,Liam,Clarke,liam.clarke2@uni.example.ac.uk,09-20-2008,X,cs,2026,active,,France,2026-09-15
+4,Leo,Ibrahim,leo.ibrahim@uni.example.ac.uk,2000-11-06,M,BUS,2020,graduated,2023-06-30,France,2023-09-15
+276,Daniel,Mensah,daniel.mensah@uni.example.ac.uk,2007-03-07,M,MATH,2025,active,,France,2026-09-15
+657,Yusuf,Ahmed,yusuf.ahmed@uni.example.ac.uk,2003-01-20,F,BIO,2021,active,,France,2021-09-15
+785,Leo,Smith,leo.smith@uni.example.ac.uk,2006-03-15,M,CS,2025,active,,PRC,2026-09-15
+855,Lucas,Wilson,lucas.wilson@uni.example.ac.uk,2000-09-12,F,LAW,2019,graduated,2022-06-30,Nigeria,2022-09-15
+760,Zara,Mafoud,zara.mafoud2@uni.example.ac.uk,2002-12-07,F,MATH,2021,graduated,2024-06-30,United Kingdom,2024-09-15
+797,Nadia,Clarke,nadia.clarke@uni.example.ac.uk,2003-05-16,M,MATH,2023,graduated,2026-06-30,United Kingdom,2026-09-15
+1029,Daniel,Jones,,2003-07-15,M,PSY,2021,graduated,2024-06-30,United Kingdom,2024-09-15
+395,Amira,Hall,amira.hall2@uni.example.ac.uk,2005-01-06,X,MATH,2025,active,,Morocco,2026-09-15
+487,Zara,Begum,zara.begum2@uni.example.ac.uk,2004-01-01,M,bio,2024,active,,England,2026-09-15
+615,Mariam,Wright,mariam.wright3@uni.example.ac.uk,,X,ENG,2022,graduated,2025-06-30,India,2025-09-15
+878,Emily,Chen,,2000-06-14,F,PSY,2023,graduated,2026-06-30,Nigeria,2026-09-15
+175,Maya,Khan,maya.khan@uni.example.ac.uk,2007-11-24,M,Psych,2025,active,,China,2026-09-15
+918,Samuel,Roberts,samuel.roberts2@uni.example.ac.uk,20 Oct 2002,F,CS,2020,graduated,2023-06-30,Nigeria,2023-09-15
+59,Isla,Brown,isla.brown@uni.example.ac.uk,,M,,2022,graduated,2025-06-30,United Kingdom,2025-09-15
+266,Hassan,Begum,hassan.begum3uni.example.ac.uk,2008-06-21,X,LAW,2026,active,,China,2026-09-15
+64,Jacob,Roberts,jacob.roberts@uni.example.ac.uk,2003-05-13,M,,2021,graduated,2024-06-30,United Kingdom,2024-09-15
+790,Sofia,Nguyen,sofia.nguyen@uni.example.ac.uk,2003-11-03,M,MATH,2026,active,,France,2026-09-15
+262,Sofia,Ahmed,sofia.ahmed@uni.example.ac.uk,2000-10-22,F,MATH,2019,graduated,2022-06-30,CN,2022-09-15
+101,Amira,Nguyen,amira.nguyen@uni.example.ac.uk,2007-04-27,M,IS,2025,active,,Morocco,2026-09-15
+1047,AMIRA,BEGUM,,2002-11-20,X,BUS,2020,graduated,2023-06-30,United Kingdom,2023-09-15
+300,Oliver,Taylor,oliver.taylor2@uni.example.ac.uk,2008-03-10,M,LAW,2026,withdrawn,,India,2027-01-10
+616,Leo,Taylor,leo.taylor2@uni.example.ac.uk,1997-06-26,M,IS,2020,graduated,2023-06-30,India,2023-09-15
+179,Jacob,Walker,jacob.walker@uni.example.ac.uk,2002-02-25,Male,BUS,2020,graduated,2023-06-30,Ireland,2023-09-15
+934,Noah,Hussain,noah.hussain@uni.example.ac.uk,1998-07-17,F,LAW,2021,graduated,2024-06-30,Nigeria,2024-09-15
+779,Sofia,Smith,sofia.smith@uni.example.ac.uk,2002-11-11,F,LAW,2022,active,,FR,2022-09-15
+140,Oliver,Walker,oliver.walker@uni.example.ac.uk,2004-09-20,F,MATH,2023,graduated,2026-06-30,Ireland,2026-09-15
+804,Chloe,Wood,chloe.wood@uni.example.ac.uk,2003-10-25,F,LAW,2021,graduated,2024-06-30,Morocco,2024-09-15
+169,Jacob,Ibrahim,jacob.ibrahim@uni.example.ac.uk,2003-02-19,F,PSY,2021,graduated,2024-06-30,Morocco,2024-09-15
+67,Chloe,Clarke,chloe.clarke2@uni.example.ac.uk,1999-03-08,F,MATH,2019,graduated,2022-06-30,France,2022-09-15
+257,James,Hussain,james.hussain2@uni.example.ac.uk,2007-03-25,M,LAW,2025,active,,Ireland,2026-09-15
+68,Isla,Wilson,isla.wilson@uni.example.ac.uk,20 Oct 2006,Female,BUS,2024,active,,united kingdom,2026-09-15
+1028,Grace,Simth,grace4@gmail.com,2005-04-02,X,BIO,2025,active,,Morocco,2026-09-15
+13,Leila,Mensah,leila.mensah@uni.example.ac.uk,1999-06-16,f,PSY,2019,withdrawn,,United Kingdom,2020-01-10
+532,Oliver,Ahmed,oliver.ahmed@uni.example.ac.uk,2002-10-20,X,IS,2021,withdrawn,,United Kingdom,2022-01-10
+320,Noah,Ahmed,noah.ahmed@uni.example.ac.uk,2003-12-05,M,,2021,active,,India,2021-09-15
+985,Chloe,Ahmed,chloe.ahmed@uni.example.ac.uk,,M,BUS,2020,graduated,2023-06-30,Morocco,2023-09-15
+867,Nadia,Hughes,nadia.hughes@uni.example.ac.uk,2004-01-18,M,IS,2022,graduated,2025-06-30,France,2025-09-15
+577,Oliver,Roberts,oliver.roberts@uni.example.ac.uk,2005-11-21,F,BIO,2025,active,,Nigeria,2026-09-15
+335,Zara,Taylor,,2007-08-09,f,LAW,2025,active,,Nigeria,2026-09-15
+287,Mariam,Wright,mariam.wright2@uni.example.ac.uk,2008-01-03,F,CS,2026,active,,United Kingdom,2026-09-15
+912,Mariam,Hussain,mariam.hussain@uni.example.ac.uk,2006-11-21,M,BUS,2025,active,,IN,2026-09-15
+324,Nadia,Roberts,nadia.roberts@uni.example.ac.uk,2008-02-19,M,PSY,2026,withdrawn,,United Kingdom,2027-01-10
+891,Samuel,Mensah,samuel.mensah@uni.example.ac.uk,2000-10-05,F,LAW,2023,graduated,2026-06-30,Nigeria,2026-09-15
+537,Samuel,Evans,samuel.evans4@uni.example.ac.uk,2007-02-05,X,PSY,2025,active,,United Kingdom,2026-09-15
+693,Yusuf,Chen,yusuf.chen@uni.example.ac.uk,2007-06-07,X,Eng.,2025,active,,Ireland,2026-09-15
+650,Maya,Thomas,maya.thomas@uni.example.ac.uk,2005-08-06,X,CS,2023,active,,China,2023-09-15
+529,Oliver,Chen,oliver.chen2@uni.example.ac.uk,2008-04-27,M,BUS,2026,active,,India,2026-09-15
+514,Mariam,Nguyen,mariam.nguyen@uni.example.ac.uk,2004-12-21,F,CS,2022,graduated,2025-06-30,Nigeria,2025-09-15
+586,Sofia,Brown,sofia.brown@uni.example.ac.uk,2000-04-11,M,LAW,2019,active,,France,2019-09-15
+3,Zara,Wilson,zara.wilson@uni.example.ac.uk,2003-06-06,M,PSY,2026,active,,CN,2026-09-15
+446,Yusuf,Mensah,yusuf.mensah2@uni.example.ac.uk,2007-04-08,M,MATH,2025,active,,China,2026-09-15
+238,Omar,Haddad,omar.haddad@uni.example.ac.uk,2004-01-22,M,MATH,2022,active,,United Kingdom,2022-09-15
+496,Daniel,Rahman,daniel.rahman2@uni.example.ac.uk,2005-09-27,X,BIO,2023,graduated,2026-06-30,france,2026-09-15
+782,Leo,Ali,,2005-03-27,m,bus ,2023,graduated,2026-06-30,United Kingdom,2026-09-15
+328,Leila,Kowalski,leila.kowalski3@uni.example.ac.uk,19/12/2004,X,ENG,2022,graduated,2025-06-30,United Kingdom,2025-09-15
+548,Nadia,Wilson,nadia.wilson@uni.example.ac.uk,2002-04-15,X,CS,2022,graduated,2025-06-30,United Kingdom,2025-09-15
+859,Leo,Thomas,leo.thomas@uni.example.ac.uk,2005-02-27,F,MATH,2023,graduated,2026-06-30,United Kingdom,2026-09-15
+530,Hassan,Walker,hassan.walker@uni.example.ac.uk,2005-12-22,M,IS,2023,graduated,2026-06-30,United Kingdom,2026-09-15
+347,Amira,Silva,amira.silva@uni.example.ac.uk,2005-09-20,M,PSY,2023,graduated,2026-06-30,Morocco,2026-09-15
+1018,NADIA,MAFOUD,nadia9@gmail.com,1998-12-11,M,BIO,2021,graduated,2024-06-30,United Kingdom,2024-09-15
+584,Grace,Roberts,grace.roberts2@uni.example.ac.uk,2008-12-20,F,CS,2026,active,,United Kingdom,2026-09-15
+594,Samuel,Hall,samuel.hall2uni.example.ac.uk,2003-10-05,F,MATH,2026,active,,United Kingdom,2026-09-15
+588,Leila,Thomas,leila.thomas2@uni.example.ac.uk,2000-08-06,F,Engineering,2020,active,,United Kingdom,2020-09-15
+309,Grace,Ibrahim,,2007-07-04,F,MATH,2025,withdrawn,,NG,2026-01-10
+1040,Noah,Haddad,,2002-11-25,M,BIO,2020,graduated,2023-06-30,United Kingdom,2023-09-15
+994,Nadia,Smith,nadia.smith@uni.example.ac.uk,2006-02-12,F,BUS,2024,withdrawn,,United Kingdom,2025-01-10
+232,Ryan,Khan,ryan.khan@uni.example.ac.uk,2001-04-18,M,ENG,2021,graduated,2024-06-30,United Kingdom,2024-09-15
+630,Aisha,Hughes,aisha.hughes2@uni.example.ac.uk,2001-03-02,X,PSY,2019,graduated,2022-06-30,United Kingdom,2022-09-15
+602,Noah,Evans,noah.evans@uni.example.ac.uk,2002-06-04,F,CS,2025,active,,United Kingdom,2026-09-15
+663,Leila,Begum,leila.begum2@uni.example.ac.uk,2002-08-05,F,LAW,2020,graduated,2023-06-30,Nigeria,2023-09-15
+1010, Maya  ,Silva,MAYA.SILVA2@UNI.EXAMPLE.AC.UK,2003-08-05,X,BUS,2023,graduated,2026-06-30,India,2026-09-15
+916,Oliver,Patel,oliver.patel2@uni.example.ac.uk,2000-04-16,F,LAW,2020,graduated,2023-06-30,United Kingdom,2023-09-15
+315,Grace,Ali,grace.ali@uni.example.ac.uk,1998-11-14,X,MATH,2021,graduated,2024-06-30,France,2024-09-15
+107,Ryan,Chen,ryan.chen@uni.example.ac.uk,2006-11-26,M,BIO,2025,active,,United Kingdom,2026-09-15
+824,Liam,Clarke,liam.clarke@uni.example.ac.uk,2002-08-09,X,Psych,2025,active,,Morocco,2026-09-15
+56,Oliver,Clarke,oliver.clarke@uni.example.ac.uk,2005-08-06,M,BIO,2025,active,,United Kingdom,2026-09-15
+121,Aisha,Mafoud,aisha.mafoud@uni.example.ac.uk,2003-05-11,M,Maths,2021,graduated,2024-06-30,United Kingdom,2024-09-15
+371,Isla,Clarke,,2006-08-09,M,BUS,2024,active,,India,2026-09-15
+26,Hannah,Khan,hannah.khan@uni.example.ac.uk,1999-08-17,X,,2019,graduated,2022-06-30,United Kingdom,2022-09-15
+73,Yusuf,Rahman,yusuf.rahman@uni.example.ac.uk,2003-09-25,M,psy,2023,graduated,2026-06-30,England,2026-09-15
+1021,SOFIA,GREEN,,2001-12-16,M,IS,2019,graduated,2022-06-30,United Kingdom,2022-09-15
+45,Ryan,Kowalski,ryan.kowalski@uni.example.ac.uk,2005-10-17,X,MATH,2024,active,,United Kingdom,2026-09-15
+297,Noah,Begum,,2007-12-18,M,BUS,2025,active,,Morocco,2026-09-15
+329,Oliver,Brown,oliver.brown@uni.example.ac.uk,2004-01-19,F,BUS,2022,graduated,2025-06-30,UK,2025-09-15
+248,Aisha,Rahman,aisha.rahman@uni.example.ac.uk,2001-11-12,F,IS,2019,graduated,2022-06-30,France,2022-09-15
+337,Omar,Mensah,omar.mensah2@uni.example.ac.uk,2002-08-01,M,MATH,2021,graduated,2024-06-30,China,2024-09-15
+352,Isla,Thomas,isla.thomas@uni.example.ac.uk,1997-09-18,F,IS,2020,graduated,2023-06-30,United Kingdom,2023-09-15
+362,Lucas,Mensah,lucas.mensah@uni.example.ac.uk,2006-02-19,X,,2024,active,,United Kingdom,2026-09-15
+1002, Leo  ,Roberts,LEO.ROBERTS@UNI.EXAMPLE.AC.UK,2001-07-26,F,BIO,2024,withdrawn,,France,2025-01-10
+961,Fatima,Haddad,fatima.haddad2@uni.example.ac.uk,2000-07-12,M,PSY,2023,graduated,2026-06-30,United Kingdom,2026-09-15
+421,Chloe,Mensah,,2002-08-25,F,CS,2025,active,,Nigeria,2026-09-15
+382,Sofia,Wilson,sofia.wilson@uni.example.ac.uk,2007-07-07,X,MATH,2025,active,,Morocco,2026-09-15
+695,Aisha,Haddad,aisha.haddad2@uni.example.ac.uk,04/09/2008,M,PSY,2026,active,,Ireland,2026-09-15
+540,Adam,Wood,adam.wood@uni.example.ac.uk,2002-03-28,F,MATH,2025,active,,France,2026-09-15
+450,Hassan,Green,hassan.green@uni.example.ac.uk,2001-07-22,X,PSY,2019,graduated,2022-06-30,India,2022-09-15
+623,Emily,Wood,emily.wood@uni.example.ac.uk,2002-09-07,X,MATH,2021,graduated,2024-06-30,NG,2024-09-15
+210,Emily,Hussain,emily.hussain2@uni.example.ac.uk,2003-06-23,X,PSY,2021,graduated,2024-06-30,England,2024-09-15
+555,Liam,Taylor,liam.taylor@uni.example.ac.uk,,F,IS,2022,graduated,2025-06-30,MA,2025-09-15
+1013, Grace  ,Ahmed,grace97@gmail.com,2000-07-26,F,PSY,2019,withdrawn,,United Kingdom,2020-01-10
+482,Omar,Wood,omar.wood@uni.example.ac.uk,2004-08-19,M,PSY,2024,active,,Ireland,2026-09-15
+433,Ethan,Hussain,ethan.hussain2@uni.example.ac.uk,,X,MATH,2023,graduated,2026-06-30,United Kingdom,2026-09-15
+627,Adam,Brown,adam.brown@uni.example.ac.uk,02 Dec 2002,X,BUS,2020,graduated,2023-06-30,United Kingdom,2023-09-15
+61,Amira,Mafoud,amira.mafoud@uni.example.ac.uk,07-18-2004,X,MATH,2023,graduated,2026-06-30,France,2026-09-15
+622,Sofia,Chen,sofia.chen@uni.example.ac.uk,1999-07-09,X,ENG,2019,graduated,2022-06-30,China,2022-09-15
+756,Ryan,Khan,ryan.khan2@uni.example.ac.uk,2003-01-16,F,MATH,2021,graduated,2024-06-30,China,2024-09-15
+93,Daniel,Chen,daniel.chen@uni.example.ac.uk,2008-10-02,F,PSY,2026,active,,United Kingdom,2026-09-15
+902,Oliver,Clarke,oliver.clarke2@uni.example.ac.uk,11-23-2001,F,IS,2024,active,,United Kingdom,2026-09-15
+463,Jacob,Ibrahim,jacob.ibrahim2@uni.example.ac.uk,1999-06-17,non-binary,IS,2022,graduated,2025-06-30,Ireland,2025-09-15
+667,Noah,Taylor,noah.taylor2@uni.example.ac.uk,2001-01-15,F,MATH,2019,graduated,2022-06-30,india,2022-09-15
+977,Liam,Hall,liam.hall3@uni.example.ac.uk,2007-04-07,F,IS,2025,active,,Morocco,2026-09-15
+478,Hassan,Haddad,hassan.haddad@uni.example.ac.uk,2004-07-14,M,PSY,2024,active,,Ireland,2026-09-15
+333,Maya,Jones,maya.jones@uni.example.ac.uk,2001-09-24,F,BIO,2020,graduated,2023-06-30,France,2023-09-15
+939,Layla,Silva,layla.silva@uni.example.ac.uk,1997-04-15,m,LAW,2020,graduated,2023-06-30,United Kingdom,2023-09-15
+701,Daniel,Clarke,daniel.clarke3@uni.example.ac.uk,2006-05-28,m,Eng.,2024,withdrawn,,Morocco,2025-01-10
+465,Mariam,Haddad,mariam.haddad2uni.example.ac.uk,2001-11-06,M,BIO,2019,graduated,2022-06-30,united kingdom,2022-09-15
+356,Emily,Hall,emily.hall@uni.example.ac.uk,2001-08-12,F,Business,2019,graduated,2022-06-30,United Kingdom,2022-09-15
+363,Liam,Kowalski,liam.kowalski@uni.example.ac.uk,2000-02-15,F,Law,2019,graduated,2022-06-30,United Kingdom,2022-09-15
+313,Sofia,Hussain,sofia.hussain@uni.example.ac.uk,1996-02-01,F,Business,2019,graduated,2022-06-30,China,2022-09-15
+319,Isla,Kowalski,isla.kowalski@uni.example.ac.uk,2003-10-03,F,IS,2023,graduated,2026-06-30,United Kingdom,2026-09-15
+1014,Layla,Tohmas,,2003-01-12,F,CS,2021,graduated,2024-06-30,China,2024-09-15
+381,Oliver,Haddad,oliver.haddad@uni.example.ac.uk,05-16-1999,X,BIO,2022,graduated,2025-06-30,United Kingdom,2025-09-15
+183,Amira,Wilson,amira.wilson@uni.example.ac.uk,2004-09-24,M,I.S.,2022,graduated,2025-06-30,United Kingdom,2025-09-15
+717,Samuel,Walker,samuel.walker@uni.example.ac.uk,02-05-2001,M,BIO,2019,active,,Ireland,2019-09-15
+111,Sofia,Patel,sofia.patel2@uni.example.ac.uk,2005-12-03,F,IS,2023,graduated,2026-06-30,France,2026-09-15
+531,Zara,Thomas,zara.thomas2@uni.example.ac.uk,2003-01-07,X,ENG,2021,graduated,2024-06-30,UK,2024-09-15
+378,Amira,Jones,amira.jones2@uni.example.ac.uk,1999-08-26,f,IS,2022,graduated,2025-06-30,United Kingdom,2025-09-15
+714,Noah,Kowalski,noah.kowalski2@uni.example.ac.uk,03 Aug 2001,F,PSY,2019,graduated,2022-06-30,United Kingdom,2022-09-15
+873,Amira,Chen,amira.chen3@uni.example.ac.uk,2003-12-13,M,ENG,2021,graduated,2024-06-30,China,2024-09-15
+940,Oliver,Silva,oliver.silva2@uni.example.ac.uk,2007-02-12,F,,2025,active,,United Kingdom,2026-09-15
+732,Isla,Wilson,isla.wilson2@uni.example.ac.uk,2002-02-03,female,BIO,2020,graduated,2023-06-30,United Kingdom,2023-09-15
+293,Noah,Kowalski,noah.kowalski@uni.example.ac.uk,1999-02-03,M,BUS,2022,graduated,2025-06-30,China,2025-09-15
+437,Adam,Wilson,adam.wilson@uni.example.ac.uk,2004-02-16,X,IS,2023,withdrawn,,FR,2024-01-10
+836,Liam,Green,liam.green2@uni.example.ac.uk,2003-02-23,f,IS,2023,graduated,2026-06-30,United Kingdom,2026-09-15
+308,Isla,Hughes,isla.hughes@uni.example.ac.uk,2002-04-22,M,CS,2020,graduated,2023-06-30,India,2023-09-15
+290,Emily,Kowalski,,2000-12-12,M,MATH,2020,withdrawn,,United Kingdom,2021-01-10
+969,Sofia,Clarke,sofia.clarke@uni.example.ac.uk,2000-04-08,F,CS,2023,active,,United Kingdom,2023-09-15
+216,Emily,Evans,emily.evans@uni.example.ac.uk,2001-06-13,Female,IS,2024,active,,United Kingdom,2026-09-15
+631,Maya,Green,maya.green3@uni.example.ac.uk,2001-07-22,F,IS,2019,graduated,2022-06-30,United Kingdom,2022-09-15
+281,Ethan,Smith,ethan.smithuni.example.ac.uk,1999-09-14,X,PSY,2019,withdrawn,,Nigeria,2020-01-10
+674,Emily,Wilson,emily.wilson2@uni.example.ac.uk,2001-07-21,M,ENG,2019,graduated,2022-06-30,United Kingdom,2022-09-15
+451,Oliver,Hall,oliver.hall@uni.example.ac.uk,2002-02-17,F,PSY,2021,graduated,2024-06-30,United Kingdom,2024-09-15
+299,Fatima,Begum,fatima.begum@uni.example.ac.uk,2004-02-12,M,BIO,2023,graduated,2026-06-30,India,2026-09-15
+786,Daniel,Walker,daniel.walker2@uni.example.ac.uk,2001-12-10,F,BUS,2024,active,,India,2026-09-15
+138,Jacob,Thomas,jacob.thomas@uni.example.ac.uk,16 Feb 2002,M,IS,2025,active,,United Kingdom,2026-09-15
+306,Grace,Hussain,grace.hussain@uni.example.ac.uk,2004-11-05,M,IS,2022,graduated,2025-06-30,France,2025-09-15
+808,Maya,Mensah,maya.mensah2@uni.example.ac.uk,2002-03-01,F,law,2020,graduated,2023-06-30,United Kingdom,2023-09-15
+295,Omar,Brown,omar.brown@uni.example.ac.uk,2002-07-15,non-binary,ENG,2020,graduated,2023-06-30,United Kingdom,2023-09-15
+600,Amira,Wood,amira.wood2@uni.example.ac.uk,2002-03-01,F,MATH,2025,active,,United Kingdom,2026-09-15
+582,Fatima,Jones,fatima.jones@uni.example.ac.uk,2002-04-17,X,PSY,2025,active,,United Kingdom,2026-09-15
+30,Leo,Wood,leo.wood@uni.example.ac.uk,2002-08-20,F,IS,2020,graduated,2023-06-30,Nigeria,2023-09-15
+166,Samuel,Hughes,samuel.hughes@uni.example.ac.uk,2001-02-17,F,MATH,2024,active,,China,2026-09-15
+249,Noah,Ali,noah.ali@uni.example.ac.uk,2002-09-23,F,PSY,2025,active,,United Kingdom,2026-09-15
+311,Amira,Chen,amira.chen2@uni.example.ac.uk,2002-07-03,M,LAW,2020,active,,United Kingdom,2020-09-15
+686,James,Jones,james.jones@uni.example.ac.uk,2006-03-23,other,BIO,2025,active,,India,2026-09-15
+844,Oliver,Walker,oliver.walker2@uni.example.ac.uk,2003-09-06,X,BUS,2026,active,,India,2026-09-15
+343,Emily,Thomas,emily.thomas@uni.example.ac.uk,1998-11-05,X,CS,2021,graduated,2024-06-30,india,2024-09-15
+606,James,Clarke,james.clarke2@uni.example.ac.uk,2003-01-24,F,IS,2023,graduated,2026-06-30,United Kingdom,2026-09-15
+527,Grace,Walker,grace.walker@uni.example.ac.uk,1999-03-02,M,ENG,2019,graduated,2022-06-30,India,2022-09-15
+66,Daniel,Khan,daniel.khan@uni.example.ac.uk,2006-11-03,F,CS,2024,active,,United Kingdom,2026-09-15
+632,Noah,Silva,noah.silva2@uni.example.ac.uk,2007-07-17,F,LAW,2025,active,,France,2026-09-15
+892,Chloe,Chen,chloe.chen@uni.example.ac.uk,2007-08-09,M,IS,2026,active,,Ireland,2026-09-15
+255,Maya,Ibrahim,,2000-01-13,F,MATH,2023,graduated,2026-06-30,India,2026-09-15
+719,Grace,Wilson,grace.wilson2@uni.example.ac.uk,2002-03-15,f,BIO,2020,graduated,2023-06-30,China,2023-09-15
+771,Isla,Haddad,isla.haddad@uni.example.ac.uk,1999-02-20,F,LAW,2022,graduated,2025-06-30,United Kingdom,2025-09-15
+222,Ryan,Mafoud,ryan.mafoud@uni.example.ac.uk,2007-01-13,X,MATH,2025,withdrawn,,United Kingdom,2026-01-10
+236,Leila,Kowalski,leila.kowalski2@uni.example.ac.uk,2003-01-10,F,LAW,2021,graduated,2024-06-30,France,2024-09-15
+430,Omar,Smith,omar.smith@uni.example.ac.uk,2004-11-20,F,IS,2024,active,,France,2026-09-15
+544,Oliver,Khan,oliver.khan2@uni.example.ac.uk,1998-08-15,X,PSY,2021,withdrawn,,United Kingdom,2022-01-10
+441,Aisha,Wood,aisha.wood@uni.example.ac.uk,2002-02-05,M,ENG,2021,graduated,2024-06-30,IE,2024-09-15
+589,Omar,Wood,omar.wood2@uni.example.ac.uk,2003-08-08,female,MATH,2022,active,,France,2022-09-15
+973,Jacob,Ibrahim,jacob.ibrahim3@uni.example.ac.uk,1996-11-18,X,BIO,2019,graduated,2022-06-30,United Kingdom,2022-09-15
+250,Oliver,Patel,oliver.patel@uni.example.ac.uk,2004-08-05,X,LAW,2022,graduated,2025-06-30,Ireland,2025-09-15
+579,Amira,Walker,amira.walker@uni.example.ac.uk,2003-05-16,M,BIO,2021,graduated,2024-06-30,United Kingdom,2024-09-15
+410,Adam,Kowalski,adam.kowalski@uni.example.ac.uk,2005-04-18,M,ENG,2025,active,,Nigeria,2026-09-15
+72,Jacob,Begum,jacob.begumuni.example.ac.uk,2008-07-12,M,BUS,2026,active,,Eire,2026-09-15
+95,Grace,Roberts,grace.roberts@uni.example.ac.uk,14/10/2005,M,I.S.,2023,active,,France,2023-09-15
+34,Oliver,Taylor,oliver.taylor@uni.example.ac.uk,2006-11-21,X,BIO,2024,active,,United Kingdom,2026-09-15
+645,Lucas,Wood,lucas.wood@uni.example.ac.uk,2001-07-08,M,Maths,2019,graduated,2022-06-30,United Kingdom,2022-09-15
+260,Noah,Roberts,noah.roberts@uni.example.ac.uk,2005-07-27,M,LAW,2025,active,,United Kingdom,2026-09-15
+205,Jacob,Ali,jacob.ali@uni.example.ac.uk,2003-09-08,M,BUS,2021,graduated,2024-06-30,United Kingdom,2024-09-15
+799,Hassan,Hughes,hassan.hughes2@uni.example.ac.uk,2004-03-16,M,cs,2023,active,,United Kingdom,2023-09-15
+621,Aisha,Walker,,2002-07-10,M,BUS,2020,graduated,2023-06-30,United Kingdom,2023-09-15
+366,Leo,Begum,leo.begum@uni.example.ac.uk,2001-09-12,female,LAW,2019,graduated,2022-06-30,United Kingdom,2022-09-15
+78,Noah,Patel,noah.patel2@uni.example.ac.uk,10/04/2002,F,BIO,2025,active,,Nigeria,2026-09-15
+85,Omar,Clarke,omar.clarke@uni.example.ac.uk,2001-08-03,F,BUS,2020,graduated,2023-06-30,UK,2023-09-15
+995,Maya,Taylor,maya.taylor@uni.example.ac.uk,2006-01-07,male,MATH,2024,active,,United Kingdom,2026-09-15
+83,James,Khan,james.khan@uni.example.ac.uk,2000-03-21,Male,IS,2023,graduated,2026-06-30,United Kingdom,2026-09-15
+526,Yusuf,Green,,2007-04-02,non-binary,BUS,2025,active,,United Kingdom,2026-09-15
+440,Hannah,Green,hannah.green@uni.example.ac.uk,2003-11-02,female,MTH,2021,withdrawn,,United Kingdom,2022-01-10
+568,Adam,Evans,adam.evans2@uni.example.ac.uk,2003-08-03,F,BIO,2026,active,,Morocco,2026-09-15
+561,Fatima,Patel,fatima.patel4@uni.example.ac.uk,2004-10-11,M,ENG,2023,graduated,2026-06-30,United Kingdom,2026-09-15
+543,Fatima,Patel,fatima.patel3@uni.example.ac.uk,02/10/2006,M,PSY,2024,active,,China,2026-09-15
+888,Jacob,Khan,jacob.khan2@uni.example.ac.uk,2005-01-24,X,ENG,2023,graduated,2026-06-30,united kingdom,2026-09-15
+332,Hannah,Clarke,hannah.clarke2@uni.example.ac.uk,1999-07-16,F,Eng.,2022,graduated,2025-06-30,Ireland,2025-09-15
+6,Samuel,Evans,samuel.evans@uni.example.ac.uk,07 Feb 2007,X,LAW,2025,active,,United Kingdom,2026-09-15
+480,Daniel,Silva,daniel.silva@uni.example.ac.uk,12-18-2001,M,MATH,2024,active,,India,2026-09-15
+105,Aisha,Ibrahim,aisha.ibrahim@uni.example.ac.uk,2008-08-18,F,ENG,2026,active,,France,2026-09-15
+98,Leila,Thomas,leila.thomas@uni.example.ac.uk,1996-09-15,M,LAW,2019,graduated,2022-06-30,India,2022-09-15
+833,Jacob,Ali,jacob.ali2@uni.example.ac.uk,2000-05-16,M,LAW,2019,graduated,2022-06-30,United Kingdom,2022-09-15
+788,Daniel,Ahmed,daniel.ahmed@uni.example.ac.uk,2005-07-20,M,LAW,2023,active,,United Kingdom,2023-09-15
+425,Ethan,Haddad,,2008-08-19,F,BUS,2026,active,,United Kingdom,2026-09-15
+935,Aisha,Taylor,aisha.taylor@uni.example.ac.uk,2005-02-05,M,IS,2024,active,,United Kingdom,2026-09-15
+282,Noah,Smith,noah.smith@uni.example.ac.uk,2007-02-04,M,MATH,2025,active,,India,2026-09-15
+267,Lucas,Begum,lucas.begum@uni.example.ac.uk,2003-07-06,M,Maths,2021,graduated,2024-06-30,U.K.,2024-09-15
+535,Emily,Wilson,emily.wilson@uni.example.ac.uk,2008-02-10,X,ENG,2026,active,,united kingdom,2026-09-15
+454,Liam,Smith,liam.smith@uni.example.ac.uk,1996-02-04,M,BUS,2019,graduated,2022-06-30,United Kingdom,2022-09-15
+360,Ryan,Walker,ryan.walker2@uni.example.ac.uk,01-08-2001,F,ENG,2019,withdrawn,,United Kingdom,2020-01-10
+491,Isla,Mensah,isla.mensah@uni.example.ac.uk,2003-03-11,X,PSY,2021,active,,France,2021-09-15
+992,Omar,Roberts,omar.roberts2uni.example.ac.uk,,M,BIO,2019,graduated,2022-06-30,India,2022-09-15
+817,Aisha,Ali,aisha.ali@uni.example.ac.uk,2003-02-06,M,ENG,2026,active,,United Kingdom,2026-09-15
+119,Ryan,Chen,ryan.chen2@uni.example.ac.uk,10-26-2005,M,,2023,graduated,2026-06-30,Morocco,2026-09-15
+635,Adam,Mafoud,adam.mafoud@uni.example.ac.uk,2005-09-09,F,ENG,2023,graduated,2026-06-30,United Kingdom,2026-09-15
+251,Isla,Nguyen,isla.nguyen@uni.example.ac.uk,2006-11-27,m,,2026,active,,Nigeria,2026-09-15
+406,Grace,Haddad,grace.haddad@uni.example.ac.uk,2008-02-01,F,IS,2026,active,,France,2026-09-15
+718,Leila,Thomas,leila.thomas3@uni.example.ac.uk,1999-08-24,M,LAW,2022,graduated,2025-06-30,United Kingdom,2025-09-15
+705,Grace,Kowalski,grace.kowalski3@uni.example.ac.uk,2006-12-20,X,BUS,2025,active,,France,2026-09-15
+10,Fatima,Nguyen,fatima.nguyen@uni.example.ac.uk,1996-12-04,non-binary,psy,2019,graduated,2022-06-30,Morocco,2022-09-15
+860,Leo,Roberts,leo.roberts@uni.example.ac.uk,2001-07-26,F,BIO,2024,withdrawn,,France,2025-01-10
+197,Maya,Khan,maya.khan2@uni.example.ac.uk,2004-07-09,F,IS,2024,active,,Morocco,2026-09-15
+653,Mariam,Hall,mariam.hall@uni.example.ac.uk,2003-02-09,M,IS,2022,graduated,2025-06-30,England,2025-09-15
+82,Nadia,Taylor,nadia.taylor@uni.example.ac.uk,2005-06-06,X,BUS,2023,active,,United Kingdom,2023-09-15
+448,Fatima,Wood,fatima.wood@uni.example.ac.uk,1999-01-22,F,CS,2019,active,,China,2019-09-15
+534,Jacob,Khan,jacob.khan@uni.example.ac.uk,2007-08-26,f,IS,2025,active,,Ireland,2026-09-15
+669,Chloe,Hall,chloe.hall2@uni.example.ac.uk,,X,Law,2023,graduated,2026-06-30,United Kingdom,2026-09-15
+240,Leo,Ali,leo.ali@uni.example.ac.uk,2002-08-16,F,LAW,2025,active,,United Kingdom,2026-09-15
+412,Aisha,Hughes,aisha.hughes@uni.example.ac.uk,06/08/2003,M,MATH,2021,active,,United Kingdom,2021-09-15
+212,Aisha,Brown,aisha.brown@uni.example.ac.uk,24/10/1998,F,CS,2021,graduated,2024-06-30,United Kingdom,2024-09-15
+774,Leila,Patel,leila.patel2@uni.example.ac.uk,2006-05-17,F,cs,2024,active,,United Kingdom,2026-09-15
+546,Sofia,Wilson,sofia.wilson2@uni.example.ac.uk,,M,CS,2025,active,,China,2026-09-15
+520,Leo,Kowalski,leo.kowalski2@uni.example.ac.uk,,F,LAW,2024,active,,United Kingdom,2026-09-15
+228,Hassan,Ahmed,hassan.ahmed@uni.example.ac.uk,2005-05-26,F,Biology,2025,active,,United Kingdom,2026-09-15
+923,Emily,Kowalski,emily.kowalski3@uni.example.ac.uk,2006-07-15,X,LAW,2025,active,,United Kingdom,2026-09-15
+405,Daniel,Clarke,daniel.clarke2@uni.example.ac.uk,2008-01-12,F,PSY,2026,withdrawn,,Morocco,2027-01-10
+890,Leila,Thomas,leila.thomas4@uni.example.ac.uk,2000-11-05,M,ENG,2023,graduated,2026-06-30,China,2026-09-15
+178,Nadia,Taylor,nadia.taylor2@uni.example.ac.uk,2003-01-21,F,IS,2021,graduated,2024-06-30,China,2024-09-15
+1007,Lucas,Hsusain,lucas96@gmail.com,1999-02-02,X,ENG,2019,graduated,2022-06-30,Ireland,2022-09-15
+466,Sofia,Wood,sofia.wood@uni.example.ac.uk,04-11-2008,F,MATH,2026,active,,Nigeria,2026-09-15
+431,Sofia,Evans,sofia.evans2@uni.example.ac.uk,2000-06-28,F,MATH,2023,graduated,2026-06-30,United Kingdom,2026-09-15
+533,Ethan,Ibrahim,ethan.ibrahim@uni.example.ac.uk,2001-09-27,M,ENG,2021,withdrawn,,United Kingdom,2022-01-10
+696,Sofia,Haddad,sofia.haddad2@uni.example.ac.uk,10-25-1997,F,BIO,2020,active,,Morocco,2020-09-15
+479,Hannah,Hussain,hannah.hussain@uni.example.ac.uk,2008-03-14,X,PSY,2026,active,,China,2026-09-15
+689,Liam,Brown,liam.brown@uni.example.ac.uk,2005-07-06,F,LAW,2023,graduated,2026-06-30,France,2026-09-15
+8,Aisha,Begum,aisha.begum@uni.example.ac.uk,2007-04-05,F,CS,2025,active,,United Kingdom,2026-09-15
+156,Leo,Jones,leo.jones@uni.example.ac.uk,,M,PSY,2024,active,,United Kingdom,2026-09-15
+358,Layla,Jones,layla.jones3@uni.example.ac.uk,2000-10-21,M,LAW,2023,active,,United Kingdom,2023-09-15
+585,James,Nguyen,james.nguyen@uni.example.ac.uk,2001-02-10,m,Computer Science,2019,graduated,2022-06-30,United Kingdom,2022-09-15
+224,Omar,Thomas,omar.thomas@uni.example.ac.uk,2006-09-12,M,ENG,2024,active,,Nigeria,2026-09-15
+330,Isla,Hussain,isla.hussain@uni.example.ac.uk,2003-05-28,F,BUS,2023,active,,Ireland,2023-09-15
+634,Liam,Mensah,liam.mensahuni.example.ac.uk,2005-08-13,F,LAW,2023,graduated,2026-06-30,Morocco,2026-09-15
+823,Leo,Hughes,leo.hughes@uni.example.ac.uk,2003-06-07,X,Eng.,2021,active,,United Kingdom,2021-09-15
+869,Adam,Ali,adam.ali@uni.example.ac.uk,2002-12-17,M,BIO,2020,graduated,2023-06-30,United Kingdom,2023-09-15
+612,Maya,Roberts,maya.roberts2@uni.example.ac.uk,2007-12-02,X,CS,2025,active,,Nigeria,2026-09-15
+1042, Ethan  ,Hussain,,2004-07-13,X,MATH,2023,graduated,2026-06-30,United Kingdom,2026-09-15
+747,Omar,Wilson,omar.wilson2@uni.example.ac.uk,2002-03-23,M,BIO,2021,graduated,2024-06-30,United Kingdom,2024-09-15
+1006,Grace,Brown,,2003-11-28,M,IS,2022,graduated,2025-06-30,United Kingdom,2025-09-15
+810,Jacob,Hall,jacob.hall@uni.example.ac.uk,1998-04-10,M,IS,2021,graduated,2024-06-30,Ireland,2024-09-15
+495,Mariam,Green,mariam.green2@uni.example.ac.uk,2004-11-11,F,ENG,2022,graduated,2025-06-30,United Kingdom,2025-09-15
+573,Zara,Ahmed,zara.ahmed@uni.example.ac.uk,2002-08-18,M,IS,2020,withdrawn,,United Kingdom,2021-01-10
+629,Daniel,Walker,daniel.walker@uni.example.ac.uk,2003-08-20,M,CS,2023,graduated,2026-06-30,IE,2026-09-15
+763,Daniel,Silva,daniel.silva2@uni.example.ac.uk,28 Jul 2004,Male,BIO,2022,graduated,2025-06-30,France,2025-09-15
+959,Adam,Nguyen,adam.nguyen2@uni.example.ac.uk,09-14-2003,X,BIO,2021,graduated,2024-06-30,United Kingdom,2024-09-15
+164,Jacob,Silva,jacob.silva@uni.example.ac.uk,10-17-2000,X,CS,2020,graduated,2023-06-30,France,2023-09-15
+229,Grace,Kowalski,grace.kowalski@uni.example.ac.uk,1999-01-19,X,ENG,2022,graduated,2025-06-30,United Kingdom,2025-09-15
+524,Liam,Jones,liam.jones@uni.example.ac.uk,2005-03-06,X,I.S.,2023,graduated,2026-06-30,Morocco,2026-09-15
+787,Ryan,Mensah,ryan.mensah@uni.example.ac.uk,2008-12-04,F,BUS,2026,active,,Morocco,2026-09-15
+213,Sofia,Khan,sofia.khan@uni.example.ac.uk,2000-04-25,X,CS,2023,graduated,2026-06-30,France,2026-09-15
+826,Leila,Roberts,,2002-05-16,M,CS,2020,graduated,2023-06-30,U.K.,2023-09-15
+80,Fatima,Patel,fatima.patel@uni.example.ac.uk,1997-04-11,X,BUS,2020,graduated,2023-06-30,England,2023-09-15
+149,Layla,Taylor,layla.taylor@uni.example.ac.uk,11/08/2006,F,law,2025,active,,India,2026-09-15
+303,Isla,Green,isla.green@uni.example.ac.uk,2006-04-11,M,LAW,2026,active,,United Kingdom,2026-09-15
+449,Omar,Begum,omar.begum2@uni.example.ac.uk,2007-02-18,M,MATH,2026,active,,China,2026-09-15
+502,Ryan,Haddad,ryan.haddad@uni.example.ac.uk,1997-10-02,F,LAW,2020,active,,Nigeria,2020-09-15
+549,Yusuf,Begum,yusuf.begum2@uni.example.ac.uk,2000-02-17,f,PSY,2020,graduated,2023-06-30,Nigeria,2023-09-15
+842,Hannah,Wilson,hannah.wilson3@uni.example.ac.uk,2000-09-16,F,IS,2020,graduated,2023-06-30,Morocco,2023-09-15
+44,Omar,Hughes,omar.hughes2@uni.example.ac.uk,2005-10-09,X,ENG,2023,withdrawn,,United Kingdom,2024-01-10
+494,Noah,Taylor,noah.taylor@uni.example.ac.uk,01 Nov 2006,F,,2026,active,,United Kingdom,2026-09-15
+134,Emily,Nguyen,emily.nguyen@uni.example.ac.uk,2005-02-22,M,CS,2023,graduated,2026-06-30,United Kingdom,2026-09-15
+595,Ethan,Jones,ethan.jones@uni.example.ac.uk,2001-01-02,M,IS,2024,active,,United Kingdom,2026-09-15
+312,Hannah,Roberts,hannah.roberts@uni.example.ac.uk,2002-08-12,M,BIO,2022,graduated,2025-06-30,United Kingdom,2025-09-15
+508,Yusuf,Ibrahim,yusuf.ibrahim3@uni.example.ac.uk,1999-08-21,F,IS,2019,graduated,2022-06-30,United Kingdom,2022-09-15
+656,Yusuf,Wood,yusuf.wood@uni.example.ac.uk,2000-05-10,male,PSY,2019,graduated,2022-06-30,Morocco,2022-09-15
+517,Layla,Walker,,2001-06-17,M,BUS,2020,withdrawn,,Nigeria,2021-01-10
+850,Fatima,Kowalski,fatima.kowalski@uni.example.ac.uk,2000-09-06,F,BIO,2023,graduated,2026-06-30,United Kingdom,2026-09-15
+812,Omar,Khan,omar.khan3@uni.example.ac.uk,2000-02-09,F,,2019,withdrawn,,England,2020-01-10
+1,Omar,Mensah,omar.mensah@uni.example.ac.uk,2007-09-10,X,LAW,2025,active,,India,2026-09-15
+783,Omar,Khan,omar.khan2@uni.example.ac.uk,2004-03-15,M,MATH,2024,active,,Nigeria,2026-09-15
+383,Samuel,Nguyen,samuel.nguyen2@uni.example.ac.uk,12 Dec 2000,M,LAW,2019,active,,India,2019-09-15
+317,Yusuf,Mafoud,yusuf.mafoud@uni.example.ac.uk,2006-08-04,M,law,2024,active,,India,2026-09-15
+762,Leila,Evans,leila.evans@uni.example.ac.uk,06/10/2004,X,BUS,2022,graduated,2025-06-30,India,2025-09-15
+592,Adam,Hughes,,1996-04-04,M,LAW,2019,graduated,2022-06-30,united kingdom,2022-09-15
+409,Maya,Wilson,maya.wilson@uni.example.ac.uk,2004-10-02,F,IS,2022,graduated,2025-06-30,Morocco,2025-09-15
+942,Lucas,Khan,lucas.khan3@uni.example.ac.uk,2005-04-06,M,CS,2023,graduated,2026-06-30,United Kingdom,2026-09-15
+1005,Mariam,Khan,,2006-09-08,M,MATH,2024,active,,Nigeria,2026-09-15
+751,Liam,Ali,liam.ali@uni.example.ac.uk,1999-03-23,f,PSY,2019,graduated,2022-06-30,United Kingdom,2022-09-15
+173,Chloe,Patel,,2003-02-10,F,CS,2021,graduated,2024-06-30,Morocco,2024-09-15
+126,Liam,Green,liam.green@uni.example.ac.uk,1997-08-23,M,IS,2020,graduated,2023-06-30,United Kingdom,2023-09-15
+697,Hassan,Khan,hassan.khan@uni.example.ac.uk,2002-03-19,F,BUS,2020,graduated,2023-06-30,Morocco,2023-09-15
+500,Yusuf,Kowalski,yusuf.kowalski2@uni.example.ac.uk,2003-02-19,F,ENG,2023,graduated,2026-06-30,IE,2026-09-15
+597,Isla,Thomas,isla.thomas2@uni.example.ac.uk,2001-03-09,M,BIO,2024,active,,Nigeria,2026-09-15
+972,Aisha,Brown,aisha.brown4@uni.example.ac.uk,,non-binary,PSY,2020,graduated,2023-06-30,United Kingdom,2023-09-15
+91,Omar,Nguyen,omar.nguyen@uni.example.ac.uk,1999-03-09,F,CS,2022,graduated,2025-06-30,United Kingdom,2025-09-15
+1011,MARIAM,MAFOUD,MARIAM.MAFOUD@UNI.EXAMPLE.AC.UK,2003-02-19,M,ENG,2026,active,,United Kingdom,2026-09-15
+182,James,Hussain,james.hussain@uni.example.ac.uk,2003-03-25,M,CS,2026,active,,United Kingdom,2026-09-15
+364,Daniel,Roberts,,2001-04-10,F,MATH,2019,graduated,2022-06-30,France,2022-09-15
+275,Adam,Evans,adam.evans@uni.example.ac.uk,2007-10-28,M,CS,2025,active,,United Kingdom,2026-09-15
+753,Layla,Patel,layla.patel2@uni.example.ac.uk,2003-11-07,M,IS,2026,active,,United Kingdom,2026-09-15
+963,Chloe,Haddad,chloe.haddad@uni.example.ac.uk,2001-06-21,M,PSY,2024,active,,united kingdom,2026-09-15
+70,Chloe,Jones,chloe.jones@uni.example.ac.uk,2004-12-25,X,IS,2022,graduated,2025-06-30,India,2025-09-15
+292,Adam,Nguyen,adam.nguyen@uni.example.ac.uk,2006-03-22,M,IS,2025,active,,India,2026-09-15
+132,Samuel,Evans,samuel.evans2@uni.example.ac.uk,2004-10-07,X,MATH,2022,graduated,2025-06-30,India,2025-09-15
+301,Zara,Kowalski,zara.kowalski@uni.example.ac.uk,2005-06-14,X,BUS,2024,active,,United Kingdom,2026-09-15
+713,Samuel,Wright,samuel.wright3@uni.example.ac.uk,2005-11-16,X,CS,2023,graduated,2026-06-30,Morocco,2026-09-15
+327,Omar,Rahman,omar.rahman@uni.example.ac.uk,2004-01-15,F,BIO,2022,active,,United Kingdom,2022-09-15
+145,Oliver,Hussain,oliver.hussain@uni.example.ac.uk,2006-10-17,M,Maths,2024,active,,United Kingdom,2026-09-15
+1001,AMIRA,SILVA,,2005-09-20,M,PSY,2023,graduated,2026-06-30,Morocco,2026-09-15
+964,Hassan,Evans,hassan.evans@uni.example.ac.uk,2006-08-20,M,CS,2024,active,,India,2026-09-15
+887,Grace,Haddad,grace.haddad2@uni.example.ac.uk,2008-12-24,X,BUS,2026,active,,United Kingdom,2026-09-15
+136,Lucas,Walker,lucas.walker@uni.example.ac.uk,1997-02-16,F,IS,2020,graduated,2023-06-30,France,2023-09-15
+997,Amira,Clarke,amira.clarke3@uni.example.ac.uk,,F,Maths,2021,graduated,2024-06-30,United Kingdom,2024-09-15
+723,Samuel,Ahmed,samuel.ahmed2@uni.example.ac.uk,,M,MATH,2023,graduated,2026-06-30,Nigeria,2026-09-15
+165,Leo,Kowalski,leo.kowalski@uni.example.ac.uk,2004-10-16,F,BIO,2022,graduated,2025-06-30,UK,2025-09-15
+29,Chloe,Ibrahim,chloe.ibrahim@uni.example.ac.uk,2006-05-13,F,BIO,2024,active,,United Kingdom,2026-09-15
+680,Noah,Mensah,noah.mensah@uni.example.ac.uk,,m,CS,2019,graduated,2022-06-30,U.K.,2022-09-15
+194,Ryan,Roberts,ryan.roberts@uni.example.ac.uk,2007-03-16,F,PSY,2025,active,,UK,2026-09-15
+903,Emily,Smith,emily.smith@uni.example.ac.uk,2004-01-23,F,MATH,2022,graduated,2025-06-30,France,2025-09-15
+814,Jacob,Rahman,jacob.rahman@uni.example.ac.uk,2003-06-12,X,MATH,2023,graduated,2026-06-30,NG,2026-09-15
+434,Ryan,Hall,ryan.hall@uni.example.ac.uk,1999-09-21,F,PSY,2022,graduated,2025-06-30,United Kingdom,2025-09-15
+988,Mariam,Nguyen,mariam.nguyen2@uni.example.ac.uk,2003-08-10,F,LAW,2021,graduated,2024-06-30,United Kingdom,2024-09-15
+170,Isla,Ibrahim,isla.ibrahim@uni.example.ac.uk,2007-10-23,F,Engineering,2025,active,,Morocco,2026-09-15
+542,Zara,Green,zara.green@uni.example.ac.uk,2001-03-16,M,IS,2019,graduated,2022-06-30,United Kingdom,2022-09-15
+141,Maya,Hughes,maya.hughes@uni.example.ac.uk,2003-06-27,Male,IS,2022,graduated,2025-06-30,United Kingdom,2025-09-15
+174,Hannah,Hughes,,2001-07-05,X,BUS,2021,graduated,2024-06-30,China,2024-09-15
+7,Grace,Chen,,2002-08-05,M,PSY,2025,active,,China,2026-09-15
+821,Jacob,Jones,jacob.jones@uni.example.ac.uk,2003-06-06,M,IS,2026,withdrawn,,Ireland,2027-01-10
+536,Chloe,Smith,chloe.smith2@uni.example.ac.uk,1999-09-04,M,MATH,2019,graduated,2022-06-30,China,2022-09-15
+962,Yusuf,Rahman,yusuf.rahman2@uni.example.ac.uk,2002-02-13,M,PSY,2020,graduated,2023-06-30,Ireland,2023-09-15
+856,Lucas,Chen,lucas.chen2@uni.example.ac.uk,2004-03-12,F,PSY,2022,graduated,2025-06-30,United Kingdom,2025-09-15
+74,Jacob,Patel,jacob.patel@uni.example.ac.uk,2002-08-08,X,ENG,2020,graduated,2023-06-30,United Kingdom,2023-09-15
+738,Hassan,Taylor,hassan.taylor2@uni.example.ac.uk,04 Jul 2000,F,BIO,2023,graduated,2026-06-30,United Kingdom,2026-09-15
+528,Aisha,Green,aisha.green@uni.example.ac.uk,1996-12-22,Female,MATH,2019,graduated,2022-06-30,France,2022-09-15
+239,Omar,Begum,omar.begum@uni.example.ac.uk,2001-08-04,M,CS,2024,active,,Nigeria,2026-09-15
+146,Adam,Silva,adam.silva@uni.example.ac.uk,19 May 2006,M,CS,2024,active,,India,2026-09-15
+853,Hassan,Clarke,hassan.clarke@uni.example.ac.uk,2004-02-08,F,LAW,2023,graduated,2026-06-30,India,2026-09-15
+235,Ethan,Mafoud,ethan.mafoud@uni.example.ac.uk,2005-02-19,M,ENG,2023,graduated,2026-06-30,United Kingdom,2026-09-15
+221,Oliver,Hughes,oliver.hughes@uni.example.ac.uk,2008-09-01,M,BUS,2026,active,,United Kingdom,2026-09-15
+215,Sofia,Hall,sofia.hall@uni.example.ac.uk,2001-08-14,M,LAW,2019,graduated,2022-06-30,india,2022-09-15
+712,Adam,Kowalski,adam.kowalski2@uni.example.ac.uk,2005-03-02,X,PSY,2023,graduated,2026-06-30,China,2026-09-15
+133,Chloe,Clarke,,2004-03-26,F,psy,2022,graduated,2025-06-30,United Kingdom,2025-09-15
+1048,JACOB,CHEN,,1996-07-12,F,LAW,2019,graduated,2022-06-30,United Kingdom,2022-09-15
+907,Amira,Ahmed,amira.ahmed@uni.example.ac.uk,2006-08-24,X,PSY,2025,active,,United Kingdom,2026-09-15
+708,James,Wright,james.wright@uni.example.ac.uk,2003-06-04,F,BUS,2026,active,,China,2026-09-15
+423,Chloe,Hughes,chloe.hughes@uni.example.ac.uk,2004-04-02,F,MATH,2022,graduated,2025-06-30,United Kingdom,2025-09-15
+186,Emily,Hussain,emily.hussain@uni.example.ac.uk,2007-10-12,M,BUS,2025,active,,MA,2026-09-15
+42,Noah,Clarke,noah.clarke@uni.example.ac.uk,2004-01-22,F,PSY,2022,active,,United Kingdom,2022-09-15
+768,Hassan,Hussain,hassan.hussain2@uni.example.ac.uk,1998-08-28,X,CS,2021,graduated,2024-06-30,FR,2024-09-15
+109,Emily,Begum,emily.begum@uni.example.ac.uk,2003-08-26,F,ENG,2021,graduated,2024-06-30,Morocco,2024-09-15
+636,Daniel,Wilson,daniel.wilson@uni.example.ac.uk,2004-06-13,F,ENG,2022,active,,Nigeria,2022-09-15
+57,Leila,Patel,leila.patel@uni.example.ac.uk,2003-08-21,M,IS,2023,active,,China,2023-09-15
+483,Samuel,Smith,samuel.smith@uni.example.ac.uk,2002-07-05,F,MATH,2020,withdrawn,,England,2021-01-10
+754,Hassan,Silva,,2007-03-06,F,CS,2026,active,,Morocco,2026-09-15
+794,Mariam,Begum,mariam.begum3@uni.example.ac.uk,2001-10-03,F,BIO,2021,graduated,2024-06-30,NG,2024-09-15
+469,Lucas,Khan,lucas.khan@uni.example.ac.uk,2001-10-20,X,MATH,2019,graduated,2022-06-30,Morocco,2022-09-15
+927,Amira,Clarke,amira.clarke@uni.example.ac.uk,2003-10-05,M,MATH,2023,active,,Nigeria,2023-09-15
+436,Mariam,Evans,mariam.evans@uni.example.ac.uk,2002-06-08,F,ENG,2020,active,,United Kingdom,2020-09-15
+25,Isla,Rahman,isla.rahman@uni.example.ac.uk,,F,CS,2026,active,,China,2026-09-15
+550,Nadia,Kowalski,nadia.kowalski@uni.example.ac.uk,2000-08-13,M,LAW,2023,graduated,2026-06-30,France,2026-09-15
+519,James,Patel,james.patel2@uni.example.ac.uk,2008-02-09,F,MATH,2026,active,,Nigeria,2026-09-15
+1050,Ethan,Mnesah,ETHAN.MENSAH@UNI.EXAMPLE.AC.UK,1998-10-06,M,IS,2021,graduated,2024-06-30,Ireland,2024-09-15
+668,Lucas,Begum,lucas.begum2@uni.example.ac.uk,2001-06-18,M,CS,2019,active,,Morocco,2019-09-15
+1022,Emily,Sliva,emily44@gmail.com,1998-06-14,X,ENG,2021,graduated,2024-06-30,United Kingdom,2024-09-15
+998,Maya,Patel,maya.patel@uni.example.ac.uk,2006-11-06,non-binary,Engineering,2024,active,,China,2026-09-15
+339,Hassan,Hughes,hassan.hughes@uni.example.ac.uk,2003-07-21,M,ENG,2021,graduated,2024-06-30,Morocco,2024-09-15
+52,Hassan,Hussain,hassan.hussain@uni.example.ac.uk,2004-03-01,M,IS,2022,withdrawn,,France,2023-01-10
+384,Layla,Evans,layla.evans@uni.example.ac.uk,2007-03-01,M,CS,2025,active,,United Kingdom,2026-09-15
+862,Sofia,Mafoud,sofia.mafoud@uni.example.ac.uk,12-27-2005,F,Biology,2025,active,,PRC,2026-09-15
+990,Adam,Taylor,adam.taylor@uni.example.ac.uk,1999-04-26,M,bio,2022,graduated,2025-06-30,China,2025-09-15
+683,Yusuf,Wilson,,2002-10-18,M,LAW,2020,graduated,2023-06-30,Nigeria,2023-09-15
+996,Ryan,Ali,ryan.ali@uni.example.ac.uk,2004-04-06,M,PSY,2024,active,,United Kingdom,2026-09-15
+265,Mariam,Brown,,2003-05-09,X,BUS,2022,graduated,2025-06-30,Morocco,2025-09-15
+709,Ryan,Walker,ryan.walker3@uni.example.ac.uk,2004-09-03,X,IS,2023,graduated,2026-06-30,United Kingdom,2026-09-15
+766,Layla,Thomas,layla.thomas3uni.example.ac.uk,2003-02-15,F,CS,2026,active,,China,2026-09-15
+737,Jacob,Evans,jacob.evans@uni.example.ac.uk,2001-05-21,X,CS,2020,graduated,2023-06-30,Ireland,2023-09-15
+445,Layla,Haddad,,2005-11-05,M,LAW,2024,active,,United Kingdom,2026-09-15
+396,Aisha,Ahmed,aisha.ahmed@uni.example.ac.uk,2008-06-24,F,LAW,2026,active,,United Kingdom,2026-09-15
+559,Adam,Thomas,adam.thomas2@uni.example.ac.uk,2002-02-23,F,CS,2021,graduated,2024-06-30,United Kingdom,2024-09-15
+177,Hassan,Wright,hassan.wright@uni.example.ac.uk,25/05/2007,X,Eng.,2026,active,,United Kingdom,2026-09-15
+19,Emily,Rahman,emily.rahman@uni.example.ac.uk,2008-08-26,F,IS,2026,active,,Morocco,2026-09-15
+980,Oliver,Roberts,oliver.roberts3@uni.example.ac.uk,1997-08-19,F,,2020,graduated,2023-06-30,Ireland,2023-09-15
+539,Daniel,Kowalski,daniel.kowalski@uni.example.ac.uk,06-18-2008,F,PSY,2026,active,,India,2026-09-15
+614,Nadia,Wilson,nadia.wilson2@uni.example.ac.uk,2003-01-15,M,PSY,2021,graduated,2024-06-30,United Kingdom,2024-09-15
+591,Grace,Rahman,grace.rahman2@uni.example.ac.uk,1996-09-17,M,PSY,2019,graduated,2022-06-30,United Kingdom,2022-09-15
+368,Ethan,Khan,ethan.khan@uni.example.ac.uk,1998-05-03,M,Eng.,2021,withdrawn,,CN,2022-01-10
+84,Aisha,Hussain,aisha.hussainuni.example.ac.uk,2007-08-11,F,PSY,2026,active,,France,2026-09-15
+62,Liam,Wilson,liam.wilson@uni.example.ac.uk,,M,BUS,2025,active,,France,2026-09-15
+515,Grace,Smith,grace.smith@uni.example.ac.uk,2005-04-02,X,BIO,2025,active,,Morocco,2026-09-15
+273,Daniel,Evans,daniel.evans@uni.example.ac.uk,2004-08-18,F,PSY,2023,graduated,2026-06-30,United Kingdom,2026-09-15
+286,Grace,Kowalski,grace.kowalski2@uni.example.ac.uk,02-17-2004,M,MATH,2024,active,,PRC,2026-09-15
+361,Yusuf,Mensah,yusuf.mensah@uni.example.ac.uk,1999-12-24,M,LAW,2019,graduated,2022-06-30,United Kingdom,2022-09-15
+355,Oliver,Khan,oliver.khan@uni.example.ac.uk,2000-12-22,F,CS,2023,graduated,2026-06-30,China,2026-09-15
+952,Fatima,Jones,fatima.jones2@uni.example.ac.uk,2002-09-06,M,PSY,2020,graduated,2023-06-30,United Kingdom,2023-09-15
+279,James,Clarke,james.clarke@uni.example.ac.uk,1997-01-25,M,MATH,2020,withdrawn,,United Kingdom,2021-01-10
+369,Mariam,Mafoud,mariam.mafoud@uni.example.ac.uk,,male,ENG,2026,active,,United Kingdom,2026-09-15
+665,Ryan,Hall,ryan.hall2@uni.example.ac.uk,2004-10-28,other,LAW,2023,graduated,2026-06-30,United Kingdom,2026-09-15
+619,Leila,Green,leila.green@uni.example.ac.uk,2007-05-17,X,BUS,2025,withdrawn,,United Kingdom,2026-01-10
+590,Ryan,Wood,ryan.wood@uni.example.ac.uk,2000-11-07,F,LAW,2020,graduated,2023-06-30,United Kingdom,2023-09-15
+658,Jacob,Chen,jacob.chen3@uni.example.ac.uk,1999-08-08,M,BIO,2019,graduated,2022-06-30,Ireland,2022-09-15
+1019,Daniel,Chen,daniel16@gmail.com,2008-10-02,F,PSY,2026,active,,United Kingdom,2026-09-15
+457,Hannah,Begum,hannah.begum@uni.example.ac.uk,2002-01-01,M,LAW,2020,graduated,2023-06-30,United Kingdom,2023-09-15
+394,Hassan,Wright,hassan.wright2@uni.example.ac.uk,,m,BUS,2021,graduated,2024-06-30,China,2024-09-15
+685,Mariam,Evans,mariam.evans2@uni.example.ac.uk,2008-03-01,F,IS,2026,active,,Ireland,2026-09-15
+724,Hannah,Ibrahim,hannah.ibrahim@uni.example.ac.uk,2003-09-01,F,CS,2021,graduated,2024-06-30,Ireland,2024-09-15
+376,Maya,Ahmed,maya.ahmed@uni.example.ac.uk,2003-01-02,M,BUS,2021,graduated,2024-06-30,United Kingdom,2024-09-15
+413,Emily,Khan,emily.khan2@uni.example.ac.uk,11-14-2007,M,PSY,2025,active,,united kingdom,2026-09-15
+75,Amira,Chen,amira.chen@uni.example.ac.uk,2006-08-07,F,LAW,2024,active,,United Kingdom,2026-09-15
+948,Daniel,Jones,daniel.jones2@uni.example.ac.uk,2002-09-19,X,MATH,2022,active,,France,2022-09-15
+501,Maya,Green,maya.green2@uni.example.ac.uk,2006-06-01,F,CS,2025,active,,Morocco,2026-09-15
+605,Grace,Chen,grace.chen2@uni.example.ac.uk,2001-11-02,M,,2020,graduated,2023-06-30,China,2023-09-15
+115,Maya,Green,maya.green@uni.example.ac.uk,2004-05-22,M,,2023,withdrawn,,MA,2024-01-10
+418,Oliver,Haddad,oliver.haddad2@uni.example.ac.uk,2007-07-11,F,BIO,2025,active,,United Kingdom,2026-09-15
+90,Liam,Hussain,liam.hussain@uni.example.ac.uk,2000-08-03,F,MATH,2023,graduated,2026-06-30,Ireland,2026-09-15
+991,Isla,Roberts,isla.roberts@uni.example.ac.uk,2004-10-11,M,Law,2024,active,,England,2026-09-15
+933,Aisha,Rahman,aisha.rahman2@uni.example.ac.uk,2000-06-08,X,MTH,2019,graduated,2022-06-30,United Kingdom,2022-09-15
+875,Oliver,Ibrahim,oliver.ibrahim@uni.example.ac.uk,2001-05-17,F,ENG,2019,graduated,2022-06-30,Morocco,2022-09-15
+661,Leo,Jones,leo.jones2@uni.example.ac.uk,2001-07-06,F,BUS,2019,graduated,2022-06-30,France,2022-09-15
+12,Leo,Ahmed,leo.ahmed@uni.example.ac.uk,,Female,BUS,2023,graduated,2026-06-30,Nigeria,2026-09-15
+397,Grace,Hughes,grace.hughes@uni.example.ac.uk,21/11/1997,F,BIO,2020,graduated,2023-06-30,United Kingdom,2023-09-15
+576,Maya,Silva,,2003-08-05,X,Business,2023,graduated,2026-06-30,India,2026-09-15
+43,Leila,Wilson,leila.wilson@uni.example.ac.uk,2001-09-13,X,LAW,2024,active,,United Kingdom,2026-09-15
+168,Grace,Evans,grace.evans@uni.example.ac.uk,2002-02-18,F,PSY,2020,graduated,2023-06-30,China,2023-09-15
+417,Fatima,Thomas,fatima.thomas@uni.example.ac.uk,2006-10-16,F,ENG,2026,withdrawn,,United Kingdom,2027-01-10
+968,Adam,Mensah,adam.mensah@uni.example.ac.uk,2003-01-08,f,LAW,2022,graduated,2025-06-30,United Kingdom,2025-09-15
+427,Grace,Patel,grace.patel@uni.example.ac.uk,2004-11-14,F,BIO,2022,graduated,2025-06-30,United Kingdom,2025-09-15
+545,James,Kowalski,james.kowalski3@uni.example.ac.uk,2002-03-22,M,CS,2022,withdrawn,,United Kingdom,2023-01-10
+949,Layla,Hughes,layla.hughes3@uni.example.ac.uk,2001-11-18,F,PSY,2019,active,,United Kingdom,2019-09-15
+1031,Emily,Cehn,emily88@gmail.com,2000-06-14,F,PSY,2023,graduated,2026-06-30,Nigeria,2026-09-15
+905,Leila,Roberts,leila.roberts2@uni.example.ac.uk,2002-07-01,M,,2021,graduated,2024-06-30,France,2024-09-15
+662,Ryan,Wright,ryan.wright2@uni.example.ac.uk,2006-02-25,Female,ENG,2024,active,,United Kingdom,2026-09-15
+258,Maya,Silva,maya.silva@uni.example.ac.uk,2006-02-22,X,Business,2025,active,,Morocco,2026-09-15
+336,Aisha,Brown,aisha.brown2@uni.example.ac.uk,25/11/2008,F,BIO,2026,withdrawn,,United Kingdom,2027-01-10
+16,Noah,Thomas,noah.thomas@uni.example.ac.uk,2005-09-15,M,IS,2024,active,,United Kingdom,2026-09-15
+679,Hassan,Brown,hassan.brown@uni.example.ac.uk,1999-01-15,X,IS,2022,graduated,2025-06-30,United Kingdom,2025-09-15
+325,Fatima,Patel,fatima.patel2@uni.example.ac.uk,2005-08-19,M,IS,2023,graduated,2026-06-30,India,2026-09-15
+818,Layla,Patel,layla.patel3@uni.example.ac.uk,2007-06-04,X,BUS,2025,active,,France,2026-09-15
+223,Daniel,Hussain,daniel.hussain@uni.example.ac.uk,2001-09-15,F,IS,2020,active,,United Kingdom,2020-09-15
+180,Sofia,Mensah,sofia.mensah@uni.example.ac.uk,2003-06-01,M,LAW,2022,active,,United Kingdom,2022-09-15
+100,Ethan,Ahmed,ethan.ahmed@uni.example.ac.uk,1996-10-26,m,PSY,2019,graduated,2022-06-30,Nigeria,2022-09-15
+522,Zara,Mafoud,zara.mafoud@uni.example.ac.uk,2000-05-13,M,ENG,2020,graduated,2023-06-30,united kingdom,2023-09-15
+23,Grace,Nguyen,grace.nguyen@uni.example.ac.uk,2001-04-06,Male,MATH,2019,graduated,2022-06-30,Ireland,2022-09-15
+357,Emily,Rahman,emily.rahman2@uni.example.ac.uk,25 Feb 2000,F,ENG,2023,active,,United Kingdom,2023-09-15
+721,Jacob,Begum,jacob.begum2@uni.example.ac.uk,2001-08-13,X,CS,2019,graduated,2022-06-30,United Kingdom,2022-09-15
+928,Oliver,Kowalski,oliver.kowalski@uni.example.ac.uk,2003-06-26,M,MATH,2026,active,,United Kingdom,2026-09-15
+758,Hannah,Patel,hannah.patel2@uni.example.ac.uk,14 Dec 2002,M,,2020,graduated,2023-06-30,United Kingdom,2023-09-15
+341,Hassan,Roberts,hassan.roberts@uni.example.ac.uk,2001-12-11,M,BUS,2019,active,,France,2019-09-15
+432,Layla,Wood,layla.wood@uni.example.ac.uk,2004-10-13,M,CS,2022,graduated,2025-06-30,MA,2025-09-15
+596,Ethan,Patel,ethan.patel@uni.example.ac.uk,2004-11-25,M,MATH,2024,active,,United Kingdom,2026-09-15
+899,Noah,Evans,noah.evans2@uni.example.ac.uk,2003-08-20,F,BUS,2026,active,,United Kingdom,2026-09-15
+204,Samuel,Ibrahim,samuel.ibrahim@uni.example.ac.uk,2001-06-23,X,psy,2024,active,,United Kingdom,2026-09-15
+761,Emily,Khan,emily.khan3@uni.example.ac.uk,04 Mar 2001,M,ENG,2019,graduated,2022-06-30,United Kingdom,2022-09-15
+94,Sofia,Patel,sofia.patel@uni.example.ac.uk,05-19-1996,M,BIO,2019,withdrawn,,Nigeria,2020-01-10
+603,Yusuf,Silva,yusuf.silva@uni.example.ac.uk,2001-02-16,F,ENG,2019,graduated,2022-06-30,Morocco,2022-09-15
+69,Omar,Wright,omar.wright@uni.example.ac.uk,2001-10-22,M,ENG,2019,graduated,2022-06-30,China,2022-09-15
+954,Isla,Khan,isla.khan2@uni.example.ac.uk,2004-02-11,F,,2023,graduated,2026-06-30,Ireland,2026-09-15
+285,Zara,Thomas,zara.thomas@uni.example.ac.uk,01 Nov 2008,F,BIO,2026,active,,Ireland,2026-09-15
+866,Aisha,Clarke,aisha.clarke@uni.example.ac.uk,2006-04-03,M,ENG,2024,active,,Ireland,2026-09-15
+435,Nadia,Ibrahim,nadia.ibrahim2@uni.example.ac.uk,2003-02-16,Female,BUS,2021,graduated,2024-06-30,Morocco,2024-09-15
+154,Hannah,Ahmed,hannah.ahmed2@uni.example.ac.uk,2000-12-14,m,MATH,2019,graduated,2022-06-30,Nigeria,2022-09-15
+76,Mariam,Haddad,mariam.haddad@uni.example.ac.uk,2003-01-17,f,MATH,2023,graduated,2026-06-30,China,2026-09-15
+789,Hannah,Khan,hannah.khan3@uni.example.ac.uk,2002-09-08,F,MATH,2022,graduated,2025-06-30,United Kingdom,2025-09-15
+581,Lucas,Hughes,lucas.hughes2@uni.example.ac.uk,2006-04-06,M,ENG,2025,active,,United Kingdom,2026-09-15
+447,Amira,Wright,amira.wright2@uni.example.ac.uk,2003-06-23,F,ENG,2021,graduated,2024-06-30,Morocco,2024-09-15
+189,Adam,Patel,adam.patel@uni.example.ac.uk,2000-12-25,F,LAW,2020,graduated,2023-06-30,Nigeria,2023-09-15
+272,Leo,Taylor,leo.tayloruni.example.ac.uk,08/08/1997,M,ENG,2020,graduated,2023-06-30,England,2023-09-15
+237,Grace,Wilson,,2008-04-27,X,PSY,2026,active,,U.K.,2026-09-15
+488,Leo,Green,leo.green@uni.example.ac.uk,2004-09-24,M,PSY,2024,active,,France,2026-09-15
+560,Hassan,Taylor,hassan.taylor@uni.example.ac.uk,2005-02-11,Female,BUS,2025,active,,Nigeria,2026-09-15
+118,Noah,Hall,noah.hall@uni.example.ac.uk,2005-11-13,other,CS,2023,graduated,2026-06-30,india,2026-09-15
+881,Omar,Hughes,omar.hughes4@uni.example.ac.uk,2008-08-12,X,BIO,2026,active,,FR,2026-09-15
+513,Leila,Hussain,leila.hussain@uni.example.ac.uk,2006-02-06,F,PSY,2026,active,,United Kingdom,2026-09-15
+598,Noah,Nguyen,noah.nguyen@uni.example.ac.uk,2008-10-06,F,BIO,2026,active,,United Kingdom,2026-09-15
+644,Grace,Mafoud,,,M,MATH,2021,graduated,2024-06-30,United Kingdom,2024-09-15
+127,James,Khan,james.khan2@uni.example.ac.uk,2004-02-04,non-binary,BUS,2023,graduated,2026-06-30,IE,2026-09-15
+117,Jacob,Hussain,jacob.hussain@uni.example.ac.uk,2003-08-04,X,LAW,2022,active,,India,2022-09-15
+474,Oliver,Taylor,oliver.taylor3@uni.example.ac.uk,2004-07-07,M,LAW,2022,graduated,2025-06-30,United Kingdom,2025-09-15
+1033,Daniel,Hussain,DANIEL.HUSSAIN@UNI.EXAMPLE.AC.UK,2001-09-15,F,IS,2020,graduated,2023-06-30,United Kingdom,2023-09-15
+58,Noah,Patel,noah.patel@uni.example.ac.uk,2005-06-18,M,MATH,2023,graduated,2026-06-30,Ireland,2026-09-15
+729,Isla,Hughes,isla.hughes2@uni.example.ac.uk,2006-03-25,F,ENG,2024,active,,Ireland,2026-09-15
+981,Hannah,Hughes,hannah.hughes2@uni.example.ac.uk,2002-01-26,F,ENG,2020,graduated,2023-06-30,United Kingdom,2023-09-15
+370,Aisha,Wright,aisha.wright@uni.example.ac.uk,2000-11-05,F,LAW,2019,graduated,2022-06-30,Ireland,2022-09-15
+269,Liam,Wilson,liam.wilson3@uni.example.ac.uk,03 Nov 2004,F,IS,2022,graduated,2025-06-30,Nigeria,2025-09-15
+47,Sofia,Ibrahim,sofia.ibrahim@uni.example.ac.uk,2004-06-22,F,Psych,2024,active,,Morocco,2026-09-15
+350,Daniel,Ibrahim,daniel.ibrahim@uni.example.ac.uk,,F,PSY,2021,graduated,2024-06-30,United Kingdom,2024-09-15
+196,Sofia,Evans,sofia.evans@uni.example.ac.uk,2005-08-20,M,BIO,2023,graduated,2026-06-30,United Kingdom,2026-09-15
+103,Liam,Roberts,liam.roberts@uni.example.ac.uk,,M,IS,2021,graduated,2024-06-30,United Kingdom,2024-09-15
+900,Yusuf,Jones,yusuf.jones@uni.example.ac.uk,2000-02-14,Female,ENG,2023,graduated,2026-06-30,United Kingdom,2026-09-15
+746,Hassan,Wright,hassan.wright3@uni.example.ac.uk,2003-04-25,M,LAW,2021,withdrawn,,United Kingdom,2022-01-10
+894,Hassan,Patel,hassan.patel2@uni.example.ac.uk,2002-09-21,F,PSY,2021,graduated,2024-06-30,France,2024-09-15
+264,Noah,Patel,noah.patel3@uni.example.ac.uk,2004-10-25,F,MATH,2024,active,,United Kingdom,2026-09-15
+444,Omar,Thomas,omar.thomas2@uni.example.ac.uk,2005-02-27,Female,BIO,2023,withdrawn,,China,2024-01-10
+793,Ryan,Hughes,ryan.hughes2@uni.example.ac.uk,2003-07-26,M,ENG,2026,active,,China,2026-09-15
+305,Maya,Hall,maya.hall@uni.example.ac.uk,2003-05-27,M,,2022,graduated,2025-06-30,United Kingdom,2025-09-15
+342,Sofia,Patel,sofia.patel3@uni.example.ac.uk,2007-12-26,F,Law,2025,active,,United Kingdom,2026-09-15
+937,Daniel,Walker,daniel.walker3@uni.example.ac.uk,2007-10-16,M,BIO,2025,active,,China,2026-09-15
+314,Liam,Walker,liam.walker@uni.example.ac.uk,2001-03-11,M,MATH,2021,graduated,2024-06-30,Ireland,2024-09-15
+150,Oliver,Jones,oliver.jones@uni.example.ac.uk,2001-03-25,F,PSY,2019,graduated,2022-06-30,France,2022-09-15
+125,Zara,Clarke,zara.clarke@uni.example.ac.uk,2006-11-08,X,Law,2024,active,,India,2026-09-15
+847,Hannah,Silva,hannah.silva@uni.example.ac.uk,1997-04-28,F,BUS,2020,graduated,2023-06-30,United Kingdom,2023-09-15
+886,Maya,Clarke,,2007-11-09,F,LAW,2026,active,,United Kingdom,2026-09-15
+51,Yusuf,Ibrahim,yusuf.ibrahim@uni.example.ac.uk,2002-09-22,F,IS,2020,active,,united kingdom,2020-09-15
+354,Lucas,Rahman,lucas.rahman@uni.example.ac.uk,2004-04-03,F,BIO,2022,graduated,2025-06-30,India,2025-09-15
+999,Sofia,Ahmed,sofia.ahmed2@uni.example.ac.uk,2003-04-07,F,Law,2021,graduated,2024-06-30,India,2024-09-15
+143,Sofia,Begum,sofia.begum@uni.example.ac.uk,1997-12-12,X,CS,2020,graduated,2023-06-30,India,2023-09-15
+471,Leila,Haddad,leila.haddad@uni.example.ac.uk,2003-11-12,female,IS,2026,active,,Morocco,2026-09-15
+400,Nadia,Chen,nadia.chen@uni.example.ac.uk,2004-08-03,F,PSY,2022,graduated,2025-06-30,United Kingdom,2025-09-15
+930,Sofia,Walker,sofia.walker2uni.example.ac.uk,2003-06-25,F,CS,2023,graduated,2026-06-30,Nigeria,2026-09-15
+321,Zara,Begum,zara.begum@uni.example.ac.uk,2002-11-18,M,BUS,2021,graduated,2024-06-30,France,2024-09-15
+20,Lucas,Mafoud,lucas.mafoud@uni.example.ac.uk,2006-08-28,F,CS,2025,active,,Ireland,2026-09-15
+908,Ethan,Thomas,ethan.thomas2@uni.example.ac.uk,2006-10-24,M,MATH,2026,active,,China,2026-09-15
+851,James,Silva,james.silva@uni.example.ac.uk,2002-10-10,M,LAW,2020,active,,Morocco,2020-09-15
+895,Lucas,Jones,lucas.jones@uni.example.ac.uk,,F,MATH,2026,active,,Nigeria,2026-09-15
+408,Daniel,Thomas,daniel.thomas@uni.example.ac.uk,2003-07-12,F,PSY,2021,graduated,2024-06-30,France,2024-09-15
+538,Jacob,Nguyen,jacob.nguyen@uni.example.ac.uk,2005-06-20,M,MATH,2025,active,,Ireland,2026-09-15
+694,Aisha,Kowalski,aisha.kowalski@uni.example.ac.uk,2004-12-08,F,BIO,2024,active,,United Kingdom,2026-09-15
+39,Leila,Nguyen,leila.nguyen@uni.example.ac.uk,2005-12-05,M,bus ,2025,active,,United Kingdom,2026-09-15
+176,Samuel,Roberts,samuel.roberts@uni.example.ac.uk,2002-04-10,M,MATH,2022,graduated,2025-06-30,United Kingdom,2025-09-15
+246,Oliver,Silva,oliver.silva@uni.example.ac.uk,2006-09-11,f,BUS,2025,active,,United Kingdom,2026-09-15
+893,Samuel,Mafoud,samuel.mafoud@uni.example.ac.uk,2002-11-14,X,LAW,2021,graduated,2024-06-30,France,2024-09-15
+722,Leo,Nguyen,leo.nguyen@uni.example.ac.uk,2005-10-21,female,PSY,2024,active,,United Kingdom,2026-09-15
+944,Samuel,Thomas,samuel.thomas@uni.example.ac.uk,10-05-2003,X,BIO,2026,active,,France,2026-09-15
+925,Lucas,Khan,lucas.khan2@uni.example.ac.uk,11-21-2007,X,CS,2025,active,,Morocco,2026-09-15
+155,Daniel,Clarke,daniel.clarke@uni.example.ac.uk,2006-07-28,M,CS,2024,active,,France,2026-09-15
+639,Isla,Hall,isla.hall@uni.example.ac.uk,2002-03-21,M,LAW,2021,graduated,2024-06-30,United Kingdom,2024-09-15
+288,Leo,Silva,leo.silva@uni.example.ac.uk,2006-04-19,M,IS,2024,active,,United Kingdom,2026-09-15
+626,Yusuf,Mafoud,yusuf.mafoud2@uni.example.ac.uk,2006-03-15,M,MATH,2026,withdrawn,,Morocco,2027-01-10
+742,Jacob,Silva,jacob.silva2uni.example.ac.uk,1998-10-08,F,BUS,2021,graduated,2024-06-30,France,2024-09-15
+570,Sofia,Ali,sofia.ali2@uni.example.ac.uk,2006-06-11,F,ENG,2024,active,,United Kingdom,2026-09-15
+802,Yusuf,Wright,yusuf.wright2@uni.example.ac.uk,2001-06-15,m,LAW,2019,graduated,2022-06-30,United Kingdom,2022-09-15
+18,Mariam,Khan,mariam.khan@uni.example.ac.uk,2006-09-08,M,MATH,2024,active,,Nigeria,2026-09-15
+128,Maya,Mafoud,,2005-12-24,M,IS,2025,active,,France,2026-09-15
+323,Emily,Taylor,,2005-09-21,M,ENG,2025,active,,China,2026-09-15
+256,Sofia,Khan,sofia.khan2@uni.example.ac.uk,2007-12-03,F,IS,2025,active,,France,2026-09-15
+791,Hannah,Haddad,hannah.haddad5@uni.example.ac.uk,1996-06-13,M,LAW,2019,active,,Ireland,2019-09-15
+1034,Yusuf,Begum,,2000-02-17,F,PSY,2020,graduated,2023-06-30,Nigeria,2023-09-15
+191,Isla,Wood,isla.wood@uni.example.ac.uk,2008-05-07,M,CS,2026,withdrawn,,United Kingdom,2027-01-10
+116,Daniel,Ali,daniel.ali@uni.example.ac.uk,2001-06-19,M,PSY,2020,graduated,2023-06-30,France,2023-09-15
+666,Oliver,Wright,oliver.wright@uni.example.ac.uk,2006-12-21,M,MATH,2026,active,,China,2026-09-15
+607,Layla,Ahmed,layla.ahmed@uni.example.ac.uk,18/04/1997,M,MATH,2020,graduated,2023-06-30,India,2023-09-15
+181,Zara,Jones,zara.jones@uni.example.ac.uk,2006-01-11,F,BUS,2024,active,,United Kingdom,2026-09-15
+302,Hannah,Haddad,hannah.haddad3@uni.example.ac.uk,2003-06-06,F,PSY,2022,graduated,2025-06-30,China,2025-09-15
+830,Lucas,Hughes,lucas.hughes3@uni.example.ac.uk,2001-08-11,M,BIO,2020,graduated,2023-06-30,United Kingdom,2023-09-15
+901,Amira,Ali,amira.ali2@uni.example.ac.uk,2007-12-13,X,BIO,2026,active,,United Kingdom,2026-09-15
+781,Liam,Chen,liam.chen@uni.example.ac.uk,2006-01-05,M,BUS,2024,active,,India,2026-09-15
+740,Zara,Jones,zara.jones2@uni.example.ac.uk,2004-09-27,F,CS,2023,graduated,2026-06-30,United Kingdom,2026-09-15
+716,Ryan,Brown,ryan.brown@uni.example.ac.uk,2008-03-09,M,BIO,2026,active,,United Kingdom,2026-09-15
+518,Emily,Roberts,emily.roberts@uni.example.ac.uk,10-19-2003,M,BIO,2021,graduated,2024-06-30,united kingdom,2024-09-15
+373,Maya,Hussain,maya.hussain@uni.example.ac.uk,2008-02-03,F,CS,2026,active,,United Kingdom,2026-09-15
+46,James,Hall,james.hall@uni.example.ac.uk,2007-09-26,M,LAW,2025,active,,Ireland,2026-09-15
+978,Grace,Ahmed,,2000-07-26,F,PSY,2019,withdrawn,,United Kingdom,2020-01-10
+158,Jacob,Ahmed,jacob.ahmed@uni.example.ac.uk,2003-10-13,M,PSY,2022,graduated,2025-06-30,China,2025-09-15
+803,James,Wilson,james.wilson@uni.example.ac.uk,2005-11-12,F,IS,2024,withdrawn,,Nigeria,2025-01-10
+172,Hassan,Begum,hassan.begum2@uni.example.ac.uk,2006-06-10,M,LAW,2024,active,,France,2026-09-15
+17,Amira,Wright,amira.wright@uni.example.ac.uk,2002-04-01,F,MATH,2022,graduated,2025-06-30,United Kingdom,2025-09-15
+512,Nadia,Mafoud,nadia.mafoud@uni.example.ac.uk,1998-12-11,Male,BIO,2021,graduated,2024-06-30,U.K.,2024-09-15
+49,Ryan,Hughes,ryan.hughes@uni.example.ac.uk,2001-10-10,F,PSY,2021,graduated,2024-06-30,United Kingdom,2024-09-15
+192,Leo,Hussain,leo.hussain@uni.example.ac.uk,2005-08-09,M,PSY,2025,withdrawn,,United Kingdom,2026-01-10
+906,Ethan,Smith,ethan.smith4@uni.example.ac.uk,2006-04-07,M,CS,2026,active,,United Kingdom,2026-09-15
+516,Leila,Brown,leila.brown2@uni.example.ac.uk,2005-04-25,F,BUS,2024,active,,France,2026-09-15
+735,Zara,Silva,zara.silva@uni.example.ac.uk,2000-04-01,m,IS,2020,graduated,2023-06-30,India,2023-09-15
+741,James,Evans,james.evans@uni.example.ac.uk,07/02/2000,X,Biology,2019,graduated,2022-06-30,Morocco,2022-09-15
+481,Isla,Hussain,isla.hussain2@uni.example.ac.uk,2001-03-23,M,LAW,2024,active,,China,2026-09-15
+284,Liam,Hall,liam.hall@uni.example.ac.uk,2004-11-27,F,IS,2022,graduated,2025-06-30,Ireland,2025-09-15
+775,Adam,Mafoud,adam.mafoud2@uni.example.ac.uk,2007-09-17,M,Psych,2026,active,,France,2026-09-15
+707,Ethan,Silva,ethan.silva2@uni.example.ac.uk,1999-09-09,X,LAW,2022,graduated,2025-06-30,United Kingdom,2025-09-15
+226,Oliver,Hughes,,2003-10-11,X,PSY,2021,graduated,2024-06-30,India,2024-09-15
+27,Layla,Jones,layla.jones@uni.example.ac.uk,2003-10-03,m,ENG,2021,graduated,2024-06-30,United Kingdom,2024-09-15
+843,Nadia,Hussain,nadia.hussain@uni.example.ac.uk,2004-11-18,M,ENG,2023,graduated,2026-06-30,United Kingdom,2026-09-15
+438,Mariam,Taylor,mariam.taylor@uni.example.ac.uk,1997-07-17,F,BUS,2020,graduated,2023-06-30,United Kingdom,2023-09-15
+1023,Omar,Jnoes,omar27@gmail.com,2002-11-25,X,BUS,2021,graduated,2024-06-30,United Kingdom,2024-09-15
+365,Adam,Wright,adam.wright@uni.example.ac.uk,2008-12-18,m,BUS,2026,active,,United Kingdom,2026-09-15
+230,Nadia,Ibrahim,nadia.ibrahim@uni.example.ac.uk,2004-10-23,F,BIO,2022,graduated,2025-06-30,UK,2025-09-15
+38,Emily,Khan,emily.khan@uni.example.ac.uk,2005-01-12,M,is,2023,graduated,2026-06-30,United Kingdom,2026-09-15
+670,Omar,Ibrahim,omar.ibrahim2@uni.example.ac.uk,2006-07-24,F,,2024,active,,United Kingdom,2026-09-15
+1035,YUSUF,MENSAH,YUSUF.MENSAH@UNI.EXAMPLE.AC.UK,1999-12-24,M,LAW,2019,graduated,2022-06-30,United Kingdom,2022-09-15
+375,James,Ibrahim,james.ibrahim@uni.example.ac.uk,2005-03-01,M,MATH,2023,active,,UK,2023-09-15
+470,Hassan,Roberts,hassan.roberts3@uni.example.ac.uk,2006-01-27,M,,2024,active,,NG,2026-09-15
+1036,ZARA,KOWALSKI,zara59@gmail.com,2005-06-14,X,BUS,2024,active,,United Kingdom,2026-09-15
+688,Aisha,Brown,aisha.brown3@uni.example.ac.uk,1997-08-04,M,BIO,2020,active,,United Kingdom,2020-09-15
+917,Leila,Hughes,leila.hughes2@uni.example.ac.uk,2005-12-28,F,CS,2023,graduated,2026-06-30,France,2026-09-15
+759,Ethan,Wright,ethan.wright@uni.example.ac.uk,,X,BIO,2026,active,,United Kingdom,2026-09-15
+784,Isla,Khan,isla.khan@uni.example.ac.uk,2006-03-12,M,PSY,2024,active,,United Kingdom,2026-09-15
+195,Ryan,Begum,ryan.begum@uni.example.ac.uk,2001-10-27,F,LAW,2020,graduated,2023-06-30,United Kingdom,2023-09-15
+921,Lucas,Wood,lucas.wood2@uni.example.ac.uk,2001-08-11,male,IS,2019,active,,United Kingdom,2019-09-15
+931,Aisha,Wilson,aisha.wilson@uni.example.ac.uk,2004-12-14,F,CS,2022,graduated,2025-06-30,United Kingdom,2025-09-15
+504,Nadia,Ibrahim,nadia.ibrahim3@uni.example.ac.uk,2000-03-18,m,PSY,2019,graduated,2022-06-30,Morocco,2022-09-15
+1037,Mariam,Calrke,,2006-02-28,X,CS,2025,active,,Morocco,2026-09-15
+896,Lucas,Hussain,lucas.hussain2@uni.example.ac.uk,1999-02-02,X,ENG,2019,graduated,2022-06-30,IE,2022-09-15
+580,Amira,Wood,amira.wood@uni.example.ac.uk,2007-10-08,X,,2025,active,,U.K.,2026-09-15
+161,Sofia,Ali,,25/10/2007,X,LAW,2026,active,,Morocco,2026-09-15
+681,Layla,Wood,layla.wood2@uni.example.ac.uk,2005-10-25,M,LAW,2023,graduated,2026-06-30,United Kingdom,2026-09-15
+163,Layla,Jones,,2004-08-02,F,IS,2023,withdrawn,,Morocco,2024-01-10
+706,Layla,Begum,layla.begum@uni.example.ac.uk,2007-06-08,X,cs,2026,active,,India,2026-09-15
+757,Maya,Wright,maya.wright@uni.example.ac.uk,2005-04-24,F,MATH,2024,active,,United Kingdom,2026-09-15
+153,Zara,Haddad,zara.haddad@uni.example.ac.uk,2001-04-10,M,PSY,2019,graduated,2022-06-30,United Kingdom,2022-09-15
+801,Grace,Ibrahim,grace.ibrahim2@uni.example.ac.uk,2003-02-12,X,,2026,active,,United Kingdom,2026-09-15
+755,Adam,Hussain,adam.hussain2@uni.example.ac.uk,2003-05-11,M,CS,2022,graduated,2025-06-30,United Kingdom,2025-09-15
+815,Aisha,Jones,,2000-01-17,M,,2020,graduated,2023-06-30,United Kingdom,2023-09-15
+112,Yusuf,Hall,yusuf.hall@uni.example.ac.uk,2005-01-11,F,LAW,2023,graduated,2026-06-30,United Kingdom,2026-09-15
+227,Hannah,Walker,hannah.walker@uni.example.ac.uk,2003-10-10,F,LAW,2026,active,,United Kingdom,2026-09-15
+884,Leo,Jones,,2003-11-04,F,PSY,2022,graduated,2025-06-30,Morocco,2025-09-15
+104,Leila,Kowalski,leila.kowalski@uni.example.ac.uk,2007-09-09,F,PSY,2025,active,,India,2026-09-15
+422,Samuel,Ali,samuel.ali@uni.example.ac.uk,2002-12-17,X,CS,2020,graduated,2023-06-30,United Kingdom,2023-09-15
+420,Emily,Hussain,emily.hussain3@uni.example.ac.uk,2008-05-24,F,MATH,2026,active,,France,2026-09-15
+809,Nadia,Roberts,nadia.roberts2@uni.example.ac.uk,2006-12-10,F,Maths,2024,withdrawn,,united kingdom,2025-01-10
+587,Isla,Kowalski,isla.kowalski2@uni.example.ac.uk,2001-02-27,M,CS,2019,graduated,2022-06-30,United Kingdom,2022-09-15
+1012,HASSAN,BROWN,hassan89@gmail.com,1999-01-15,X,IS,2022,graduated,2025-06-30,United Kingdom,2025-09-15
+673,Ryan,Ibrahim,ryan.ibrahim2@uni.example.ac.uk,2004-09-01,F,LAW,2024,active,,United Kingdom,2026-09-15
+120,Leila,Rahman,leila.rahman@uni.example.ac.uk,,F,Biology,2021,graduated,2024-06-30,United Kingdom,2024-09-15
+54,Isla,Smith,isla.smith@uni.example.ac.uk,04-06-2001,X,BIO,2020,graduated,2023-06-30,United Kingdom,2023-09-15
+152,Lucas,Ahmed,lucas.ahmed@uni.example.ac.uk,2000-11-19,F,CS,2023,graduated,2026-06-30,United Kingdom,2026-09-15
+404,Daniel,Rahman,daniel.rahman@uni.example.ac.uk,2000-05-10,F,ENG,2023,active,,India,2023-09-15
+1017,MAYA,CLARKE,MAYA.CLARKE2@UNI.EXAMPLE.AC.UK,2007-11-09,F,LAW,2026,active,,United Kingdom,2026-09-15
+208,Nadia,Wright,nadia.wright@uni.example.ac.uk,2002-06-21,M,LAW,2020,graduated,2023-06-30,United Kingdom,2023-09-15
+659,Maya,Jones,maya.jones2@uni.example.ac.uk,2001-09-09,X,MATH,2019,graduated,2022-06-30,United Kingdom,2022-09-15
+910,Omar,Chen,omar.chen2@uni.example.ac.uk,2005-12-14,F,MATH,2024,withdrawn,,France,2025-01-10
+979,Omar,Chen,,2004-01-27,M,IS,2022,graduated,2025-06-30,India,2025-09-15
+9,Emily,Green,,1998-07-20,M,BIO,2021,graduated,2024-06-30,Nigeria,2024-09-15
+870,Liam,Hall,liam.hall2@uni.example.ac.uk,2004-05-10,M,BUS,2022,graduated,2025-06-30,Ireland,2025-09-15
+37,Sofia,Hughes,sofia.hughes@uni.example.ac.uk,2001-01-27,X,BUS,2021,active,,Ireland,2021-09-15
+453,Isla,Begum,isla.begum@uni.example.ac.uk,2005-01-18,M,BIO,2023,graduated,2026-06-30,United Kingdom,2026-09-15
+652,Leila,Wright,leila.wright2@uni.example.ac.uk,2002-07-11,M,BIO,2021,graduated,2024-06-30,India,2024-09-15
+254,Mariam,Walker,mariam.walker@uni.example.ac.uk,2008-08-05,M,CS,2026,active,,Nigeria,2026-09-15
+304,Leo,Wright,leo.wright@uni.example.ac.uk,2002-09-06,X,CS,2022,graduated,2025-06-30,China,2025-09-15
+911,Adam,Roberts,adam.roberts@uni.example.ac.uk,2002-04-19,F,BIO,2022,graduated,2025-06-30,United Kingdom,2025-09-15
+572,Jacob,Smith,jacob.smith@uni.example.ac.uk,1998-04-22,F,MATH,2021,active,,United Kingdom,2021-09-15
+624,Oliver,Rahman,oliver.rahman@uni.example.ac.uk,2004-02-09,F,IS,2022,active,,United Kingdom,2022-09-15
+765,Emily,Mensah,emily.mensah@uni.example.ac.uk,2000-01-02,X,CS,2019,graduated,2022-06-30,Ireland,2022-09-15
+993,Chloe,Patel,chloe.patel2@uni.example.ac.uk,06-26-2003,M,ENG,2026,active,,England,2026-09-15
+263,James,Thomas,james.thomas@uni.example.ac.uk,,F,BUS,2026,active,,Nigeria,2026-09-15
+611,Hannah,Haddad,hannah.haddad4@uni.example.ac.uk,2002-09-07,X,PSY,2022,graduated,2025-06-30,United Kingdom,2025-09-15
+298,Zara,Ali,zara.ali@uni.example.ac.uk,2003-05-09,F,BUS,2021,graduated,2024-06-30,IE,2024-09-15
+415,Maya,Mensah,maya.mensah@uni.example.ac.uk,1996-10-19,m,IS,2019,graduated,2022-06-30,Ireland,2022-09-15
+151,Hassan,Begum,hassan.begum@uni.example.ac.uk,2006-08-14,X,IS,2026,active,,United Kingdom,2026-09-15
+849,Maya,Chen,maya.chen@uni.example.ac.uk,2006-11-02,F,BUS,2025,active,,United Kingdom,2026-09-15
+641,Lucas,Hussain,lucas.hussain@uni.example.ac.uk,2003-11-24,m,IS,2026,active,,United Kingdom,2026-09-15
+957,Ethan,Smith,ethan.smith5@uni.example.ac.uk,2002-04-01,X,IS,2025,active,,England,2026-09-15
+551,Hassan,Roberts,hassan.roberts4@uni.example.ac.uk,2000-02-09,M,MATH,2019,graduated,2022-06-30,United Kingdom,2022-09-15
+852,Hassan,Hughes,,2001-12-27,F,IS,2020,graduated,2023-06-30,Nigeria,2023-09-15
+489,Yusuf,Ibrahim,yusuf.ibrahim2@uni.example.ac.uk,2002-03-24,M,CS,2020,graduated,2023-06-30,Ireland,2023-09-15
+711,Daniel,Wood,daniel.wood@uni.example.ac.uk,2000-08-17,X,law,2019,graduated,2022-06-30,Ireland,2022-09-15
+148,Amira,Ali,amira.ali@uni.example.ac.uk,,F,IS,2021,graduated,2024-06-30,China,2024-09-15
+147,Leo,Ibrahim,leo.ibrahim2@uni.example.ac.uk,09/03/2005,F,LAW,2023,graduated,2026-06-30,United Kingdom,2026-09-15
+778,Lucas,Ibrahim,lucas.ibrahim@uni.example.ac.uk,2002-06-14,F,PSY,2021,graduated,2024-06-30,United Kingdom,2024-09-15
+1003,Chloe,Borwn,CHLOE.BROWN@UNI.EXAMPLE.AC.UK,2001-03-02,M,BIO,2019,graduated,2022-06-30,Ireland,2022-09-15
+854,Ryan,Thomas,ryan.thomas@uni.example.ac.uk,05 Apr 2003,M,PSY,2022,active,,France,2022-09-15
+951,Jacob,Mensah,jacob.mensah@uni.example.ac.uk,2001-07-06,X,LAW,2019,active,,Ireland,2019-09-15
+660,Yusuf,Brown,yusuf.brown@uni.example.ac.uk,1996-06-02,F,PSY,2019,graduated,2022-06-30,United Kingdom,2022-09-15
+349,Mariam,Smith,mariam.smith@uni.example.ac.uk,2006-03-13,X,ENG,2024,active,,United Kingdom,2026-09-15
+464,Hassan,Rahman,hassan.rahman@uni.example.ac.uk,2003-06-22,M,BUS,2022,graduated,2025-06-30,Nigeria,2025-09-15
+326,Omar,Wilson,omar.wilson@uni.example.ac.uk,2004-01-25,X,MATH,2024,active,,IE,2026-09-15
+187,Hassan,Jones,hassan.jonesuni.example.ac.uk,2006-09-18,X,CS,2024,active,,Ireland,2026-09-15
+124,Adam,Jones,adam.jones@uni.example.ac.uk,2007-05-18,F,PSY,2025,active,,India,2026-09-15
+920,Jacob,Ahmed,jacob.ahmed3@uni.example.ac.uk,1998-06-11,female,MTH,2021,graduated,2024-06-30,France,2024-09-15
+609,Hassan,Begum,hassan.begum5@uni.example.ac.uk,2002-03-18,F,BUS,2020,graduated,2023-06-30,Nigeria,2023-09-15
+144,Daniel,Nguyen,daniel.nguyen@uni.example.ac.uk,2001-02-14,M,CS,2024,active,,United Kingdom,2026-09-15
+752,Lucas,Smith,lucas.smith@uni.example.ac.uk,2004-02-17,X,LAW,2022,graduated,2025-06-30,Nigeria,2025-09-15
+1030,CHLOE,HALL,,2005-02-10,X,LAW,2023,graduated,2026-06-30,United Kingdom,2026-09-15
+198,Grace,Thomas,,2004-12-22,F,BUS,2024,active,,India,2026-09-15
+610,Oliver,Roberts,oliver.roberts2@uni.example.ac.uk,11 Sep 2006,M,ENG,2024,active,,China,2026-09-15
+280,Isla,Brown,isla.brown2@uni.example.ac.uk,2001-09-15,X,BIO,2019,graduated,2022-06-30,Morocco,2022-09-15
+294,Zara,Evans,zara.evans@uni.example.ac.uk,2006-02-01,M,LAW,2024,active,,United Kingdom,2026-09-15
+897,Omar,Roberts,omar.roberts@uni.example.ac.uk,2005-05-19,X,CS,2023,graduated,2026-06-30,United Kingdom,2026-09-15
+401,Hannah,Wilson,hannah.wilson@uni.example.ac.uk,2002-06-06,M,IS,2020,graduated,2023-06-30,Nigeria,2023-09-15
+123,Ryan,Silva,ryan.silva@uni.example.ac.uk,2006-08-03,M,ENG,2024,active,,Nigeria,2026-09-15
+184,Liam,Hussain,liam.hussain2@uni.example.ac.uk,04-14-2002,X,BIO,2020,graduated,2023-06-30,United Kingdom,2023-09-15
+203,Leo,Chen,leo.chen@uni.example.ac.uk,2004-03-28,m,BIO,2022,active,,United Kingdom,2022-09-15
+439,Chloe,Evans,chloe.evans@uni.example.ac.uk,2005-08-05,M,IS,2025,active,,France,2026-09-15
+247,Ethan,Evans,ethan.evans@uni.example.ac.uk,13 May 2004,Female,LAW,2022,graduated,2025-06-30,United Kingdom,2025-09-15
+416,Emily,Brown,emily.brown@uni.example.ac.uk,2002-10-25,F,LAW,2020,graduated,2023-06-30,Ireland,2023-09-15
+837,Yusuf,Smith,yusuf.smith2@uni.example.ac.uk,2006-08-22,X,Engineering,2024,active,,UK,2026-09-15
+825,Zara,Mafoud,zara.mafoud3@uni.example.ac.uk,13/10/2003,X,PSY,2026,active,,United Kingdom,2026-09-15
+975,Layla,Roberts,layla.roberts@uni.example.ac.uk,2008-09-25,male,CS,2026,withdrawn,,United Kingdom,2027-01-10
+828,Noah,Haddad,noah.haddad@uni.example.ac.uk,2002-11-25,M,,2020,graduated,2023-06-30,United Kingdom,2023-09-15
+955,Nadia,Hughes,nadia.hughes2@uni.example.ac.uk,2002-04-08,X,MATH,2020,graduated,2023-06-30,France,2023-09-15
+130,Omar,Ibrahim,omar.ibrahim@uni.example.ac.uk,2004-11-12,F,,2024,active,,United Kingdom,2026-09-15
+638,Daniel,Brown,daniel.brown2@uni.example.ac.uk,1999-03-19,M,BUS,2022,graduated,2025-06-30,United Kingdom,2025-09-15
+403,Mariam,Begum,mariam.begum2@uni.example.ac.uk,2003-02-11,M,ENG,2021,graduated,2024-06-30,China,2024-09-15
+845,Ethan,Taylor,ethan.taylor@uni.example.ac.uk,2008-11-18,M,CS,2026,active,,Nigeria,2026-09-15
+831,James,Ali,james.ali@uni.example.ac.uk,16 Mar 2000,F,ENG,2023,graduated,2026-06-30,France,2026-09-15
+736,Daniel,Mensah,daniel.mensah3@uni.example.ac.uk,2006-11-10,F,LAW,2024,active,,Nigeria,2026-09-15
+982,Omar,Ibrahim,omar.ibrahim3@uni.example.ac.uk,1999-01-10,M,IS,2019,graduated,2022-06-30,India,2022-09-15
+220,Zara,Walker,zara.walker@uni.example.ac.uk,2008-04-19,F,PSY,2026,active,,France,2026-09-15
+642,Yusuf,Smith,yusuf.smith@uni.example.ac.uk,2003-10-20,M,MATH,2023,graduated,2026-06-30,Morocco,2026-09-15
+984,Mariam,Haddad,mariam.haddad3@uni.example.ac.uk,2002-11-22,M,LAW,2020,active,,India,2020-09-15
+811,Isla,Wood,isla.wood3@uni.example.ac.uk,2002-01-25,M,CS,2020,active,,United Kingdom,2020-09-15
+868,Chloe,Wilson,chloe.wilson@uni.example.ac.uk,2003-07-20,F,BUS,2021,graduated,2024-06-30,United Kingdom,2024-09-15
+989,Layla,Wright,layla.wright@uni.example.ac.uk,2003-04-17,X,CS,2021,active,,Ireland,2021-09-15
+625,Hassan,Begum,hassan.begum6@uni.example.ac.uk,2007-06-07,X,CS,2025,active,,United Kingdom,2026-09-15
+904,Grace,Brown,grace.brown2@uni.example.ac.uk,2003-11-28,M,IS,2022,graduated,2025-06-30,United Kingdom,2025-09-15
+820,Noah,Roberts,noah.roberts2@uni.example.ac.uk,2000-08-08,F,ENG,2023,active,,United Kingdom,2023-09-15
+387,Jacob,Kowalski,jacob.kowalski@uni.example.ac.uk,03-06-2007,F,Law,2025,active,,India,2026-09-15
+1039,Layla,Cehn,,2001-04-22,X,BUS,2021,graduated,2024-06-30,United Kingdom,2024-09-15
+807,Emily,Walker,emily.walker2@uni.example.ac.uk,2004-09-20,other,IS,2022,graduated,2025-06-30,Ireland,2025-09-15
+510,Oliver,Jones,oliver.jones2@uni.example.ac.uk,2004-08-15,F,bus ,2022,graduated,2025-06-30,India,2025-09-15
+268,Noah,Silva,noah.silva@uni.example.ac.uk,2002-01-18,M,BUS,2021,graduated,2024-06-30,Ireland,2024-09-15
+882,Ethan,Ahmed,ethan.ahmed2uni.example.ac.uk,2003-06-03,F,BUS,2021,graduated,2024-06-30,United Kingdom,2024-09-15
+442,Ethan,Thomas,ethan.thomas@uni.example.ac.uk,09-07-2001,F,,2019,graduated,2022-06-30,Nigeria,2022-09-15
+497,James,Hussain,,2004-09-03,m,CS,2022,graduated,2025-06-30,Morocco,2025-09-15
+113,Lucas,Brown,lucas.brown@uni.example.ac.uk,2002-07-19,M,BUS,2022,graduated,2025-06-30,United Kingdom,2025-09-15
+692,Grace,Jones,grace.jones@uni.example.ac.uk,13 Aug 2003,male,MATH,2023,graduated,2026-06-30,Nigeria,2026-09-15
+233,Yusuf,Roberts,yusuf.roberts@uni.example.ac.uk,2004-06-22,F,BIO,2024,active,,United Kingdom,2026-09-15
+936,James,Begum,james.begum@uni.example.ac.uk,2002-04-15,X,ENG,2021,graduated,2024-06-30,India,2024-09-15
+608,Grace,Ali,grace.ali4@uni.example.ac.uk,2002-02-25,F,BIO,2025,active,,China,2026-09-15
+672,Grace,Roberts,grace.roberts3@uni.example.ac.uk,2005-07-24,X,PSY,2024,withdrawn,,India,2025-01-10
+374,Nadia,Silva,nadia.silva@uni.example.ac.uk,2006-02-23,F,ENG,2024,active,,Nigeria,2026-09-15
+664,Lucas,Walker,lucas.walker2@uni.example.ac.uk,1999-04-20,X,IS,2022,withdrawn,,France,2023-01-10
+909,James,Walker,james.walker@uni.example.ac.uk,11 Oct 2000,F,ENG,2019,graduated,2022-06-30,France,2022-09-15
+234,Liam,Wilson,liam.wilson2@uni.example.ac.uk,05-25-2005,M,BIO,2023,graduated,2026-06-30,United Kingdom,2026-09-15
+1015,FATIMA,WOOD,FATIMA.WOOD@UNI.EXAMPLE.AC.UK,1999-01-22,F,CS,2019,graduated,2022-06-30,China,2022-09-15
+846,Chloe,Mafoud,chloe.mafoud@uni.example.ac.uk,2008-04-05,F,Eng.,2026,active,,Ireland,2026-09-15
+677,Samuel,Khan,samuel.khan2@uni.example.ac.uk,2004-08-17,M,BUS,2022,withdrawn,,United Kingdom,2023-01-10
+318,Zara,Haddad,zara.haddad2@uni.example.ac.uk,2005-02-12,M,BUS,2025,active,,MA,2026-09-15
+649,Daniel,Thomas,daniel.thomas2@uni.example.ac.uk,1999-07-17,F,MATH,2019,graduated,2022-06-30,United Kingdom,2022-09-15
+411,Hassan,Silva,,2006-04-16,M,CS,2026,active,,Nigeria,2026-09-15
+966,Sofia,Kowalski,sofia.kowalski@uni.example.ac.uk,2000-01-27,M,IS,2020,graduated,2023-06-30,U.K.,2023-09-15
+710,Ethan,Green,ethan.green2@uni.example.ac.uk,1997-11-18,F,CS,2020,graduated,2023-06-30,United Kingdom,2023-09-15
+359,Ethan,Silva,ethan.silva@uni.example.ac.uk,2003-03-09,X,IS,2021,active,,United Kingdom,2021-09-15
+259,Jacob,Mafoud,jacob.mafouduni.example.ac.uk,2002-09-13,male,CS,2020,graduated,2023-06-30,United Kingdom,2023-09-15
+745,Omar,Chen,omar.chen@uni.example.ac.uk,2004-04-14,M,LAW,2022,active,,United Kingdom,2022-09-15
+628,Amira,Evans,amira.evans@uni.example.ac.uk,16/08/2002,M,MATH,2020,withdrawn,,United Kingdom,2021-01-10
+633,Jacob,Haddad,jacob.haddad2@uni.example.ac.uk,2002-04-17,X,CS,2020,graduated,2023-06-30,United Kingdom,2023-09-15
+283,Layla,Wilson,layla.wilson@uni.example.ac.uk,2006-07-03,M,BIO,2024,active,,India,2026-09-15
+377,Nadia,Thomas,nadia.thomas@uni.example.ac.uk,2001-11-21,other,PSY,2024,active,,United Kingdom,2026-09-15
+385,James,Kowalski,,2006-06-25,M,bus ,2026,active,,United Kingdom,2026-09-15
+225,James,Khan,james.khan3@uni.example.ac.uk,,X,BIO,2019,graduated,2022-06-30,United Kingdom,2022-09-15
+1027,CHLOE,HUSSAIN,chloe64@gmail.com,2003-06-25,F,PSY,2023,graduated,2026-06-30,United Kingdom,2026-09-15
+877,Emily,Jones,emily.jones@uni.example.ac.uk,2001-09-14,F,LAW,2024,active,,United Kingdom,2026-09-15
+473,Omar,Khan,omar.khan@uni.example.ac.uk,2002-03-27,M,IS,2021,graduated,2024-06-30,United Kingdom,2024-09-15
+348,James,Kowalski,james.kowalski@uni.example.ac.uk,2003-07-04,X,IS,2022,graduated,2025-06-30,Nigeria,2025-09-15
+506,Aisha,Haddad,aisha.haddad@uni.example.ac.uk,2005-09-03,F,MATH,2025,active,,IE,2026-09-15
+640,Daniel,Nguyen,daniel.nguyen2@uni.example.ac.uk,2002-06-27,F,LAW,2020,graduated,2023-06-30,Ireland,2023-09-15
+1046,Oliver,Clarke,,2005-08-06,M,BIO,2025,active,,United Kingdom,2026-09-15
+798,Samuel,Smith,samuel.smith2@uni.example.ac.uk,2003-05-21,M,IS,2021,active,,Morocco,2021-09-15
+1000,Lucas,Green,lucas.green2@uni.example.ac.uk,2004-10-19,X,PSY,2022,graduated,2025-06-30,United Kingdom,2025-09-15
+974,Lucas,Green,lucas.green@uni.example.ac.uk,2001-07-28,F,IS,2019,graduated,2022-06-30,Morocco,2022-09-15
+620,Layla,Hall,layla.hall@uni.example.ac.uk,2004-01-22,M,BIO,2022,graduated,2025-06-30,India,2025-09-15
+953,Emily,Hussain,emily.hussain5@uni.example.ac.uk,2002-03-02,f,BUS,2025,active,,United Kingdom,2026-09-15
+865,Hassan,Begum,hassan.begum7@uni.example.ac.uk,2005-08-28,F,BUS,2024,active,,MA,2026-09-15
+646,Yusuf,Mensah,yusuf.mensah3@uni.example.ac.uk,2006-08-23,M,MTH,2026,active,,Ireland,2026-09-15
+913,Chloe,Hussain,chloe.hussain2@uni.example.ac.uk,,M,BIO,2020,active,,United Kingdom,2020-09-15
+557,Mariam,Hughes,mariam.hughes@uni.example.ac.uk,2004-03-25,F,ENG,2023,graduated,2026-06-30,United Kingdom,2026-09-15
+682,Chloe,Hussain,chloe.hussain@uni.example.ac.uk,2003-06-25,Female,PSY,2023,graduated,2026-06-30,United Kingdom,2026-09-15
+578,Liam,Kowalski,,2001-05-12,M,psy,2020,graduated,2023-06-30,United Kingdom,2023-09-15
+796,Daniel,Roberts,,2003-03-27,X,BIO,2021,graduated,2024-06-30,United Kingdom,2024-09-15
+86,Samuel,Wright,samuel.wright@uni.example.ac.uk,2005-04-04,M,MATH,2023,graduated,2026-06-30,Nigeria,2026-09-15
+243,Noah,Wright,noah.wright@uni.example.ac.uk,2002-05-15,X,BIO,2020,graduated,2023-06-30,United Kingdom,2023-09-15
+699,Aisha,Kowalski,aisha.kowalski2@uni.example.ac.uk,2004-12-12,non-binary,CS,2023,active,,India,2023-09-15
+941,Adam,Hussain,adam.hussain3@uni.example.ac.uk,2006-05-16,M,BUS,2024,withdrawn,,India,2025-01-10
+160,Adam,Rahman,adam.rahman@uni.example.ac.uk,2003-02-05,Male,BUS,2021,graduated,2024-06-30,Morocco,2024-09-15
+525,Liam,Begum,liam.begum@uni.example.ac.uk,2001-02-16,M,MATH,2024,active,,India,2026-09-15
+36,Leila,Brown,leila.brown@uni.example.ac.uk,2005-12-15,M,CS,2023,active,,United Kingdom,2023-09-15
+541,Samuel,Hall,samuel.hall@uni.example.ac.uk,2003-04-17,F,CS,2021,graduated,2024-06-30,United Kingdom,2024-09-15
+171,Samuel,Evans,samuel.evans3@uni.example.ac.uk,1998-12-27,X,IS,2021,active,,Morocco,2021-09-15
+655,Daniel,Thomas,daniel.thomas3@uni.example.ac.uk,,M,BUS,2019,graduated,2022-06-30,United Kingdom,2022-09-15
+971,Layla,Chen,layla.chen@uni.example.ac.uk,2001-04-22,X,BUS,2021,graduated,2024-06-30,United Kingdom,2024-09-15
+924,Maya,Brown,maya.brown@uni.example.ac.uk,09-03-1996,F,ENG,2019,graduated,2022-06-30,United Kingdom,2022-09-15
+914,Samuel,Begum,samuel.begum@uni.example.ac.uk,2008-04-07,F,LAW,2026,active,,United Kingdom,2026-09-15
+1016,LIAM,JONES,liam4@gmail.com,2005-03-06,X,IS,2023,graduated,2026-06-30,Morocco,2026-09-15
+734,Isla,Evans,isla.evans@uni.example.ac.uk,2005-01-17,M,BIO,2025,active,,Ireland,2026-09-15
+96,Adam,Begum,adam.begum@uni.example.ac.uk,,F,ENG,2024,active,,CN,2026-09-15
+564,Emily,Kowalski,emily.kowalski2@uni.example.ac.uk,2002-01-06,M,LAW,2021,graduated,2024-06-30,France,2024-09-15
+241,Grace,Khan,grace.khan@uni.example.ac.uk,1997-10-08,F,BUS,2020,active,,Ireland,2020-09-15
+743,Grace,Smith,grace.smith2uni.example.ac.uk,2006-01-08,M,CS,2026,active,,United Kingdom,2026-09-15
+864,Chloe,Green,chloe.green@uni.example.ac.uk,,M,BUS,2023,graduated,2026-06-30,India,2026-09-15
+575,Grace,Brown,grace.brown@uni.example.ac.uk,2001-03-01,F,LAW,2021,withdrawn,,France,2022-01-10
+691,Oliver,Wright,oliver.wright2@uni.example.ac.uk,,F,LAW,2021,graduated,2024-06-30,Nigeria,2024-09-15
+461,Oliver,Thomas,oliver.thomas@uni.example.ac.uk,2004-01-28,M,,2024,active,,France,2026-09-15
+554,Ryan,Ibrahim,ryan.ibrahim@uni.example.ac.uk,2003-12-07,M,PSY,2022,graduated,2025-06-30,United Kingdom,2025-09-15
+858,Zara,Hussain,zara.hussain@uni.example.ac.uk,2001-02-18,M,ENG,2024,active,,United Kingdom,2026-09-15
+945,Hassan,Roberts,hassan.roberts5@uni.example.ac.uk,03/06/1998,X,Engineering,2021,graduated,2024-06-30,IE,2024-09-15
+207,Mariam,Jones,mariam.jones@uni.example.ac.uk,2002-07-23,X,ENG,2020,graduated,2023-06-30,Ireland,2023-09-15
+393,Ethan,Green,ethan.green@uni.example.ac.uk,2006-12-18,X,LAW,2024,active,,United Kingdom,2026-09-15
+795,Hannah,Jones,hannah.jones@uni.example.ac.uk,2007-01-14,F,ENG,2025,active,,United Kingdom,2026-09-15
+871,Jacob,Taylor,jacob.taylor@uni.example.ac.uk,2004-12-22,M,ENG,2022,active,,United Kingdom,2022-09-15
+398,Fatima,Taylor,fatima.taylor3@uni.example.ac.uk,1999-02-12,F,CS,2022,graduated,2025-06-30,United Kingdom,2025-09-15
+767,Ryan,Begum,ryan.begum2@uni.example.ac.uk,10 Jun 2004,F,CS,2022,graduated,2025-06-30,France,2025-09-15
+915,Adam,Ibrahim,adam.ibrahim@uni.example.ac.uk,2003-09-02,F,,2021,active,,United Kingdom,2021-09-15
+218,Jacob,Haddad,jacob.haddad@uni.example.ac.uk,2007-03-27,X,LAW,2025,active,,united kingdom,2026-09-15
+5,Zara,Wilson,zara.wilson2@uni.example.ac.uk,1999-06-27,F,Maths,2022,graduated,2025-06-30,United Kingdom,2025-09-15
+769,Maya,Wood,maya.wood@uni.example.ac.uk,1998-07-06,F,BIO,2021,graduated,2024-06-30,CN,2024-09-15
+643,Amira,Mafoud,amira.mafoud2@uni.example.ac.uk,1997-08-05,X,BIO,2020,graduated,2023-06-30,China,2023-09-15
+965,Ethan,Smith,ethan.smith6@uni.example.ac.uk,1996-03-14,M,ENG,2019,active,,Nigeria,2019-09-15
+613,Emily,Hughes,emily.hughes@uni.example.ac.uk,2005-05-08,F,CS,2023,graduated,2026-06-30,China,2026-09-15
+739,Mariam,Green,mariam.green4@uni.example.ac.uk,2003-04-05,F,MATH,2026,withdrawn,,France,2027-01-10
+547,Isla,Jones,isla.jones@uni.example.ac.uk,05-24-2000,other,LAW,2020,active,,united kingdom,2020-09-15
+726,James,Smith,,2002-10-22,M,IS,2020,graduated,2023-06-30,China,2023-09-15
+986,Layla,Wilson,layla.wilson2@uni.example.ac.uk,2005-08-24,M,MATH,2024,active,,United Kingdom,2026-09-15
+684,Hannah,Wilson,hannah.wilson2@uni.example.ac.uk,1998-05-19,F,PSY,2021,graduated,2024-06-30,India,2024-09-15
+99,Leila,Chen,leila.chen@uni.example.ac.uk,2008-04-09,F,BIO,2026,active,,China,2026-09-15
+805,Samuel,Hussain,samuel.hussain2@uni.example.ac.uk,2000-12-23,X,LAW,2023,active,,United Kingdom,2023-09-15
+728,Isla,Ali,isla.ali@uni.example.ac.uk,2005-08-22,M,PSY,2023,graduated,2026-06-30,Ireland,2026-09-15
+574,Fatima,Haddad,fatima.haddad@uni.example.ac.uk,11-13-2003,M,PSY,2021,graduated,2024-06-30,France,2024-09-15
+407,Jacob,Ahmed,,2004-08-16,F,IS,2023,active,,Morocco,2023-09-15
+503,Omar,Hussain,,10/02/2003,M,ENG,2023,graduated,2026-06-30,Ireland,2026-09-15
+48,Lucas,Evans,lucas.evans@uni.example.ac.uk,,M,ENG,2025,active,,Morocco,2026-09-15
+33,Omar,Hughes,omar.hughes@uni.example.ac.uk,2003-02-04,M,PSY,2021,graduated,2024-06-30,United Kingdom,2024-09-15
+780,Aisha,Ibrahim,aisha.ibrahim2@uni.example.ac.uk,2007-05-19,F,Business,2026,active,,United Kingdom,2026-09-15
+840,Oliver,Hussain,oliver.hussain2@uni.example.ac.uk,2005-04-16,F,MATH,2024,active,,United Kingdom,2026-09-15
+201,Adam,Thomas,adam.thomas@uni.example.ac.uk,2001-05-08,F,BUS,2024,active,,France,2026-09-15
+135,Samuel,Kowalski,samuel.kowalski@uni.example.ac.uk,2002-06-01,F,BUS,2022,graduated,2025-06-30,China,2025-09-15
+28,Mariam,Wright,mariam.wright@uni.example.ac.uk,02/10/2002,M,LAW,2022,graduated,2025-06-30,United Kingdom,2025-09-15
+947,Sofia,Silva,sofia.silva2@uni.example.ac.uk,1998-01-19,F,IS,2021,graduated,2024-06-30,Morocco,2024-09-15
+231,Lucas,Brown,lucas.brown2@uni.example.ac.uk,2002-04-14,X,BIO,2025,active,,China,2026-09-15
+490,Fatima,Nguyen,fatima.nguyen2@uni.example.ac.uk,2005-03-19,F,LAW,2023,graduated,2026-06-30,France,2026-09-15
+773,Isla,Wood,isla.wood2@uni.example.ac.uk,2004-06-08,M,MATH,2022,graduated,2025-06-30,China,2025-09-15
+379,Maya,Khan,maya.khan3@uni.example.ac.uk,07-27-2001,M,CS,2021,graduated,2024-06-30,Ireland,2024-09-15
+289,Yusuf,Wright,yusuf.wright@uni.example.ac.uk,2002-07-22,Female,ENG,2022,graduated,2025-06-30,China,2025-09-15
+419,Mariam,Mafoud,mariam.mafoud2@uni.example.ac.uk,2001-05-10,M,IS,2019,active,,U.K.,2019-09-15
+675,Oliver,Ahmed,oliver.ahmed2@uni.example.ac.uk,23 Jun 2000,M,IS,2023,withdrawn,,France,2024-01-10
+392,Hassan,Thomas,hassan.thomas@uni.example.ac.uk,2002-05-11,M,ENG,2020,graduated,2023-06-30,Morocco,2023-09-15
+593,Yusuf,Kowalski,yusuf.kowalski3@uni.example.ac.uk,2003-02-13,F,CS,2023,graduated,2026-06-30,India,2026-09-15
+499,Nadia,Jones,nadia.jones@uni.example.ac.uk,2003-08-23,F,IS,2021,graduated,2024-06-30,United Kingdom,2024-09-15
+139,Hannah,Haddad,hannah.haddad@uni.example.ac.uk,2003-03-09,X,LAW,2021,graduated,2024-06-30,Ireland,2024-09-15
+63,Leo,Brown,leo.brown@uni.example.ac.uk,2000-10-19,F,ENG,2019,graduated,2022-06-30,United Kingdom,2022-09-15
+472,Liam,Smith,liam.smith2@uni.example.ac.uk,2006-11-26,X,LAW,2024,active,,China,2026-09-15
+648,Ryan,Wright,ryan.wright@uni.example.ac.uk,1999-02-15,F,MATH,2019,active,,Nigeria,2019-09-15
+129,Oliver,Begum,oliver.begum@uni.example.ac.uk,2005-12-12,M,MATH,2023,graduated,2026-06-30,United Kingdom,2026-09-15
+1041,Oliver,Hussain,OLIVER.HUSSAIN@UNI.EXAMPLE.AC.UK,2006-10-17,M,MATH,2024,active,,United Kingdom,2026-09-15
+521,Isla,Walker,isla.walker@uni.example.ac.uk,2000-05-19,M,ENG,2023,graduated,2026-06-30,Morocco,2026-09-15
+839,Omar,Kowalski,omar.kowalski@uni.example.ac.uk,2008-12-22,m,LAW,2026,active,,United Kingdom,2026-09-15
+1032,OMAR,BROWN,OMAR.BROWN@UNI.EXAMPLE.AC.UK,2002-07-15,X,ENG,2020,graduated,2023-06-30,United Kingdom,2023-09-15
+65,Leila,Hughes,leila.hughes@uni.example.ac.uk,2007-07-09,M,CS,2025,active,,China,2026-09-15
+813,Samuel,Ahmed,samuel.ahmed3@uni.example.ac.uk,2002-04-06,F,IS,2022,graduated,2025-06-30,United Kingdom,2025-09-15
+15,Hassan,Chen,hassan.chen@uni.example.ac.uk,2003-09-28,M,MATH,2021,graduated,2024-06-30,China,2024-09-15
+157,Zara,Smith,zara.smith@uni.example.ac.uk,10-15-2006,F,IS,2024,active,,Eire,2026-09-15
+41,Yusuf,Kowalski,yusuf.kowalski@uni.example.ac.uk,2001-01-28,male,BIO,2020,graduated,2023-06-30,United Kingdom,2023-09-15
+493,Yusuf,Begum,,2007-06-08,F,LAW,2025,active,,United Kingdom,2026-09-15
+380,Hassan,Begum,hassan.begum4@uni.example.ac.uk,2003-04-06,M,BUS,2021,graduated,2024-06-30,England,2024-09-15
+188,Jacob,Chen,jacob.chen@uni.example.ac.uk,1996-07-12,Female,LAW,2019,graduated,2022-06-30,United Kingdom,2022-09-15
+764,Fatima,Smith,fatima.smith@uni.example.ac.uk,08 Apr 2002,X,MATH,2025,active,,India,2026-09-15
+217,Liam,Roberts,liam.roberts2@uni.example.ac.uk,2002-08-08,F,PSY,2020,graduated,2023-06-30,Ireland,2023-09-15
+922,Adam,Hall,adam.hall@uni.example.ac.uk,2007-11-22,X,ENG,2025,active,,United Kingdom,2026-09-15
+792,Adam,Smith,adam.smith@uni.example.ac.uk,2005-06-10,X,IS,2023,active,,United Kingdom,2023-09-15
+53,Lucas,Hughes,lucas.hughes@uni.example.ac.uk,1999-12-13,M,BUS,2022,graduated,2025-06-30,Maroc,2025-09-15
+879,Hannah,Begum,hannah.begum2@uni.example.ac.uk,2003-12-16,M,BIO,2021,graduated,2024-06-30,UK,2024-09-15
+338,Leo,Brown,leo.brown2@uni.example.ac.uk,2005-05-03,F,IS,2023,graduated,2026-06-30,U.K.,2026-09-15
+749,Amira,Hughes,amira.hughes@uni.example.ac.uk,2008-01-01,F,PSY,2026,active,,Ireland,2026-09-15
+720,Leila,Mensah,leila.mensah2@uni.example.ac.uk,2003-11-23,female,BUS,2022,graduated,2025-06-30,Nigeria,2025-09-15
+725,Omar,Walker,omar.walker@uni.example.ac.uk,,Female,PSY,2020,graduated,2023-06-30,United Kingdom,2023-09-15
+296,Amira,Jones,amira.jones@uni.example.ac.uk,2004-02-20,F,ENG,2024,active,,United Kingdom,2026-09-15
+702,Hannah,Hall,hannah.hall@uni.example.ac.uk,2006-07-14,M,BIO,2025,active,,United Kingdom,2026-09-15
+252,Maya,Walker,,04/10/2006,X,MATH,2024,active,,IN,2026-09-15
+727,Omar,Jones,omar.jones@uni.example.ac.uk,2002-11-25,non-binary,BUS,2021,graduated,2024-06-30,United Kingdom,2024-09-15
+462,Omar,Hughes,omar.hughes3@uni.example.ac.uk,2006-01-03,F,CS,2025,active,,China,2026-09-15
+456,Fatima,Roberts,fatima.roberts2@uni.example.ac.uk,2001-03-28,F,LAW,2019,withdrawn,,Morocco,2020-01-10
+271,Chloe,Kowalski,chloe.kowalski@uni.example.ac.uk,2003-04-28,F,Computer Science,2022,graduated,2025-06-30,United Kingdom,2025-09-15
+816,Mariam,Wood,mariam.wood@uni.example.ac.uk,1996-02-07,Male,LAW,2019,graduated,2022-06-30,China,2022-09-15
+863,Amira,Wood,amira.wood3@uni.example.ac.uk,1996-11-06,M,CS,2019,graduated,2022-06-30,Ireland,2022-09-15
+270,Ryan,Clarke,ryan.clarke@uni.example.ac.uk,,X,cs,2022,graduated,2025-06-30,United Kingdom,2025-09-15
+1024,Sofia,Nguyen,,2003-11-03,M,MATH,2026,active,,France,2026-09-15
+202,Layla,Thomas,layla.thomas@uni.example.ac.uk,2002-05-23,X,PSY,2020,active,,China,2020-09-15
+162,Hannah,Brown,hannah.brown@uni.example.ac.uk,2008-08-15,F,CS,2026,active,,United Kingdom,2026-09-15
+556,Hassan,Chen,hassan.chen2@uni.example.ac.uk,1999-01-28,X,LAW,2019,graduated,2022-06-30,France,2022-09-15
+730,Hannah,Khan,hannah.khan2@uni.example.ac.uk,2005-03-15,M,ENG,2023,graduated,2026-06-30,United Kingdom,2026-09-15
+402,Mariam,Jones,mariam.jones2@uni.example.ac.uk,2004-10-16,M,BUS,2024,active,,India,2026-09-15
+703,Chloe,Nguyen,chloe.nguyen@uni.example.ac.uk,2007-07-05,M,BUS,2025,active,,United Kingdom,2026-09-15
+477,Ethan,Mensah,ethan.mensah@uni.example.ac.uk,,M,IS,2021,graduated,2024-06-30,Ireland,2024-09-15
+822,Maya,Walker,maya.walker2uni.example.ac.uk,2002-03-13,X,IS,2020,graduated,2023-06-30,China,2023-09-15
+772,Omar,Thomas,omar.thomas3@uni.example.ac.uk,2005-10-02,M,IS,2024,active,,NG,2026-09-15
+106,Leo,Evans,leo.evans@uni.example.ac.uk,19 Apr 1999,M,CS,2022,graduated,2025-06-30,U.K.,2025-09-15
+566,Nadia,Green,nadia.green@uni.example.ac.uk,2001-12-11,F,PSY,2020,graduated,2023-06-30,United Kingdom,2023-09-15
+390,Ethan,Smith,ethan.smith2@uni.example.ac.uk,2004-04-26,Male,LAW,2024,active,,United Kingdom,2026-09-15
+2,Chloe,Hall,chloe.hall@uni.example.ac.uk,2002-11-08,F,MATH,2020,graduated,2023-06-30,England,2023-09-15
+1009,Hassan,Green,,2001-07-22,X,PSY,2019,graduated,2022-06-30,India,2022-09-15
+1044,JAMES,NGUYEN,JAMES.NGUYEN@UNI.EXAMPLE.AC.UK,2001-02-10,M,CS,2019,graduated,2022-06-30,United Kingdom,2022-09-15
+562,Lucas,Hall,lucas.hall@uni.example.ac.uk,2006-07-09,X,BUS,2024,active,,India,2026-09-15
+932,Fatima,Green,fatima.green@uni.example.ac.uk,2006-01-25,F,BIO,2024,active,,United Kingdom,2026-09-15
+81,Chloe,Rahman,chloe.rahmanuni.example.ac.uk,2008-12-19,X,PSY,2026,active,,United Kingdom,2026-09-15
+206,Samuel,Chen,samuel.chen@uni.example.ac.uk,2001-09-19,X,BUS,2019,graduated,2022-06-30,India,2022-09-15
+35,Mariam,Mensah,mariam.mensah@uni.example.ac.uk,2001-11-14,F,CS,2019,graduated,2022-06-30,United Kingdom,2022-09-15
+943,Daniel,Mafoud,daniel.mafoud@uni.example.ac.uk,2002-07-16,X,BIO,2020,graduated,2023-06-30,United Kingdom,2023-09-15
+776,Oliver,Mafoud,oliver.mafoud@uni.example.ac.uk,2002-08-03,M,PSY,2020,graduated,2023-06-30,United Kingdom,2023-09-15
+509,Omar,Taylor,omar.taylor@uni.example.ac.uk,2008-06-05,M,IS,2026,active,,United Kingdom,2026-09-15
+428,Grace,Ali,grace.ali3@uni.example.ac.uk,2001-05-20,F,PSY,2019,active,,Ireland,2019-09-15
+455,Leila,Walker,leila.walker@uni.example.ac.uk,1997-12-04,M,BIO,2020,graduated,2023-06-30,United Kingdom,2023-09-15
+1038,Zara,Mafoud,zara5@gmail.com,2002-12-07,F,MATH,2021,graduated,2024-06-30,United Kingdom,2024-09-15
+367,Leila,Ibrahim,leila.ibrahim@uni.example.ac.uk,2002-12-10,X,MATH,2025,active,,Eire,2026-09-15
+92,Samuel,Hussain,samuel.hussain@uni.example.ac.uk,2004-02-15,M,PSY,2023,active,,Nigeria,2023-09-15
+340,Sofia,Hall,sofia.hall2@uni.example.ac.uk,2002-04-16,X,MATH,2020,graduated,2023-06-30,NG,2023-09-15
+898,Ryan,Ibrahim,ryan.ibrahim3@uni.example.ac.uk,2008-03-27,F,ENG,2026,active,,China,2026-09-15
+565,Noah,Wilson,noah.wilson@uni.example.ac.uk,2000-02-23,M,PSY,2019,graduated,2022-06-30,France,2022-09-15
+346,Lucas,Evans,,2003-05-21,X,PSY,2021,graduated,2024-06-30,China,2024-09-15
+777,Omar,Ali,omar.ali@uni.example.ac.uk,2005-12-05,M,CS,2023,active,,United Kingdom,2023-09-15
+242,Mariam,Clarke,mariam.clarke2@uni.example.ac.uk,2003-07-26,F,CS,2021,active,,United Kingdom,2021-09-15
+14,James,Patel,james.patel@uni.example.ac.uk,16 Dec 2002,X,BUS,2020,graduated,2023-06-30,United Kingdom,2023-09-15
+316,Aisha,Begum,aisha.begum2@uni.example.ac.uk,2007-12-07,F,IS,2025,active,,Nigeria,2026-09-15
+601,Ryan,Jones,ryan.jones@uni.example.ac.uk,22/09/2007,X,BUS,2025,active,,India,2026-09-15
+388,Amira,Hall,amira.hall@uni.example.ac.uk,2004-10-05,M,BIO,2024,active,,Nigeria,2026-09-15
+274,Layla,Hughes,layla.hughes@uni.example.ac.uk,2007-02-26,M,law,2026,active,,United Kingdom,2026-09-15
+167,Maya,Roberts,maya.roberts@uni.example.ac.uk,2003-06-10,F,CS,2021,graduated,2024-06-30,Morocco,2024-09-15
+841,Fatima,Khan,fatima.khan@uni.example.ac.uk,2003-07-26,F,IS,2023,graduated,2026-06-30,India,2026-09-15
+21,Ryan,Evans,ryan.evans@uni.example.ac.uk,2002-04-07,M,ENG,2020,graduated,2023-06-30,United Kingdom,2023-09-15
+647,Zara,Wood,zara.wood@uni.example.ac.uk,1999-12-27,F,Engineering,2019,graduated,2022-06-30,India,2022-09-15
+819,Leila,Mafoud,,2003-12-02,M,IS,2023,graduated,2026-06-30,Ireland,2026-09-15
+485,Leila,Nguyen,leila.nguyen2@uni.example.ac.uk,2001-08-04,X,MATH,2019,graduated,2022-06-30,China,2022-09-15
+1043,HANNAH,GREEN,hannah65@gmail.com,2003-11-02,F,MATH,2021,withdrawn,,United Kingdom,2022-01-10
+505,Emily,Hussain,emily.hussain4@uni.example.ac.uk,09-28-2006,F,CS,2024,active,,United Kingdom,2026-09-15
+832,Leila,Ahmed,leila.ahmed@uni.example.ac.uk,22/09/2003,M,BIO,2026,active,,Nigeria,2026-09-15
+244,Jacob,Walker,jacob.walker2@uni.example.ac.uk,2008-04-26,M,BIO,2026,active,,Morocco,2026-09-15
+567,Amira,Begum,amira.begum@uni.example.ac.uk,20/11/2002,X,BUS,2020,graduated,2023-06-30,United Kingdom,2023-09-15
+876,Adam,Brown,adam.brown2@uni.example.ac.uk,1999-03-09,M,LAW,2019,graduated,2022-06-30,France,2022-09-15
+563,Hassan,Patel,hassan.patel@uni.example.ac.uk,1997-05-26,M,ENG,2020,graduated,2023-06-30,United Kingdom,2023-09-15
+1026,ETHAN,HUGHES,ethan87@gmail.com,2004-04-27,F,PSY,2022,graduated,2025-06-30,India,2025-09-15
+687,Adam,Hussain,,2006-12-25,X,IS,2024,active,,France,2026-09-15
+958,Leila,Nguyen,leila.nguyen3@uni.example.ac.uk,2003-10-14,X,MATH,2021,graduated,2024-06-30,United Kingdom,2024-09-15
+190,Hannah,Clarke,hannah.clarke@uni.example.ac.uk,1998-08-23,Male,BUS,2021,graduated,2024-06-30,United Kingdom,2024-09-15
+976,Leo,Begum,leo.begum2@uni.example.ac.uk,2008-01-13,F,CS,2026,active,,China,2026-09-15
+700,Layla,Thomas,layla.thomas2@uni.example.ac.uk,2003-01-12,F,CS,2021,active,,China,2021-09-15
+511,Aisha,Mafoud,aisha.mafoud2@uni.example.ac.uk,03-01-2005,Male,ENG,2024,active,,United Kingdom,2026-09-15
+475,Leila,Begum,leila.begum@uni.example.ac.uk,1996-11-19,M,BIO,2019,graduated,2022-06-30,Morocco,2022-09-15
+857,Grace,Hughes,grace.hughes2@uni.example.ac.uk,1996-11-26,M,PSY,2019,active,,NG,2019-09-15
+748,Leo,Wright,leo.wright2@uni.example.ac.uk,2001-02-26,X,ENG,2019,graduated,2022-06-30,United Kingdom,2022-09-15
+253,Daniel,Brown,daniel.brown@uni.example.ac.uk,2003-09-15,male,BIO,2021,graduated,2024-06-30,United Kingdom,2024-09-15
+22,Fatima,Roberts,fatima.roberts@uni.example.ac.uk,2004-08-26,X,IS,2022,graduated,2025-06-30,United Kingdom,2025-09-15
+460,Emily,Hall,emily.hall2@uni.example.ac.uk,02-14-2001,M,BIO,2019,graduated,2022-06-30,United Kingdom,2022-09-15
+277,Daniel,Green,daniel.green@uni.example.ac.uk,2006-08-24,M,BIO,2024,active,,United Kingdom,2026-09-15
+956,Layla,Wood,layla.wood3@uni.example.ac.uk,2007-05-02,X,ENG,2025,active,,United Kingdom,2026-09-15
+386,Liam,Ibrahim,liam.ibrahim@uni.example.ac.uk,2004-09-27,F,MATH,2022,graduated,2025-06-30,India,2025-09-15
+806,Amira,Brown,amira.brown2@uni.example.ac.uk,2005-08-14,M,IS,2023,graduated,2026-06-30,United Kingdom,2026-09-15
+344,Grace,Ali,grace.ali2@uni.example.ac.uk,2008-12-07,M,ENG,2026,active,,India,2026-09-15
+770,Grace,Smith,grace.smith3@uni.example.ac.uk,2001-12-11,F,ENG,2020,active,,U.K.,2020-09-15
+131,Jacob,Clarke,jacob.clarke@uni.example.ac.uk,2008-11-07,X,CS,2026,active,,United Kingdom,2026-09-15
+872,Amira,Hussain,amira.hussain@uni.example.ac.uk,2005-10-15,F,BIO,2023,graduated,2026-06-30,United Kingdom,2026-09-15
+88,Ryan,Ahmed,ryan.ahmed@uni.example.ac.uk,1999-04-09,M,MATH,2022,graduated,2025-06-30,United Kingdom,2025-09-15
+331,Leo,Khan,leo.khan@uni.example.ac.uk,2000-03-23,M,BUS,2023,graduated,2026-06-30,China,2026-09-15
+467,Grace,Thomas,grace.thomas2@uni.example.ac.uk,2007-02-15,X,BIO,2025,active,,United Kingdom,2026-09-15
+122,Samuel,Nguyen,samuel.nguyen@uni.example.ac.uk,2004-09-09,F,bio,2024,active,,United Kingdom,2026-09-15
+1045,Aisha,Hussain,,2007-08-11,F,PSY,2026,active,,France,2026-09-15
+861,Ryan,Begum,ryan.begum3@uni.example.ac.uk,2001-07-27,M,PSY,2024,active,,Nigeria,2026-09-15

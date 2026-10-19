@@ -1,0 +1,4 @@
+table,records_before,records_flagged_before,record_error_rate_before,records_after,records_flagged_after,record_error_rate_after
+students,1050,543,0.5171428571428571,1003,98,0.09770687936191426
+courses,56,3,0.05357142857142857,56,0,0.0
+enrolments,5084,351,0.06904012588512982,4992,259,0.051883012820512824

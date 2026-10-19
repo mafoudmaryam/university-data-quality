@@ -1,0 +1,10 @@
+error_type,injected,fixed,fix_rate
+missing,349,34,0.09742120343839542
+inconsistent_code,278,278,1.0
+outdated,181,181,1.0
+duplicate_key,131,117,0.8931297709923665
+inconsistent_format,96,96,1.0
+invalid,61,19,0.3114754098360656
+inconsistent_temporal,51,0,0.0
+orphan_fk,51,0,0.0
+duplicate,50,47,0.94

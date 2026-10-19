@@ -1,0 +1,20 @@
+dimension,rule,table,before,rate_before,after,rate_after
+Completeness,student email is missing,students,80,0.0761904761904762,60,0.05982053838484546
+Completeness,student dob is missing,students,40,0.0380952380952381,38,0.03788634097706879
+Completeness,student programme_code is missing,students,30,0.02857142857142857,0,0.0
+Completeness,grade missing for a completed year,enrolments,226,0.051586395800045655,259,0.0603448275862069
+Uniqueness,email shared by >1 student,students,20,0.01904761904761905,0,0.0
+Uniqueness,probable duplicate person (dob + fuzzy name),students,47,0.04476190476190476,0,0.0
+Uniqueness,same student/course/year enrolled twice,enrolments,2,0.0003933910306845004,0,0.0
+Validity,email not in institutional format,students,49,0.050515463917525774,1,0.0010604453870625664
+Validity,dob not ISO-8601 (YYYY-MM-DD),students,96,0.09504950495049505,0,0.0
+Validity,gender not in code list,students,100,0.09523809523809523,0,0.0
+Validity,programme not in code list,students,78,0.07647058823529412,0,0.0
+Validity,country not in code list,students,100,0.09523809523809523,0,0.0
+Validity,grade outside 0-100,enrolments,42,0.010108303249097473,0,0.0
+Consistency,enrolment references unknown student,enrolments,51,0.01003147128245476,0,0.0
+Consistency,enrolment references unknown course,enrolments,0,0.0,0,0.0
+Consistency,enrolment year before student's start year,enrolments,39,0.007671125098347758,0,0.0
+Consistency,graduated student without graduation date,students,0,0.0,0,0.0
+Timeliness,'active' student past expected completion,students,89,0.2,0,0.0
+Timeliness,'active' course with no enrolments in 2 years,courses,3,0.05357142857142857,0,0.0
