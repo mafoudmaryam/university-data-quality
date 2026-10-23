@@ -1,178 +1,127 @@
-# Data Quality and Information Management: How Poor-Quality Data Affects the Reliability of a University Information System
+# Data quality and the reliability of a university information system
 
-*Research plan, pilot experiment and governance review. Draft v1, October 2026.*
+Author: Maryam Mafoud
 
-## 1. Research plan
+## 1. Research question and scope
 
-### 1.1 Research question
+How do duplicate, incomplete, outdated, inconsistent and invalid records affect the accuracy of reports from a university information system, and what can automated checks and conservative cleaning improve?
 
-**How does poor-quality data affect the reliability of information systems?**
+Reliability here means **accuracy of reported information**. This experiment does not measure uptime, security, user satisfaction or the reliability of every university system. It is a synthetic study, not an audit of a real institution.
 
-Sub-questions, answered here for a university student-records system:
+## 2. Experimental design
 
-1. **RQ1.** How much do duplicate, incomplete, outdated and inconsistent records distort the information a university reports (headcounts, grades, programme sizes)?
-2. **RQ2.** How much do rule-based data-quality checks and cleaning reduce error rates, and which error types do they fail to fix?
-3. **RQ3.** What do established governance frameworks (DAMA-DMBOK, ISO 8000, ISO/IEC 25012) recommend to prevent these errors in the first place?
+The reference university contains 1,000 fictional students, 56 courses and 5,084 enrolments in the seed-42 pilot. The reference academic year is 2026. Programme length is three years in this simulation; that assumption is not evidence of graduation in practice.
 
-### 1.2 Hypotheses
+1. Generate reference data with known correct values.
+2. Inject controlled errors and log changed fields, including outdated update dates.
+3. Apply 19 checks for completeness, uniqueness, validity, consistency and timeliness.
+4. Standardise values, merge probable duplicates, infer missing programmes from course histories, blank invalid grades and quarantine broken enrolments.
+5. Queue suspected outdated students and course offerings for verification. Do not invent graduation dates or retirement decisions.
+6. Measure rule flags, actual errors, detection precision/recall, duplicate-pair precision/recall and university reporting errors.
 
-| # | Hypothesis | Result in pilot |
-|---|---|---|
-| H1 | Small cell-level error rates (under 10%) produce much larger distortions in reported KPIs. | **Supported.** A 7.8% student cell-error rate inflated active headcount by 29%. |
-| H2 | Automated checks and cleaning reduce rule violations by more than 80%. | **Supported for 4 of 5 dimensions** (Uniqueness, Validity, Consistency, Timeliness all 99.8–100%). Completeness only 5%. |
-| H3 | Format and coding errors are fully fixable, but missing values and broken references are not fixable without going back to the source. | **Supported.** Codes, formats and outdated statuses were 100% fixed. Missing values 10%, orphan and impossible enrolments 0% (they were quarantined). |
-| H4 | Errors in master data (students) spread to the data that depends on it (enrolments, grades, KPIs). | **Supported.** Duplicate students split enrolment histories, so mean modules per student fell from 5.08 to 4.63. |
+`src/evaluate.py` reproduces the pilot. `src/experiments.py` runs **55 scenarios**: 30 mixed-error seeds (42–71), eight isolated error families at multipliers 0.25, 1 and 2, and one zero-error control. For isolated scenarios, reference data and the corruption seed are fixed (42 and 10042), so the error family can be studied independently. Each isolated scenario has one seed and is exploratory.
 
-### 1.3 Method
+Multipliers scale the baseline probabilities in `generate_data.py`, capped at 100%; they are **not a uniform dataset error percentage**. For example, the baseline missing-email probability is 6%, while duplicate-student probability is 5%. Retired-course corruption uses a baseline probability of 100% among retired courses and therefore saturates. Actual injection counts are saved in `experiment_scenarios.csv`.
 
-A controlled experiment on synthetic data, so the *true* value of every record is known:
+### Measurement definitions
 
-1. **Ground truth.** Generate a clean university database of students, courses and enrolments (`src/generate_data.py`).
-2. **Error injection.** Copy it and inject known errors at realistic rates. Every injected error is logged (`data/injection_log.csv`).
-3. **Data profiling and rule checks.** Run 19 rules grouped by quality dimension (`src/checks.py`).
-4. **Cleaning.** Standardise values, link and merge duplicates, infer missing values, quarantine untrustworthy records, and refresh outdated ones (`src/clean.py`).
-5. **Measurement** (`src/evaluate.py`), at three levels:
-   - **A. Rule violations** before and after cleaning. This is what an organisation can see without ground truth.
-   - **B. Accuracy against ground truth**: cell and record error rates, plus the fix rate for each error type.
-   - **C. Information reliability**: nine KPIs a university would report, compared with their true values.
-6. **Literature and governance review** (Section 4).
+- **Rule flag rate:** records failing at least one rule divided by records in the working table. A flag is suspicion, not proof of an error.
+- **Cell error rate:** mismatching non-key fields divided by all non-key fields in the reference table. Missing reference rows count as wrong in every evaluated field; extra rows are reported separately. Students use all 11 non-key fields, enrolments use four, and courses use five.
+- **Record error rate:** wrong or missing reference records plus extra records, divided by reference records plus extras.
+- **Precision:** truly erroneous flagged records divided by all flagged records. **Recall:** flagged erroneous records divided by all erroneous records present. Errors are established through semantic comparison with reference data; numeric text and numeric values compare equally. Removed records are counted as lost records, not detectable rows.
+- **Duplicate-pair precision/recall:** compare predicted canonical-ID pairs with the injected duplicate relationships. These are more appropriate for duplicate matching than treating every unchanged canonical row implicated by a shared email as an error.
+- **Fix rate:** logged injection events whose field matches its logged pre-injection value, or whose duplicate row was removed. Overlapping injections can affect this measure; it is not an independent causal estimate.
+- **KPI error:** absolute difference from the reference KPI, divided by the absolute reference value. Pass-rate errors are relative errors, not percentage-point changes.
+- **Mean modules per student:** enrolments referencing both known students and known courses divided by all student records, including students with no enrolments. It counts enrolment rows, not distinct modules or credits. Other KPI definitions are explicit in `evaluate.py`; valid-looking values are not assumed correct.
+- **Email measure:** counts institutional-format addresses on records; it does not test delivery or count distinct reachable people.
 
-Tools: Python 3, pandas, SQLite. The run is deterministic (seed 42), and `python3 src/evaluate.py` reproduces everything.
+## 3. Pilot results
 
-## 2. Dataset
+The regenerated result files are authoritative. These results replace the earlier version that automatically inferred graduation and evaluated fewer fields.
 
-| Table | True records | Key fields |
-|---|---|---|
-| students | 1,000 | id, name, email, date of birth, gender, programme, enrol year, status, graduation date, country |
-| courses | 56 (8 programmes × 7) | code, title, programme, credits, active, retired year |
-| enrolments | 5,084 | student, course, academic year, grade (0–100; empty for the current year) |
+### 3.1 Accuracy against the reference
 
-**Injected errors (1,248 in total):**
+| table | cell_error_rate_dirty | cell_error_rate_cleaned | record_error_rate_dirty | record_error_rate_cleaned | lost_records_cleaned |
+|---|---|---|---|---|---|
+| students | 7.18% | 3.27% | 52.00% | 18.44% | 0 |
+| enrolments | 2.41% | 3.16% | 9.34% | 7.20% | 92 |
+| courses | 1.07% | 1.07% | 5.36% | 5.36% | 0 |
 
-| Problem type | How it was injected | Count |
-|---|---|---|
-| Duplicate | 5% of students re-entered under a new ID, with changed letter case, extra spaces, swapped letters or a personal email. Half of each student's enrolments moved to the duplicate ID. | 50 records, 131 enrolments moved |
-| Incomplete | Missing email (6%), date of birth (4%), programme (3%) and grade (5% of completed modules) | 349 cells |
-| Outdated | 15% of graduates still marked "active", and 3 retired courses still listed as offered | 181 cells |
-| Inconsistent | Programme name variants ("Comp Sci", "cs"), mixed date formats, gender and country variants ("UK", "U.K.", "England") | 374 cells |
-| Invalid | Email without "@" (2%), grades out of range such as 105, −5 or 999 (1%) | 61 cells |
-| Integrity | Enrolments that point to students who do not exist (1%), and enrolments dated before the student started (1%) | 102 rows |
+Cleaning retains three extra student records. It removes 92 reference enrolments from the working table: 90 are preserved in quarantine and two were dropped as duplicate enrolments. Loss from the working table is explicitly penalised in accuracy. Enrolment cell accuracy therefore worsens despite fewer rule flags.
 
-## 3. Results
+### 3.2 Reliability of reported information
 
-Full tables are in [results/results.md](results/results.md) and the CSV files in `results/`.
+| KPI | truth | dirty | cleaned | error_dirty | error_cleaned |
+|---|---|---|---|---|---|
+| Active student headcount | 345.0 | 445.0 | 434.0 | 28.99% | 25.80% |
+| Graduates on record | 594.0 | 541.0 | 508.0 | 8.92% | 14.48% |
+| Total student records (people) | 1000.0 | 1050.0 | 1003.0 | 5.00% | 0.30% |
+| Computer Science students | 131.0 | 122.0 | 131.0 | 6.87% | 0.00% |
+| Student records with institutional-format email | 1000.0 | 921.0 | 942.0 | 7.90% | 5.80% |
+| Courses currently offered | 53.0 | 56.0 | 56.0 | 5.66% | 5.66% |
+| Mean grade (completed modules) | 61.65 | 64.41 | 61.7 | 4.48% | 0.08% |
+| Pass rate (grade >= 40) | 0.9721 | 0.969 | 0.971 | 0.32% | 0.11% |
+| Mean modules per student | 5.08 | 4.79 | 4.98 | 5.71% | 1.97% |
 
-### 3.1 Profiling: rule violations by dimension (measure A)
+Student headcount and graduate totals remain wrong because status changes require source evidence. Removing duplicate graduate records can increase the relative graduate-count error while making person counts more accurate. This is a measured trade-off, not a failed experiment.
 
-| Dimension | Violations before | After | Reduction |
-|---|---|---|---|
-| Uniqueness | 69 | 0 | 100% |
-| Validity | 465 | 1 | 99.8% |
-| Consistency (integrity) | 90 | 0 | 100% |
-| Timeliness | 92 | 0 | 100% |
-| Completeness | 376 | 357 | 5.1% |
+The duplicate matcher identifies 47 of 50 injected duplicate pairs, with 100% pair precision and 94% recall in this pilot. This does not establish safety on other populations: genuinely different people can share birth dates and similar names. A production implementation needs review thresholds and authoritative identifiers.
 
-The share of student records failing at least one rule fell from **51.7% to 9.8%**. All 19 rules return zero violations on the ground-truth data, so the rules produced no false alarms.
+Record-level detection results are saved separately in `detection_metrics.csv`. Flagging an unchanged canonical student because a duplicate shares its email counts as a false positive under the strict cell-difference label; interpret this alongside pair-level metrics. Zero flags on the reference fixture establish performance only for that fixture.
 
-### 3.2 Accuracy against ground truth (measure B)
+### 3.3 Repeated mixed-error experiments
 
-| Table | Cell error rate, dirty → cleaned | Record error rate, dirty → cleaned |
-|---|---|---|
-| students | 7.8% → **1.1%** | 51.4% → **9.8%** |
-| enrolments | 2.4% → 3.2% | 9.3% → **7.2%** |
-| courses | 5.4% → **0.0%** | 5.4% → **0.0%** |
+The following values are average **relative KPI errors** over 30 seeds. Intervals are percentile bootstrap 95% intervals for the mean, using 2,000 resamples and bootstrap seed 42. They describe variation within this synthetic design and are not population estimates for universities.
 
-**Fix rate by error type:** inconsistent codes 100%, inconsistent formats 100%, outdated 100%, duplicates 94% (47 of 50), moved enrolments 89%, invalid values 31%, missing values 10%, orphan and impossible enrolments 0%.
+| stage | metric | runs | mean_relative_error | ci95_low | ci95_high |
+|---|---|---|---|---|---|
+| cleaned | Active student headcount | 30 | 25.08% | 24.56% | 25.58% |
+| cleaned | Graduates on record | 30 | 14.86% | 14.81% | 14.91% |
+| cleaned | Mean grade (completed modules) | 30 | 0.07% | 0.05% | 0.09% |
+| cleaned | Total student records (people) | 30 | 0.13% | 0.09% | 0.16% |
+| dirty | Active student headcount | 30 | 30.14% | 29.38% | 30.93% |
+| dirty | Graduates on record | 30 | 10.07% | 9.82% | 10.32% |
+| dirty | Mean grade (completed modules) | 30 | 3.72% | 3.42% | 4.01% |
+| dirty | Total student records (people) | 30 | 5.00% | 5.00% | 5.00% |
 
-The cell error rate for enrolments *rose*. Quarantining 92 untrustworthy enrolments removes bad rows from reports, but it also leaves real enrolments missing. This is an important trade-off. Cleaning can make a dataset *trustworthy* without making it *complete*. The only way to recover those rows is to fix them at the source, such as the department's records or the student.
+Full per-run accuracy, KPI values, scenario counts and the other KPI summaries are committed in `results/experiment_*.csv`. The isolated scenarios allow attribution within this generator; combined pilot results alone cannot establish how much of a change is caused by a single error type.
 
-### 3.3 Reliability of reported information (measure C)
+## 4. Governance and supporting literature
 
-| KPI | Truth | Dirty (error) | Cleaned (error) |
-|---|---|---|---|
-| Active student headcount | 345 | 445 (**29.0%**) | 345 (0.0%) |
-| Graduates on record | 594 | 541 (8.9%) | 597 (0.5%) |
-| Distinct students | 1,000 | 1,050 (5.0%) | 1,003 (0.3%) |
-| Computer Science students | 131 | 124 (5.3%) | 131 (0.0%) |
-| Students reachable by university email | 1,000 | 921 (7.9%) | 942 (5.8%) |
-| Courses currently offered | 53 | 56 (5.7%) | 53 (0.0%) |
-| Mean grade, completed modules | 61.65 | 64.41 (4.5%) | 61.70 (0.1%) |
-| Pass rate | 97.2% | 96.9% (0.3%) | 97.1% (0.1%) |
-| Mean modules per student | 5.08 | 4.63 (8.9%) | 4.98 (2.0%) |
+Wang and Strong (1996) treat quality from the data consumer's perspective, including task context, representation and accessibility. This motivates evaluating useful reports alongside field errors. It does not make those additional dimensions measured outcomes of this experiment.
 
-### 3.4 Interpretation
+ISO/IEC 25012:2008 provides a model for structured-data quality and supports setting requirements and measures. The project's five operational rule groups are a practical selection, not an implementation of every ISO characteristic or a certification claim.
 
-- **Small errors are amplified (H1).** Only about 9% of student records were outdated, yet the active headcount was overstated by 29%. Headcount drives funding, timetabling and accommodation planning. The amplification happens because the outdated records all pile into one small category ("active").
-- **A few extreme values distort averages.** Just 42 invalid grades (1%) moved the mean grade by almost three points.
-- **Errors propagate (H4).** Duplicate student records split enrolment histories. That would break progression checks, transcripts and degree classification.
-- **Rule checks cannot see what is missing.** Completeness is the dimension cleaning helps least. Programme could be inferred from enrolments, but grades, emails and dates of birth could not be reliably recreated. Prevention matters more here: required fields at the point of entry and validation in the source system.
-- **Fuzzy duplicate matching has limits.** Three duplicates were missed. In each one, the original record had no date of birth (the matching key), and the duplicate had either a personal email or no email at all. Combining several matching keys and adding a human review queue would close this gap (Fellegi & Sunter, 1969).
+DAMA International presents DMBOK as a data-management framework covering governance and quality. The recommendations below are applications proposed by this project, not quoted prescriptions from an unread book chapter.
 
-### 3.5 Threats to validity
+A university should assign owners for key datasets, validate values at entry, maintain shared identifiers and code lists, preserve audit trails, and give staff a queue for resolving uncertain records. Graduation should be confirmed by an authoritative academic decision. Course offering status should be confirmed by the responsible department. Quarantined enrolments need an owner and a correction process.
 
-- The data is synthetic, and the error rates were chosen by the researcher, not measured in a real system. *Next step:* calibrate the rates against published audits or an anonymised extract.
-- The same rules were used to inject, detect and clean the errors, which favours high fix rates. *Next step:* have a second person inject "unseen" error types, as a blind test.
-- Only one random seed was used. *Next step:* run 30 seeds and report means with confidence intervals.
+## 5. Limitations and next steps
 
-## 4. Review of data-governance practices
+- Data and error frequencies are synthetic, and the generator shares assumptions with the cleaner. Blind error injection by another person remains future work.
+- Isolated error-family scenarios use one seed. Repeat these across multiple seeds before generalising their patterns.
+- Matching thresholds and programme inference can make incorrect decisions on more complex populations. The tests cover a small set of regressions, not every possible mistake.
+- Currentness checks identify suspicious records; authoritative verification has not been simulated, so pending cases remain inaccurate.
+- SQLite tables are written without a database constraint experiment. Compare prevention with cleaning in future work.
+- KPI values are rounded before relative errors are calculated, as specified by `kpis`; very small changes may be hidden by rounding.
+- Before using real records, obtain the institution's permission and define appropriate privacy controls. No real student records are included here.
 
-| Framework | What it contributes | How it applies here |
-|---|---|---|
-| **DAMA-DMBOK 2** (DAMA International, 2017) | Treats data quality as one of 11 knowledge areas under data governance. Defines roles (data owner, data steward), quality dimensions (completeness, uniqueness, timeliness, validity, accuracy, consistency) and a plan–do–check–act improvement cycle. | The rules in `checks.py` follow the DAMA dimensions. Stewardship decides who fixes quarantined records. |
-| **ISO 8000** (ISO 8000-1:2022; ISO 8000-8:2015; ISO 8000-61:2016) | International standard for data and information quality. Part 8 covers syntactic, semantic and pragmatic quality and how to measure it. Part 61 gives a process reference model for data-quality management (planning, control, assurance, improvement). | Code lists and ISO-8601 dates support syntactic and semantic quality. The repeatable `evaluate.py` run matches the "data quality control" process. |
-| **ISO/IEC 25012:2008** (SQuaRE data quality model) | Defines 15 data-quality characteristics. Some are inherent to the data (accuracy, completeness, consistency, credibility, currentness); others depend on the system (availability, recoverability, and so on). | Provides the vocabulary for the error-rate metrics. "Currentness" here means outdated statuses. |
-| **Wang & Strong (1996)** | Found, from the point of view of data *consumers*, that data quality is "fitness for use" across intrinsic, contextual, representational and accessibility categories. | Justifies measuring KPIs (measure C) rather than only cell accuracy. |
-| **Pipino, Lee & Wang (2002); Batini et al. (2009)** | Methods for objective metrics, such as simple ratios, and for structured assessment-and-improvement methodologies. | The violation-rate and fix-rate metrics are "simple ratio" metrics. |
-| **Khatri & Brown (2010)** | Data-governance design: decision areas (principles, quality, metadata, access, lifecycle) and who has decision rights over each. | Supports the recommendation of a named owner for student master data. |
-| **Regulatory context** | GDPR Article 5(1)(d) requires personal data to be "accurate and, where necessary, kept up to date". UK universities also submit student data to HESA (Data Futures), so quality errors become reporting errors to regulators. | Outdated statuses and duplicates are a compliance risk, not just an analytics problem. |
-| **Cost evidence** | Redman (1998, 2016) and Gartner (2021) estimate large organisational costs from poor data (Gartner gives an average of US$12.9m per organisation per year). | Motivates the research. The headcount distortion found here is a concrete example. |
+## 6. Reproduce and inspect
 
-**Recommendations for a university, drawn from these frameworks and the pilot:**
+Use Python 3.11 or later in a virtual environment, install `requirements.txt`, then run:
 
-1. Assign a **data owner and data stewards** for student master data (DAMA).
-2. **Validate at entry.** Enforce required fields, code lists and date formats in the source system, because missing data could barely be repaired afterwards.
-3. Use **one person identifier** across systems, with duplicate checks when a record is created.
-4. Trigger **status changes from events**, such as an exam board decision setting "graduated", instead of relying on manual updates. This prevents outdated records.
-5. **Monitor continuously.** Run the rule set on a schedule, and track violation rates by dimension on a dashboard (ISO 8000-61 "control").
-6. Keep a **quarantine and remediation workflow** so excluded records are fixed at the source, not silently dropped.
-
-## 5. Next steps
-
-1. Run the experiment on several seeds and error rates, for example 1–20%, to draw a curve of KPI error against injected error rate.
-2. Compare duplicate-matching methods (exact, fuzzy, probabilistic Fellegi–Sunter) using precision and recall.
-3. Add SQL constraints (`NOT NULL`, `CHECK`, `FOREIGN KEY`) in SQLite to compare *prevention* with *cleaning*.
-4. Write up the literature review in full, checking page references.
-
-## 6. Repository layout and how to rerun
-
-```
-data-quality-research/
-  report.md                 this document
-  src/generate_data.py      ground truth + error injection
-  src/checks.py             19 data-quality rules by dimension
-  src/clean.py              cleaning and remediation pipeline
-  src/evaluate.py           runs everything and writes results/
-  data/                     truth.sqlite, dirty.sqlite, cleaned.sqlite, dirty_*.csv, injection_log.csv
-  results/                  results.md and CSVs (rule_checks, accuracy_vs_truth, fix_rate_by_error_type, kpi_reliability, cleaning_log)
+```bash
+python -m unittest discover -s tests -v
+python src/evaluate.py
+python src/experiments.py
 ```
 
-Run `cd src && python3 evaluate.py`. It needs Python 3 and pandas.
+The pilot overwrites generated data and pilot result tables. The repeated runner uses temporary databases and writes separate experiment CSV files. SQLite files are ignored by git and can be regenerated. `results/review_queue.csv` and `results/quarantine.csv` make pending actions inspectable.
 
-## References
+## References and verification scope
 
-- Batini, C., Cappiello, C., Francalanci, C., & Maurino, A. (2009). Methodologies for data quality assessment and improvement. *ACM Computing Surveys, 41*(3), 1–52.
-- DAMA International. (2017). *DAMA-DMBOK: Data Management Body of Knowledge* (2nd ed.). Technics Publications.
-- European Union. (2016). General Data Protection Regulation (EU) 2016/679, Article 5(1)(d).
-- Fellegi, I. P., & Sunter, A. B. (1969). A theory for record linkage. *Journal of the American Statistical Association, 64*(328), 1183–1210.
-- Gartner. (2021). *How to Improve Your Data Quality*. Gartner, Inc.
-- ISO. (2015). *ISO 8000-8: Data quality — Part 8: Information and data quality: Concepts and measuring*.
-- ISO. (2016). *ISO 8000-61: Data quality — Part 61: Data quality management: Process reference model*.
-- ISO. (2022). *ISO 8000-1: Data quality — Part 1: Overview*.
-- ISO/IEC. (2008). *ISO/IEC 25012: Software engineering — SQuaRE — Data quality model*.
-- Khatri, V., & Brown, C. V. (2010). Designing data governance. *Communications of the ACM, 53*(1), 148–152.
-- Pipino, L. L., Lee, Y. W., & Wang, R. Y. (2002). Data quality assessment. *Communications of the ACM, 45*(4), 211–218.
-- Redman, T. C. (1998). The impact of poor data quality on the typical enterprise. *Communications of the ACM, 41*(2), 79–82.
-- Redman, T. C. (2016). Bad data costs the U.S. $3 trillion per year. *Harvard Business Review*.
-- Wang, R. Y., & Strong, D. M. (1996). Beyond accuracy: What data quality means to data consumers. *Journal of Management Information Systems, 12*(4), 5–33.
+Sources below were retrieved on 23 October 2026. ISO claims use its public abstract, and DAMA claims use its public overview; the full paid standard and DMBOK book were not inspected. The broader unverified bibliography and unsupported cost/compliance claims from the earlier draft have been removed.
 
-*References were cited from the author's knowledge and not retrieved during drafting. Check editions and page numbers before submission.*
+1. Wang, R. Y., & Strong, D. M. (1996). Beyond accuracy: What data quality means to data consumers. *Journal of Management Information Systems, 12*(4), 5–33. https://doi.org/10.1080/07421222.1996.11518099. [Author-hosted text](https://web.mit.edu/tdqm/www/tdqmpub/beyondaccuracy_files/beyondaccuracy.html).
+2. ISO/IEC. (2008). *ISO/IEC 25012:2008: Software engineering — Software product Quality Requirements and Evaluation (SQuaRE) — Data quality model*. [Official abstract](https://www.iso.org/standard/35736.html).
+3. DAMA International. (n.d.). *DAMA Data Management Body of Knowledge (DAMA-DMBOK)*. [Official overview](https://dama.org/learning-resources/dama-data-management-body-of-knowledge-dmbok/).

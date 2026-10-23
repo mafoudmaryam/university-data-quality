@@ -5,9 +5,9 @@ Steps (each logged with a count):
   2. detect and merge duplicate students (survivorship: keep lowest id, fill gaps from the duplicate)
   3. infer missing programme from the student's enrolled courses
   4. null out invalid grades; quarantine orphan and temporally impossible enrolments
-  5. refresh outdated statuses (overdue 'active' students, courses with no recent enrolments)
+  5. queue suspected outdated records for human verification
 
-Writes ../data/cleaned.sqlite (students, courses, enrolments, quarantine) and ../results/cleaning_log.csv
+Writes ../data/cleaned.sqlite (students, courses, enrolments, quarantine, review_queue) and ../results/cleaning_log.csv
 """
 import sqlite3
 from pathlib import Path
@@ -102,7 +102,7 @@ def clean(dirty_db, out_db):
 
     # 4. Invalid grades and enrolments that cannot be trusted
     g = pd.to_numeric(e.grade, errors="coerce")
-    bad = g.notna() & ((g < 0) | (g > 100))
+    bad = e.grade.notna() & (g.isna() | (g < 0) | (g > 100))
     e.loc[bad, "grade"] = None
     step("null out-of-range grades (flag for re-entry)", bad.sum())
     m = e.merge(s[["student_id", "enrol_year"]], on="student_id", how="left")
@@ -114,20 +114,23 @@ def clean(dirty_db, out_db):
     step("quarantine orphan enrolments", orphan.sum())
     step("quarantine enrolments dated before start year", early.sum())
 
-    # 5. Currency: overdue 'active' students and stale courses
-    current = set(e.loc[e.academic_year == REF_YEAR, "student_id"])
-    overdue = (s.status == "active") & (s.enrol_year + 3 <= REF_YEAR) & ~s.student_id.isin(current)
-    s.loc[overdue, "status"] = "graduated"
-    s.loc[overdue, "graduation_date"] = (s.loc[overdue, "enrol_year"] + 3).astype(str) + "-06-30"
-    step("mark overdue 'active' students as graduated", overdue.sum())
+    # 5. Suspicion is insufficient evidence of graduation or course retirement.
+    overdue = (s.status == "active") & (s.enrol_year + 3 <= REF_YEAR)
     last = e.groupby("course_code").academic_year.max()
     stale = (c.active == 1) & (c.course_code.map(last).fillna(0) < REF_YEAR - 1)
-    c.loc[stale, "retired_year"] = c.loc[stale, "course_code"].map(last) + 1
-    c.loc[stale, "active"] = 0
-    step("retire courses with no enrolments in 2 years", stale.sum())
+    review = [
+        {"table": "students", "record_id": str(sid), "reason": "past expected completion; verify status and dates"}
+        for sid in s.loc[overdue, "student_id"]
+    ] + [
+        {"table": "courses", "record_id": str(code), "reason": "no enrolments in two academic years; verify offering status"}
+        for code in c.loc[stale, "course_code"]
+    ]
+    review_queue = pd.DataFrame(review, columns=["table", "record_id", "reason"])
+    step("queue student status verification", overdue.sum())
+    step("queue course offering verification", stale.sum())
 
     with sqlite3.connect(out_db) as con:
-        for name, df in (("students", s), ("courses", c), ("enrolments", e), ("quarantine", quarantine)):
+        for name, df in (("students", s), ("courses", c), ("enrolments", e), ("quarantine", quarantine), ("review_queue", review_queue)):
             df.to_sql(name, con, index=False, if_exists="replace")
     return pd.DataFrame(log)
 

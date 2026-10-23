@@ -12,5 +12,5 @@ infer missing programme from enrolments,29
 null out-of-range grades (flag for re-entry),42
 quarantine orphan enrolments,51
 quarantine enrolments dated before start year,39
-mark overdue 'active' students as graduated,89
-retire courses with no enrolments in 2 years,3
+queue student status verification,89
+queue course offering verification,3

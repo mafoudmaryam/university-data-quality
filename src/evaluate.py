@@ -7,18 +7,19 @@ Three measures, each for the dirty and the cleaned database:
 
 Usage: python3 evaluate.py   (regenerates data, cleans it, writes ../results/*.csv and results.md)
 """
+import sqlite3
 from pathlib import Path
 
 import pandas as pd
 
 import clean as cleaner
 import generate_data
-from checks import EMAIL_RE, REF_YEAR, load, run_checks
+from checks import EMAIL_RE, REF_YEAR, load, run_checks, duplicate_pairs
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA, RES = ROOT / "data", ROOT / "results"
 S_COLS = ["first_name", "last_name", "email", "dob", "gender", "programme_code", "status",
-          "graduation_date", "country"]
+          "graduation_date", "country", "enrol_year", "last_updated"]
 E_COLS = ["student_id", "course_code", "academic_year", "grade"]
 
 
@@ -36,7 +37,7 @@ def same(a, b):
 def accuracy(truth, test):
     out = []
     for table, key, cols in (("students", "student_id", S_COLS), ("enrolments", "enrolment_id", E_COLS),
-                             ("courses", "course_code", ["active"])):
+                             ("courses", "course_code", ["title", "programme_code", "credits", "active", "retired_year"])):
         t = truth[table].set_index(key)
         x = test[table].drop_duplicates(key).set_index(key)
         spurious = len(test[table]) - len(test[table][test[table][key].isin(t.index)])
@@ -55,6 +56,38 @@ def accuracy(truth, test):
                     "cell_error_rate": bad_cells / (n * len(cols)),
                     "record_error_rate": (bad_records + spurious) / (n + spurious)})
     return pd.DataFrame(out)
+
+
+def detection_metrics(truth, dirty, flagged):
+    """Record-level precision and recall against actual differences, not log counts."""
+    rows=[]
+    for table,key in [('students','student_id'),('courses','course_code'),('enrolments','enrolment_id')]:
+        t=truth[table].set_index(key)
+        x=dirty[table].set_index(key)
+        cols=list(t.columns)
+        aligned=t.reindex(x.index)
+        different = pd.DataFrame({col: [not same(a, b) for a, b in zip(x[col], aligned[col])]
+                                  for col in cols}, index=x.index)
+        actual=set(x.index[different[cols].any(axis=1)]) | (set(x.index)-set(t.index))
+        predicted=flagged[table]
+        tp=len(actual & predicted)
+        rows.append({'table':table,'true_positive':tp,'false_positive':len(predicted-actual),
+                     'false_negative':len(actual-predicted),
+                     'precision':tp/len(predicted) if predicted else float('nan'),
+                     'recall':tp/len(actual) if actual else float('nan')})
+    return rows
+
+
+def duplicate_metrics(dirty, injection_log):
+    """Pair precision/recall, keeping the original ID as canonical identity."""
+    expected = {(int(r.true_value), int(r.record_id))
+                for r in injection_log.itertuples() if r.error_type == "duplicate"}
+    predicted = set(duplicate_pairs(dirty["students"]))
+    tp = len(expected & predicted)
+    return pd.DataFrame([{"true_positive": tp, "false_positive": len(predicted - expected),
+                          "false_negative": len(expected - predicted),
+                          "precision": tp / len(predicted) if predicted else float("nan"),
+                          "recall": tp / len(expected) if expected else float("nan")}])
 
 
 def fix_rates(truth, cleaned, log):
@@ -80,16 +113,18 @@ def kpis(db):
     s, c, e = db["students"], db["courses"], db["enrolments"]
     g = pd.to_numeric(e.grade, errors="coerce")
     done = e.academic_year < REF_YEAR
+    # Count only links to known students and courses; include zero-enrolment students.
+    linked = e[e.student_id.isin(s.student_id) & e.course_code.isin(c.course_code)]
     return {
         "Active student headcount": (s.status == "active").sum(),
         "Graduates on record": (s.status == "graduated").sum(),
         "Total student records (people)": len(s),
         "Computer Science students": (s.programme_code == "CS").sum(),
-        "Students reachable by institutional email": s.email.fillna("").str.match(EMAIL_RE).sum(),
+        "Student records with institutional-format email": s.email.fillna("").str.match(EMAIL_RE).sum(),
         "Courses currently offered": (c.active == 1).sum(),
         "Mean grade (completed modules)": round(g[done].mean(), 2),
         "Pass rate (grade >= 40)": round((g[done & g.notna()] >= 40).mean(), 4),
-        "Mean modules per student": round(e.groupby("student_id").size().mean(), 2),
+        "Mean modules per student": round(len(linked) / len(s), 2) if len(s) else float("nan"),
     }
 
 
@@ -113,8 +148,17 @@ def main():
     truth, dirty, cleaned = (load(DATA / f"{n}.sqlite") for n in ("truth", "dirty", "cleaned"))
     log = pd.read_csv(DATA / "injection_log.csv")
 
-    rb, recb = run_checks(DATA / "dirty.sqlite")
-    ra, reca = run_checks(DATA / "cleaned.sqlite")
+    rb, recb, fb = run_checks(DATA / "dirty.sqlite", include_flagged=True)
+    ra, reca, fa = run_checks(DATA / "cleaned.sqlite", include_flagged=True)
+    detection = pd.DataFrame([
+        dict(stage=stage, **row)
+        for stage, db, flags in (("dirty", dirty, fb), ("cleaned", cleaned, fa))
+        for row in detection_metrics(truth, db, flags)
+    ])
+    detection.to_csv(RES / "detection_metrics.csv", index=False)
+    with sqlite3.connect(DATA / "cleaned.sqlite") as con:
+        for table in ("review_queue", "quarantine"):
+            pd.read_sql(f"SELECT * FROM {table}", con).to_csv(RES / f"{table}.csv", index=False)
     rules = rb[["dimension", "rule", "table", "violations", "rate"]].rename(
         columns={"violations": "before", "rate": "rate_before"})
     rules["after"], rules["rate_after"] = ra.violations.values, ra.rate.values
@@ -129,6 +173,7 @@ def main():
     acc.to_csv(RES / "accuracy_vs_truth.csv", index=False)
     fixes = fix_rates(truth, cleaned, log)
     fixes.to_csv(RES / "fix_rate_by_error_type.csv", index=False)
+    duplicate_metrics(dirty, log).to_csv(RES / "duplicate_detection.csv", index=False)
 
     kt, kd, kc = kpis(truth), kpis(dirty), kpis(cleaned)
     k = pd.DataFrame({"KPI": list(kt), "truth": list(kt.values()), "dirty": list(kd.values()),
@@ -139,13 +184,16 @@ def main():
 
     report = [
         "# Experiment results", "",
-        "Generated by `src/evaluate.py`. Rates are shares of the records checked.", "",
+        "Generated by `src/evaluate.py`. Rule flag rates are not ground-truth error rates. Accuracy includes all non-key columns. Suspected outdated records remain pending verification.", "",
         "## A. Rule violations by dimension", "", md(dims), "",
         "## A2. Rule violations by rule", "",
         md(rules.drop(columns=["rate_before", "rate_after"])), "",
         "## A3. Records flagged by at least one rule", "", md(records), "",
         "## B. Accuracy against ground truth", "", md(acc), "",
         "## B2. Fix rate by injected error type", "", md(fixes), "",
+        "## B3. Detection precision and recall", "",
+        "Record differences use all non-key fields. Missing rows are measured separately as lost records; they cannot be flagged in the working table.", "",
+        md(detection.assign(precision=detection.precision.map(lambda v: f"{v:.1%}"), recall=detection.recall.map(lambda v: f"{v:.1%}"))), "",
         "## C. Reliability of reported KPIs", "",
         md(k.assign(truth=k.truth.astype(str), dirty=k.dirty.astype(str), cleaned=k.cleaned.astype(str))), "",
         "## Cleaning actions", "", md(clog), "",

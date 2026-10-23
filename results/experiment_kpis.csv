@@ -1,0 +1,991 @@
+seed,family,multiplier,stage,metric,value,truth,absolute_error,relative_error
+42,mixed,1.0,dirty,Active student headcount,450.0,345.0,105.0,0.30434782608695654
+42,mixed,1.0,dirty,Graduates on record,533.0,594.0,61.0,0.1026936026936027
+42,mixed,1.0,dirty,Total student records (people),1050.0,1000.0,50.0,0.05
+42,mixed,1.0,dirty,Computer Science students,119.0,131.0,12.0,0.0916030534351145
+42,mixed,1.0,dirty,Student records with institutional-format email,921.0,1000.0,79.0,0.079
+42,mixed,1.0,dirty,Courses currently offered,56.0,53.0,3.0,0.05660377358490566
+42,mixed,1.0,dirty,Mean grade (completed modules),64.39,61.65,2.740000000000002,0.04444444444444448
+42,mixed,1.0,dirty,Pass rate (grade >= 40),0.9694,0.9721,0.0026999999999999247,0.0027774920275691027
+42,mixed,1.0,dirty,Mean modules per student,4.79,5.08,0.29000000000000004,0.057086614173228356
+42,mixed,1.0,cleaned,Active student headcount,434.0,345.0,89.0,0.2579710144927536
+42,mixed,1.0,cleaned,Graduates on record,506.0,594.0,88.0,0.14814814814814814
+42,mixed,1.0,cleaned,Total student records (people),1001.0,1000.0,1.0,0.001
+42,mixed,1.0,cleaned,Computer Science students,131.0,131.0,0.0,0.0
+42,mixed,1.0,cleaned,Student records with institutional-format email,941.0,1000.0,59.0,0.059
+42,mixed,1.0,cleaned,Courses currently offered,56.0,53.0,3.0,0.05660377358490566
+42,mixed,1.0,cleaned,Mean grade (completed modules),61.67,61.65,0.020000000000003126,0.00032441200324417077
+42,mixed,1.0,cleaned,Pass rate (grade >= 40),0.9718,0.9721,0.00029999999999996696,0.00030861022528543046
+42,mixed,1.0,cleaned,Mean modules per student,4.98,5.08,0.09999999999999964,0.01968503937007867
+43,mixed,1.0,dirty,Active student headcount,462.0,358.0,104.0,0.2905027932960894
+43,mixed,1.0,dirty,Graduates on record,518.0,575.0,57.0,0.09913043478260869
+43,mixed,1.0,dirty,Total student records (people),1050.0,1000.0,50.0,0.05
+43,mixed,1.0,dirty,Computer Science students,111.0,120.0,9.0,0.075
+43,mixed,1.0,dirty,Student records with institutional-format email,921.0,1000.0,79.0,0.079
+43,mixed,1.0,dirty,Courses currently offered,56.0,53.0,3.0,0.05660377358490566
+43,mixed,1.0,dirty,Mean grade (completed modules),62.48,61.41,1.0700000000000003,0.01742387233349618
+43,mixed,1.0,dirty,Pass rate (grade >= 40),0.9624,0.9638,0.0013999999999999568,0.0014525835235525595
+43,mixed,1.0,dirty,Mean modules per student,4.73,5.02,0.28999999999999915,0.05776892430278868
+43,mixed,1.0,cleaned,Active student headcount,445.0,358.0,87.0,0.2430167597765363
+43,mixed,1.0,cleaned,Graduates on record,490.0,575.0,85.0,0.14782608695652175
+43,mixed,1.0,cleaned,Total student records (people),1002.0,1000.0,2.0,0.002
+43,mixed,1.0,cleaned,Computer Science students,121.0,120.0,1.0,0.008333333333333333
+43,mixed,1.0,cleaned,Student records with institutional-format email,942.0,1000.0,58.0,0.058
+43,mixed,1.0,cleaned,Courses currently offered,56.0,53.0,3.0,0.05660377358490566
+43,mixed,1.0,cleaned,Mean grade (completed modules),61.36,61.41,0.04999999999999716,0.0008141996417521113
+43,mixed,1.0,cleaned,Pass rate (grade >= 40),0.964,0.9638,0.00019999999999997797,0.00020751193193606346
+43,mixed,1.0,cleaned,Mean modules per student,4.91,5.02,0.10999999999999943,0.021912350597609452
+44,mixed,1.0,dirty,Active student headcount,465.0,361.0,104.0,0.2880886426592798
+44,mixed,1.0,dirty,Graduates on record,529.0,586.0,57.0,0.09726962457337884
+44,mixed,1.0,dirty,Total student records (people),1050.0,1000.0,50.0,0.05
+44,mixed,1.0,dirty,Computer Science students,121.0,127.0,6.0,0.047244094488188976
+44,mixed,1.0,dirty,Student records with institutional-format email,921.0,1000.0,79.0,0.079
+44,mixed,1.0,dirty,Courses currently offered,56.0,53.0,3.0,0.05660377358490566
+44,mixed,1.0,dirty,Mean grade (completed modules),63.29,61.7,1.5899999999999963,0.025769854132901074
+44,mixed,1.0,dirty,Pass rate (grade >= 40),0.9663,0.9687,0.0023999999999999577,0.0024775472282439945
+44,mixed,1.0,dirty,Mean modules per student,4.84,5.13,0.29000000000000004,0.05653021442495128
+44,mixed,1.0,cleaned,Active student headcount,449.0,361.0,88.0,0.24376731301939059
+44,mixed,1.0,cleaned,Graduates on record,500.0,586.0,86.0,0.14675767918088736
+44,mixed,1.0,cleaned,Total student records (people),1003.0,1000.0,3.0,0.003
+44,mixed,1.0,cleaned,Computer Science students,128.0,127.0,1.0,0.007874015748031496
+44,mixed,1.0,cleaned,Student records with institutional-format email,940.0,1000.0,60.0,0.06
+44,mixed,1.0,cleaned,Courses currently offered,56.0,53.0,3.0,0.05660377358490566
+44,mixed,1.0,cleaned,Mean grade (completed modules),61.65,61.7,0.05000000000000426,0.0008103727714749475
+44,mixed,1.0,cleaned,Pass rate (grade >= 40),0.9688,0.9687,9.999999999998899e-05,0.0001032311345101569
+44,mixed,1.0,cleaned,Mean modules per student,5.02,5.13,0.11000000000000032,0.021442495126705714
+45,mixed,1.0,dirty,Active student headcount,468.0,359.0,109.0,0.30362116991643456
+45,mixed,1.0,dirty,Graduates on record,519.0,581.0,62.0,0.10671256454388985
+45,mixed,1.0,dirty,Total student records (people),1050.0,1000.0,50.0,0.05
+45,mixed,1.0,dirty,Computer Science students,127.0,135.0,8.0,0.05925925925925926
+45,mixed,1.0,dirty,Student records with institutional-format email,921.0,1000.0,79.0,0.079
+45,mixed,1.0,dirty,Courses currently offered,56.0,53.0,3.0,0.05660377358490566
+45,mixed,1.0,dirty,Mean grade (completed modules),64.53,61.63,2.8999999999999986,0.04705500567905239
+45,mixed,1.0,dirty,Pass rate (grade >= 40),0.968,0.9687,0.0007000000000000339,0.0007226179415712129
+45,mixed,1.0,dirty,Mean modules per student,4.76,5.05,0.29000000000000004,0.057425742574257435
+45,mixed,1.0,cleaned,Active student headcount,447.0,359.0,88.0,0.24512534818941503
+45,mixed,1.0,cleaned,Graduates on record,494.0,581.0,87.0,0.14974182444061962
+45,mixed,1.0,cleaned,Total student records (people),1002.0,1000.0,2.0,0.002
+45,mixed,1.0,cleaned,Computer Science students,136.0,135.0,1.0,0.007407407407407408
+45,mixed,1.0,cleaned,Student records with institutional-format email,942.0,1000.0,58.0,0.058
+45,mixed,1.0,cleaned,Courses currently offered,56.0,53.0,3.0,0.05660377358490566
+45,mixed,1.0,cleaned,Mean grade (completed modules),61.61,61.63,0.020000000000003126,0.00032451728054523973
+45,mixed,1.0,cleaned,Pass rate (grade >= 40),0.9698,0.9687,0.0010999999999999899,0.0011355424796118405
+45,mixed,1.0,cleaned,Mean modules per student,4.94,5.05,0.10999999999999943,0.02178217821782167
+46,mixed,1.0,dirty,Active student headcount,470.0,362.0,108.0,0.2983425414364641
+46,mixed,1.0,dirty,Graduates on record,513.0,575.0,62.0,0.10782608695652174
+46,mixed,1.0,dirty,Total student records (people),1050.0,1000.0,50.0,0.05
+46,mixed,1.0,dirty,Computer Science students,122.0,127.0,5.0,0.03937007874015748
+46,mixed,1.0,dirty,Student records with institutional-format email,921.0,1000.0,79.0,0.079
+46,mixed,1.0,dirty,Courses currently offered,56.0,53.0,3.0,0.05660377358490566
+46,mixed,1.0,dirty,Mean grade (completed modules),64.05,60.96,3.0899999999999963,0.050688976377952694
+46,mixed,1.0,dirty,Pass rate (grade >= 40),0.9583,0.959,0.0006999999999999229,0.0007299270072991897
+46,mixed,1.0,dirty,Mean modules per student,4.84,5.13,0.29000000000000004,0.05653021442495128
+46,mixed,1.0,cleaned,Active student headcount,449.0,362.0,87.0,0.24033149171270718
+46,mixed,1.0,cleaned,Graduates on record,490.0,575.0,85.0,0.14782608695652175
+46,mixed,1.0,cleaned,Total student records (people),1002.0,1000.0,2.0,0.002
+46,mixed,1.0,cleaned,Computer Science students,127.0,127.0,0.0,0.0
+46,mixed,1.0,cleaned,Student records with institutional-format email,941.0,1000.0,59.0,0.059
+46,mixed,1.0,cleaned,Courses currently offered,56.0,53.0,3.0,0.05660377358490566
+46,mixed,1.0,cleaned,Mean grade (completed modules),61.03,60.96,0.07000000000000028,0.001148293963254598
+46,mixed,1.0,cleaned,Pass rate (grade >= 40),0.9604,0.959,0.0014000000000000679,0.001459854014598611
+46,mixed,1.0,cleaned,Mean modules per student,5.02,5.13,0.11000000000000032,0.021442495126705714
+47,mixed,1.0,dirty,Active student headcount,468.0,357.0,111.0,0.31092436974789917
+47,mixed,1.0,dirty,Graduates on record,531.0,595.0,64.0,0.10756302521008404
+47,mixed,1.0,dirty,Total student records (people),1050.0,1000.0,50.0,0.05
+47,mixed,1.0,dirty,Computer Science students,118.0,129.0,11.0,0.08527131782945736
+47,mixed,1.0,dirty,Student records with institutional-format email,921.0,1000.0,79.0,0.079
+47,mixed,1.0,dirty,Courses currently offered,56.0,53.0,3.0,0.05660377358490566
+47,mixed,1.0,dirty,Mean grade (completed modules),64.05,61.34,2.7099999999999937,0.044179980436908926
+47,mixed,1.0,dirty,Pass rate (grade >= 40),0.9629,0.9636,0.0007000000000000339,0.0007264425072644602
+47,mixed,1.0,dirty,Mean modules per student,4.8,5.09,0.29000000000000004,0.056974459724950896
+47,mixed,1.0,cleaned,Active student headcount,446.0,357.0,89.0,0.24929971988795518
+47,mixed,1.0,cleaned,Graduates on record,507.0,595.0,88.0,0.14789915966386555
+47,mixed,1.0,cleaned,Total student records (people),1001.0,1000.0,1.0,0.001
+47,mixed,1.0,cleaned,Computer Science students,129.0,129.0,0.0,0.0
+47,mixed,1.0,cleaned,Student records with institutional-format email,941.0,1000.0,59.0,0.059
+47,mixed,1.0,cleaned,Courses currently offered,56.0,53.0,3.0,0.05660377358490566
+47,mixed,1.0,cleaned,Mean grade (completed modules),61.4,61.34,0.05999999999999517,0.0009781545484185714
+47,mixed,1.0,cleaned,Pass rate (grade >= 40),0.964,0.9636,0.00039999999999995595,0.00041511000415105434
+47,mixed,1.0,cleaned,Mean modules per student,4.99,5.09,0.09999999999999964,0.019646365422396787
+48,mixed,1.0,dirty,Active student headcount,466.0,358.0,108.0,0.3016759776536313
+48,mixed,1.0,dirty,Graduates on record,521.0,581.0,60.0,0.10327022375215146
+48,mixed,1.0,dirty,Total student records (people),1050.0,1000.0,50.0,0.05
+48,mixed,1.0,dirty,Computer Science students,134.0,137.0,3.0,0.021897810218978103
+48,mixed,1.0,dirty,Student records with institutional-format email,921.0,1000.0,79.0,0.079
+48,mixed,1.0,dirty,Courses currently offered,56.0,53.0,3.0,0.05660377358490566
+48,mixed,1.0,dirty,Mean grade (completed modules),64.38,61.24,3.1399999999999935,0.051273677335075006
+48,mixed,1.0,dirty,Pass rate (grade >= 40),0.9625,0.9641,0.0015999999999999348,0.0016595788818586608
+48,mixed,1.0,dirty,Mean modules per student,4.79,5.08,0.29000000000000004,0.057086614173228356
+48,mixed,1.0,cleaned,Active student headcount,445.0,358.0,87.0,0.2430167597765363
+48,mixed,1.0,cleaned,Graduates on record,494.0,581.0,87.0,0.14974182444061962
+48,mixed,1.0,cleaned,Total student records (people),1000.0,1000.0,0.0,0.0
+48,mixed,1.0,cleaned,Computer Science students,137.0,137.0,0.0,0.0
+48,mixed,1.0,cleaned,Student records with institutional-format email,940.0,1000.0,60.0,0.06
+48,mixed,1.0,cleaned,Courses currently offered,56.0,53.0,3.0,0.05660377358490566
+48,mixed,1.0,cleaned,Mean grade (completed modules),61.1,61.24,0.14000000000000057,0.0022860875244938043
+48,mixed,1.0,cleaned,Pass rate (grade >= 40),0.9641,0.9641,0.0,0.0
+48,mixed,1.0,cleaned,Mean modules per student,4.98,5.08,0.09999999999999964,0.01968503937007867
+49,mixed,1.0,dirty,Active student headcount,467.0,362.0,105.0,0.2900552486187845
+49,mixed,1.0,dirty,Graduates on record,507.0,567.0,60.0,0.10582010582010581
+49,mixed,1.0,dirty,Total student records (people),1050.0,1000.0,50.0,0.05
+49,mixed,1.0,dirty,Computer Science students,126.0,125.0,1.0,0.008
+49,mixed,1.0,dirty,Student records with institutional-format email,921.0,1000.0,79.0,0.079
+49,mixed,1.0,dirty,Courses currently offered,56.0,53.0,3.0,0.05660377358490566
+49,mixed,1.0,dirty,Mean grade (completed modules),64.29,61.26,3.0300000000000082,0.04946131243878564
+49,mixed,1.0,dirty,Pass rate (grade >= 40),0.9616,0.9632,0.0015999999999999348,0.0016611295681062447
+49,mixed,1.0,dirty,Mean modules per student,4.78,5.07,0.29000000000000004,0.05719921104536489
+49,mixed,1.0,cleaned,Active student headcount,447.0,362.0,85.0,0.23480662983425415
+49,mixed,1.0,cleaned,Graduates on record,483.0,567.0,84.0,0.14814814814814814
+49,mixed,1.0,cleaned,Total student records (people),1001.0,1000.0,1.0,0.001
+49,mixed,1.0,cleaned,Computer Science students,125.0,125.0,0.0,0.0
+49,mixed,1.0,cleaned,Student records with institutional-format email,942.0,1000.0,58.0,0.058
+49,mixed,1.0,cleaned,Courses currently offered,56.0,53.0,3.0,0.05660377358490566
+49,mixed,1.0,cleaned,Mean grade (completed modules),61.3,61.26,0.03999999999999915,0.0006529546196539202
+49,mixed,1.0,cleaned,Pass rate (grade >= 40),0.9632,0.9632,0.0,0.0
+49,mixed,1.0,cleaned,Mean modules per student,4.97,5.07,0.10000000000000053,0.019723865877712136
+50,mixed,1.0,dirty,Active student headcount,457.0,353.0,104.0,0.29461756373937675
+50,mixed,1.0,dirty,Graduates on record,518.0,575.0,57.0,0.09913043478260869
+50,mixed,1.0,dirty,Total student records (people),1050.0,1000.0,50.0,0.05
+50,mixed,1.0,dirty,Computer Science students,108.0,116.0,8.0,0.06896551724137931
+50,mixed,1.0,dirty,Student records with institutional-format email,921.0,1000.0,79.0,0.079
+50,mixed,1.0,dirty,Courses currently offered,56.0,53.0,3.0,0.05660377358490566
+50,mixed,1.0,dirty,Mean grade (completed modules),62.9,61.27,1.6299999999999955,0.026603558021870335
+50,mixed,1.0,dirty,Pass rate (grade >= 40),0.9615,0.9637,0.0021999999999999797,0.002282868112483117
+50,mixed,1.0,dirty,Mean modules per student,4.74,5.03,0.29000000000000004,0.05765407554671969
+50,mixed,1.0,cleaned,Active student headcount,439.0,353.0,86.0,0.24362606232294617
+50,mixed,1.0,cleaned,Graduates on record,489.0,575.0,86.0,0.14956521739130435
+50,mixed,1.0,cleaned,Total student records (people),1000.0,1000.0,0.0,0.0
+50,mixed,1.0,cleaned,Computer Science students,116.0,116.0,0.0,0.0
+50,mixed,1.0,cleaned,Student records with institutional-format email,940.0,1000.0,60.0,0.06
+50,mixed,1.0,cleaned,Courses currently offered,56.0,53.0,3.0,0.05660377358490566
+50,mixed,1.0,cleaned,Mean grade (completed modules),61.26,61.27,0.010000000000005116,0.00016321201240419644
+50,mixed,1.0,cleaned,Pass rate (grade >= 40),0.9639,0.9637,0.00019999999999997797,0.0002075334647711715
+50,mixed,1.0,cleaned,Mean modules per student,4.93,5.03,0.10000000000000053,0.019880715705765512
+51,mixed,1.0,dirty,Active student headcount,443.0,333.0,110.0,0.3303303303303303
+51,mixed,1.0,dirty,Graduates on record,546.0,609.0,63.0,0.10344827586206896
+51,mixed,1.0,dirty,Total student records (people),1050.0,1000.0,50.0,0.05
+51,mixed,1.0,dirty,Computer Science students,116.0,127.0,11.0,0.08661417322834646
+51,mixed,1.0,dirty,Student records with institutional-format email,921.0,1000.0,79.0,0.079
+51,mixed,1.0,dirty,Courses currently offered,56.0,53.0,3.0,0.05660377358490566
+51,mixed,1.0,dirty,Mean grade (completed modules),63.66,61.5,2.1599999999999966,0.03512195121951214
+51,mixed,1.0,dirty,Pass rate (grade >= 40),0.9642,0.9649,0.0007000000000000339,0.000725463778629945
+51,mixed,1.0,dirty,Mean modules per student,4.8,5.09,0.29000000000000004,0.056974459724950896
+51,mixed,1.0,cleaned,Active student headcount,425.0,333.0,92.0,0.27627627627627627
+51,mixed,1.0,cleaned,Graduates on record,518.0,609.0,91.0,0.14942528735632185
+51,mixed,1.0,cleaned,Total student records (people),1001.0,1000.0,1.0,0.001
+51,mixed,1.0,cleaned,Computer Science students,127.0,127.0,0.0,0.0
+51,mixed,1.0,cleaned,Student records with institutional-format email,939.0,1000.0,61.0,0.061
+51,mixed,1.0,cleaned,Courses currently offered,56.0,53.0,3.0,0.05660377358490566
+51,mixed,1.0,cleaned,Mean grade (completed modules),61.5,61.5,0.0,0.0
+51,mixed,1.0,cleaned,Pass rate (grade >= 40),0.9654,0.9649,0.000500000000000056,0.0005181884133071365
+51,mixed,1.0,cleaned,Mean modules per student,4.99,5.09,0.09999999999999964,0.019646365422396787
+52,mixed,1.0,dirty,Active student headcount,449.0,331.0,118.0,0.3564954682779456
+52,mixed,1.0,dirty,Graduates on record,527.0,598.0,71.0,0.11872909698996656
+52,mixed,1.0,dirty,Total student records (people),1050.0,1000.0,50.0,0.05
+52,mixed,1.0,dirty,Computer Science students,120.0,122.0,2.0,0.01639344262295082
+52,mixed,1.0,dirty,Student records with institutional-format email,921.0,1000.0,79.0,0.079
+52,mixed,1.0,dirty,Courses currently offered,56.0,53.0,3.0,0.05660377358490566
+52,mixed,1.0,dirty,Mean grade (completed modules),63.33,61.28,2.049999999999997,0.03345300261096601
+52,mixed,1.0,dirty,Pass rate (grade >= 40),0.9639,0.9659,0.0020000000000000018,0.00207060772336681
+52,mixed,1.0,dirty,Mean modules per student,4.74,5.03,0.29000000000000004,0.05765407554671969
+52,mixed,1.0,cleaned,Active student headcount,421.0,331.0,90.0,0.2719033232628399
+52,mixed,1.0,cleaned,Graduates on record,511.0,598.0,87.0,0.1454849498327759
+52,mixed,1.0,cleaned,Total student records (people),1003.0,1000.0,3.0,0.003
+52,mixed,1.0,cleaned,Computer Science students,123.0,122.0,1.0,0.00819672131147541
+52,mixed,1.0,cleaned,Student records with institutional-format email,941.0,1000.0,59.0,0.059
+52,mixed,1.0,cleaned,Courses currently offered,56.0,53.0,3.0,0.05660377358490566
+52,mixed,1.0,cleaned,Mean grade (completed modules),61.17,61.28,0.10999999999999943,0.0017950391644908524
+52,mixed,1.0,cleaned,Pass rate (grade >= 40),0.9666,0.9659,0.0007000000000000339,0.000724712703178418
+52,mixed,1.0,cleaned,Mean modules per student,4.91,5.03,0.1200000000000001,0.02385685884691851
+53,mixed,1.0,dirty,Active student headcount,473.0,369.0,104.0,0.28184281842818426
+53,mixed,1.0,dirty,Graduates on record,524.0,578.0,54.0,0.09342560553633218
+53,mixed,1.0,dirty,Total student records (people),1050.0,1000.0,50.0,0.05
+53,mixed,1.0,dirty,Computer Science students,113.0,126.0,13.0,0.10317460317460317
+53,mixed,1.0,dirty,Student records with institutional-format email,921.0,1000.0,79.0,0.079
+53,mixed,1.0,dirty,Courses currently offered,56.0,53.0,3.0,0.05660377358490566
+53,mixed,1.0,dirty,Mean grade (completed modules),63.52,61.07,2.450000000000003,0.040117897494678284
+53,mixed,1.0,dirty,Pass rate (grade >= 40),0.9651,0.9664,0.0013000000000000789,0.0013451986754967702
+53,mixed,1.0,dirty,Mean modules per student,4.71,5.0,0.29000000000000004,0.05800000000000001
+53,mixed,1.0,cleaned,Active student headcount,458.0,369.0,89.0,0.24119241192411925
+53,mixed,1.0,cleaned,Graduates on record,491.0,578.0,87.0,0.15051903114186851
+53,mixed,1.0,cleaned,Total student records (people),1002.0,1000.0,2.0,0.002
+53,mixed,1.0,cleaned,Computer Science students,127.0,126.0,1.0,0.007936507936507936
+53,mixed,1.0,cleaned,Student records with institutional-format email,940.0,1000.0,60.0,0.06
+53,mixed,1.0,cleaned,Courses currently offered,56.0,53.0,3.0,0.05660377358490566
+53,mixed,1.0,cleaned,Mean grade (completed modules),61.03,61.07,0.03999999999999915,0.0006549860815457532
+53,mixed,1.0,cleaned,Pass rate (grade >= 40),0.9659,0.9664,0.000500000000000056,0.0005173841059603227
+53,mixed,1.0,cleaned,Mean modules per student,4.89,5.0,0.11000000000000032,0.022000000000000065
+54,mixed,1.0,dirty,Active student headcount,466.0,371.0,95.0,0.2560646900269542
+54,mixed,1.0,dirty,Graduates on record,515.0,563.0,48.0,0.0852575488454707
+54,mixed,1.0,dirty,Total student records (people),1050.0,1000.0,50.0,0.05
+54,mixed,1.0,dirty,Computer Science students,108.0,117.0,9.0,0.07692307692307693
+54,mixed,1.0,dirty,Student records with institutional-format email,921.0,1000.0,79.0,0.079
+54,mixed,1.0,dirty,Courses currently offered,56.0,53.0,3.0,0.05660377358490566
+54,mixed,1.0,dirty,Mean grade (completed modules),63.53,61.13,2.3999999999999986,0.0392605921805987
+54,mixed,1.0,dirty,Pass rate (grade >= 40),0.9619,0.9643,0.0024000000000000687,0.0024888520170072265
+54,mixed,1.0,dirty,Mean modules per student,4.76,5.05,0.29000000000000004,0.057425742574257435
+54,mixed,1.0,cleaned,Active student headcount,455.0,371.0,84.0,0.22641509433962265
+54,mixed,1.0,cleaned,Graduates on record,479.0,563.0,84.0,0.1492007104795737
+54,mixed,1.0,cleaned,Total student records (people),1000.0,1000.0,0.0,0.0
+54,mixed,1.0,cleaned,Computer Science students,117.0,117.0,0.0,0.0
+54,mixed,1.0,cleaned,Student records with institutional-format email,940.0,1000.0,60.0,0.06
+54,mixed,1.0,cleaned,Courses currently offered,56.0,53.0,3.0,0.05660377358490566
+54,mixed,1.0,cleaned,Mean grade (completed modules),61.21,61.13,0.0799999999999983,0.0013086864060199296
+54,mixed,1.0,cleaned,Pass rate (grade >= 40),0.9638,0.9643,0.000500000000000056,0.0005185108368765488
+54,mixed,1.0,cleaned,Mean modules per student,4.95,5.05,0.09999999999999964,0.019801980198019733
+55,mixed,1.0,dirty,Active student headcount,453.0,347.0,106.0,0.30547550432276654
+55,mixed,1.0,dirty,Graduates on record,524.0,583.0,59.0,0.10120068610634649
+55,mixed,1.0,dirty,Total student records (people),1050.0,1000.0,50.0,0.05
+55,mixed,1.0,dirty,Computer Science students,103.0,117.0,14.0,0.11965811965811966
+55,mixed,1.0,dirty,Student records with institutional-format email,921.0,1000.0,79.0,0.079
+55,mixed,1.0,dirty,Courses currently offered,56.0,53.0,3.0,0.05660377358490566
+55,mixed,1.0,dirty,Mean grade (completed modules),63.84,61.6,2.240000000000002,0.0363636363636364
+55,mixed,1.0,dirty,Pass rate (grade >= 40),0.9597,0.9631,0.0033999999999999586,0.0035302668466410123
+55,mixed,1.0,dirty,Mean modules per student,4.76,5.05,0.29000000000000004,0.057425742574257435
+55,mixed,1.0,cleaned,Active student headcount,436.0,347.0,89.0,0.2564841498559078
+55,mixed,1.0,cleaned,Graduates on record,497.0,583.0,86.0,0.14751286449399656
+55,mixed,1.0,cleaned,Total student records (people),1004.0,1000.0,4.0,0.004
+55,mixed,1.0,cleaned,Computer Science students,117.0,117.0,0.0,0.0
+55,mixed,1.0,cleaned,Student records with institutional-format email,941.0,1000.0,59.0,0.059
+55,mixed,1.0,cleaned,Courses currently offered,56.0,53.0,3.0,0.05660377358490566
+55,mixed,1.0,cleaned,Mean grade (completed modules),61.6,61.6,0.0,0.0
+55,mixed,1.0,cleaned,Pass rate (grade >= 40),0.9631,0.9631,0.0,0.0
+55,mixed,1.0,cleaned,Mean modules per student,4.93,5.05,0.1200000000000001,0.023762376237623783
+56,mixed,1.0,dirty,Active student headcount,471.0,363.0,108.0,0.2975206611570248
+56,mixed,1.0,dirty,Graduates on record,532.0,592.0,60.0,0.10135135135135136
+56,mixed,1.0,dirty,Total student records (people),1050.0,1000.0,50.0,0.05
+56,mixed,1.0,dirty,Computer Science students,102.0,112.0,10.0,0.08928571428571429
+56,mixed,1.0,dirty,Student records with institutional-format email,921.0,1000.0,79.0,0.079
+56,mixed,1.0,dirty,Courses currently offered,56.0,53.0,3.0,0.05660377358490566
+56,mixed,1.0,dirty,Mean grade (completed modules),64.06,61.47,2.5900000000000034,0.04213437449162199
+56,mixed,1.0,dirty,Pass rate (grade >= 40),0.9681,0.9697,0.0016000000000000458,0.0016499948437661606
+56,mixed,1.0,dirty,Mean modules per student,4.84,5.13,0.29000000000000004,0.05653021442495128
+56,mixed,1.0,cleaned,Active student headcount,452.0,363.0,89.0,0.24517906336088155
+56,mixed,1.0,cleaned,Graduates on record,504.0,592.0,88.0,0.14864864864864866
+56,mixed,1.0,cleaned,Total student records (people),1001.0,1000.0,1.0,0.001
+56,mixed,1.0,cleaned,Computer Science students,112.0,112.0,0.0,0.0
+56,mixed,1.0,cleaned,Student records with institutional-format email,941.0,1000.0,59.0,0.059
+56,mixed,1.0,cleaned,Courses currently offered,56.0,53.0,3.0,0.05660377358490566
+56,mixed,1.0,cleaned,Mean grade (completed modules),61.43,61.47,0.03999999999999915,0.0006507239303725256
+56,mixed,1.0,cleaned,Pass rate (grade >= 40),0.9689,0.9697,0.0008000000000000229,0.0008249974218830803
+56,mixed,1.0,cleaned,Mean modules per student,5.03,5.13,0.09999999999999964,0.01949317738791416
+57,mixed,1.0,dirty,Active student headcount,453.0,345.0,108.0,0.3130434782608696
+57,mixed,1.0,dirty,Graduates on record,546.0,605.0,59.0,0.09752066115702479
+57,mixed,1.0,dirty,Total student records (people),1050.0,1000.0,50.0,0.05
+57,mixed,1.0,dirty,Computer Science students,133.0,145.0,12.0,0.08275862068965517
+57,mixed,1.0,dirty,Student records with institutional-format email,921.0,1000.0,79.0,0.079
+57,mixed,1.0,dirty,Courses currently offered,56.0,53.0,3.0,0.05660377358490566
+57,mixed,1.0,dirty,Mean grade (completed modules),63.56,61.45,2.1099999999999994,0.03433685923515052
+57,mixed,1.0,dirty,Pass rate (grade >= 40),0.9634,0.9652,0.0017999999999999128,0.0018648984666389482
+57,mixed,1.0,dirty,Mean modules per student,4.83,5.13,0.2999999999999998,0.05847953216374266
+57,mixed,1.0,cleaned,Active student headcount,436.0,345.0,91.0,0.263768115942029
+57,mixed,1.0,cleaned,Graduates on record,514.0,605.0,91.0,0.15041322314049588
+57,mixed,1.0,cleaned,Total student records (people),1000.0,1000.0,0.0,0.0
+57,mixed,1.0,cleaned,Computer Science students,145.0,145.0,0.0,0.0
+57,mixed,1.0,cleaned,Student records with institutional-format email,940.0,1000.0,60.0,0.06
+57,mixed,1.0,cleaned,Courses currently offered,56.0,53.0,3.0,0.05660377358490566
+57,mixed,1.0,cleaned,Mean grade (completed modules),61.41,61.45,0.04000000000000625,0.0006509357200977421
+57,mixed,1.0,cleaned,Pass rate (grade >= 40),0.9647,0.9652,0.0004999999999999449,0.0005180273518441204
+57,mixed,1.0,cleaned,Mean modules per student,5.03,5.13,0.09999999999999964,0.01949317738791416
+58,mixed,1.0,dirty,Active student headcount,444.0,341.0,103.0,0.3020527859237537
+58,mixed,1.0,dirty,Graduates on record,527.0,585.0,58.0,0.09914529914529914
+58,mixed,1.0,dirty,Total student records (people),1050.0,1000.0,50.0,0.05
+58,mixed,1.0,dirty,Computer Science students,138.0,141.0,3.0,0.02127659574468085
+58,mixed,1.0,dirty,Student records with institutional-format email,921.0,1000.0,79.0,0.079
+58,mixed,1.0,dirty,Courses currently offered,56.0,53.0,3.0,0.05660377358490566
+58,mixed,1.0,dirty,Mean grade (completed modules),63.55,61.33,2.219999999999999,0.036197619435838886
+58,mixed,1.0,dirty,Pass rate (grade >= 40),0.9606,0.9646,0.0040000000000000036,0.004146796599626792
+58,mixed,1.0,dirty,Mean modules per student,4.69,4.97,0.27999999999999936,0.05633802816901396
+58,mixed,1.0,cleaned,Active student headcount,429.0,341.0,88.0,0.25806451612903225
+58,mixed,1.0,cleaned,Graduates on record,498.0,585.0,87.0,0.14871794871794872
+58,mixed,1.0,cleaned,Total student records (people),1001.0,1000.0,1.0,0.001
+58,mixed,1.0,cleaned,Computer Science students,142.0,141.0,1.0,0.0070921985815602835
+58,mixed,1.0,cleaned,Student records with institutional-format email,941.0,1000.0,59.0,0.059
+58,mixed,1.0,cleaned,Courses currently offered,56.0,53.0,3.0,0.05660377358490566
+58,mixed,1.0,cleaned,Mean grade (completed modules),61.26,61.33,0.07000000000000028,0.0011413663786075377
+58,mixed,1.0,cleaned,Pass rate (grade >= 40),0.9634,0.9646,0.0011999999999999789,0.0012440389798880145
+58,mixed,1.0,cleaned,Mean modules per student,4.87,4.97,0.09999999999999964,0.02012072434607639
+59,mixed,1.0,dirty,Active student headcount,463.0,352.0,111.0,0.3153409090909091
+59,mixed,1.0,dirty,Graduates on record,532.0,596.0,64.0,0.10738255033557047
+59,mixed,1.0,dirty,Total student records (people),1050.0,1000.0,50.0,0.05
+59,mixed,1.0,dirty,Computer Science students,113.0,116.0,3.0,0.02586206896551724
+59,mixed,1.0,dirty,Student records with institutional-format email,921.0,1000.0,79.0,0.079
+59,mixed,1.0,dirty,Courses currently offered,56.0,53.0,3.0,0.05660377358490566
+59,mixed,1.0,dirty,Mean grade (completed modules),63.92,61.55,2.3700000000000045,0.038505280259951334
+59,mixed,1.0,dirty,Pass rate (grade >= 40),0.9693,0.9711,0.0017999999999999128,0.0018535681186282699
+59,mixed,1.0,dirty,Mean modules per student,4.82,5.11,0.29000000000000004,0.056751467710371824
+59,mixed,1.0,cleaned,Active student headcount,441.0,352.0,89.0,0.2528409090909091
+59,mixed,1.0,cleaned,Graduates on record,507.0,596.0,89.0,0.1493288590604027
+59,mixed,1.0,cleaned,Total student records (people),1000.0,1000.0,0.0,0.0
+59,mixed,1.0,cleaned,Computer Science students,116.0,116.0,0.0,0.0
+59,mixed,1.0,cleaned,Student records with institutional-format email,940.0,1000.0,60.0,0.06
+59,mixed,1.0,cleaned,Courses currently offered,56.0,53.0,3.0,0.05660377358490566
+59,mixed,1.0,cleaned,Mean grade (completed modules),61.59,61.55,0.04000000000000625,0.0006498781478473803
+59,mixed,1.0,cleaned,Pass rate (grade >= 40),0.9712,0.9711,9.999999999998899e-05,0.00010297600659045309
+59,mixed,1.0,cleaned,Mean modules per student,5.01,5.11,0.10000000000000053,0.019569471624266248
+60,mixed,1.0,dirty,Active student headcount,469.0,369.0,100.0,0.27100271002710025
+60,mixed,1.0,dirty,Graduates on record,515.0,570.0,55.0,0.09649122807017543
+60,mixed,1.0,dirty,Total student records (people),1050.0,1000.0,50.0,0.05
+60,mixed,1.0,dirty,Computer Science students,127.0,132.0,5.0,0.03787878787878788
+60,mixed,1.0,dirty,Student records with institutional-format email,921.0,1000.0,79.0,0.079
+60,mixed,1.0,dirty,Courses currently offered,56.0,53.0,3.0,0.05660377358490566
+60,mixed,1.0,dirty,Mean grade (completed modules),63.33,61.66,1.6700000000000017,0.027084009082062956
+60,mixed,1.0,dirty,Pass rate (grade >= 40),0.966,0.9694,0.0034000000000000696,0.003507324118011213
+60,mixed,1.0,dirty,Mean modules per student,4.68,4.96,0.28000000000000025,0.05645161290322586
+60,mixed,1.0,cleaned,Active student headcount,454.0,369.0,85.0,0.23035230352303523
+60,mixed,1.0,cleaned,Graduates on record,487.0,570.0,83.0,0.1456140350877193
+60,mixed,1.0,cleaned,Total student records (people),1003.0,1000.0,3.0,0.003
+60,mixed,1.0,cleaned,Computer Science students,131.0,132.0,1.0,0.007575757575757576
+60,mixed,1.0,cleaned,Student records with institutional-format email,941.0,1000.0,59.0,0.059
+60,mixed,1.0,cleaned,Courses currently offered,56.0,53.0,3.0,0.05660377358490566
+60,mixed,1.0,cleaned,Mean grade (completed modules),61.66,61.66,0.0,0.0
+60,mixed,1.0,cleaned,Pass rate (grade >= 40),0.9686,0.9694,0.0008000000000000229,0.0008252527336497038
+60,mixed,1.0,cleaned,Mean modules per student,4.85,4.96,0.11000000000000032,0.022177419354838773
+61,mixed,1.0,dirty,Active student headcount,458.0,360.0,98.0,0.2722222222222222
+61,mixed,1.0,dirty,Graduates on record,531.0,583.0,52.0,0.08919382504288165
+61,mixed,1.0,dirty,Total student records (people),1050.0,1000.0,50.0,0.05
+61,mixed,1.0,dirty,Computer Science students,120.0,128.0,8.0,0.0625
+61,mixed,1.0,dirty,Student records with institutional-format email,921.0,1000.0,79.0,0.079
+61,mixed,1.0,dirty,Courses currently offered,56.0,53.0,3.0,0.05660377358490566
+61,mixed,1.0,dirty,Mean grade (completed modules),63.43,61.32,2.1099999999999994,0.03440965427266796
+61,mixed,1.0,dirty,Pass rate (grade >= 40),0.9642,0.9665,0.0023000000000000798,0.0023797206414899945
+61,mixed,1.0,dirty,Mean modules per student,4.74,5.02,0.27999999999999936,0.05577689243027876
+61,mixed,1.0,cleaned,Active student headcount,447.0,360.0,87.0,0.24166666666666667
+61,mixed,1.0,cleaned,Graduates on record,497.0,583.0,86.0,0.14751286449399656
+61,mixed,1.0,cleaned,Total student records (people),1001.0,1000.0,1.0,0.001
+61,mixed,1.0,cleaned,Computer Science students,128.0,128.0,0.0,0.0
+61,mixed,1.0,cleaned,Student records with institutional-format email,941.0,1000.0,59.0,0.059
+61,mixed,1.0,cleaned,Courses currently offered,56.0,53.0,3.0,0.05660377358490566
+61,mixed,1.0,cleaned,Mean grade (completed modules),61.25,61.32,0.07000000000000028,0.0011415525114155298
+61,mixed,1.0,cleaned,Pass rate (grade >= 40),0.9672,0.9665,0.0006999999999999229,0.0007242628039316326
+61,mixed,1.0,cleaned,Mean modules per student,4.92,5.02,0.09999999999999964,0.019920318725099532
+62,mixed,1.0,dirty,Active student headcount,466.0,365.0,101.0,0.27671232876712326
+62,mixed,1.0,dirty,Graduates on record,512.0,569.0,57.0,0.10017574692442882
+62,mixed,1.0,dirty,Total student records (people),1050.0,1000.0,50.0,0.05
+62,mixed,1.0,dirty,Computer Science students,131.0,123.0,8.0,0.06504065040650407
+62,mixed,1.0,dirty,Student records with institutional-format email,921.0,1000.0,79.0,0.079
+62,mixed,1.0,dirty,Courses currently offered,56.0,53.0,3.0,0.05660377358490566
+62,mixed,1.0,dirty,Mean grade (completed modules),63.6,61.59,2.009999999999998,0.0326351680467608
+62,mixed,1.0,dirty,Pass rate (grade >= 40),0.9591,0.9627,0.0036000000000000476,0.0037394827048925394
+62,mixed,1.0,dirty,Mean modules per student,4.73,5.02,0.28999999999999915,0.05776892430278868
+62,mixed,1.0,cleaned,Active student headcount,451.0,365.0,86.0,0.2356164383561644
+62,mixed,1.0,cleaned,Graduates on record,484.0,569.0,85.0,0.14938488576449913
+62,mixed,1.0,cleaned,Total student records (people),1001.0,1000.0,1.0,0.001
+62,mixed,1.0,cleaned,Computer Science students,123.0,123.0,0.0,0.0
+62,mixed,1.0,cleaned,Student records with institutional-format email,942.0,1000.0,58.0,0.058
+62,mixed,1.0,cleaned,Courses currently offered,56.0,53.0,3.0,0.05660377358490566
+62,mixed,1.0,cleaned,Mean grade (completed modules),61.55,61.59,0.04000000000000625,0.0006494560805326555
+62,mixed,1.0,cleaned,Pass rate (grade >= 40),0.962,0.9627,0.0007000000000000339,0.0007271216370624638
+62,mixed,1.0,cleaned,Mean modules per student,4.92,5.02,0.09999999999999964,0.019920318725099532
+63,mixed,1.0,dirty,Active student headcount,458.0,347.0,111.0,0.31988472622478387
+63,mixed,1.0,dirty,Graduates on record,543.0,607.0,64.0,0.10543657331136738
+63,mixed,1.0,dirty,Total student records (people),1050.0,1000.0,50.0,0.05
+63,mixed,1.0,dirty,Computer Science students,118.0,124.0,6.0,0.04838709677419355
+63,mixed,1.0,dirty,Student records with institutional-format email,921.0,1000.0,79.0,0.079
+63,mixed,1.0,dirty,Courses currently offered,56.0,53.0,3.0,0.05660377358490566
+63,mixed,1.0,dirty,Mean grade (completed modules),63.66,61.69,1.9699999999999989,0.031933862862700585
+63,mixed,1.0,dirty,Pass rate (grade >= 40),0.965,0.9654,0.00040000000000006697,0.00041433602651757504
+63,mixed,1.0,dirty,Mean modules per student,4.84,5.14,0.2999999999999998,0.05836575875486378
+63,mixed,1.0,cleaned,Active student headcount,438.0,347.0,91.0,0.2622478386167147
+63,mixed,1.0,cleaned,Graduates on record,517.0,607.0,90.0,0.14827018121911037
+63,mixed,1.0,cleaned,Total student records (people),1001.0,1000.0,1.0,0.001
+63,mixed,1.0,cleaned,Computer Science students,124.0,124.0,0.0,0.0
+63,mixed,1.0,cleaned,Student records with institutional-format email,940.0,1000.0,60.0,0.06
+63,mixed,1.0,cleaned,Courses currently offered,56.0,53.0,3.0,0.05660377358490566
+63,mixed,1.0,cleaned,Mean grade (completed modules),61.81,61.69,0.12000000000000455,0.0019452099205706688
+63,mixed,1.0,cleaned,Pass rate (grade >= 40),0.9679,0.9654,0.0024999999999999467,0.002589600165734355
+63,mixed,1.0,cleaned,Mean modules per student,5.03,5.14,0.10999999999999943,0.02140077821011662
+64,mixed,1.0,dirty,Active student headcount,447.0,340.0,107.0,0.31470588235294117
+64,mixed,1.0,dirty,Graduates on record,529.0,591.0,62.0,0.10490693739424704
+64,mixed,1.0,dirty,Total student records (people),1050.0,1000.0,50.0,0.05
+64,mixed,1.0,dirty,Computer Science students,109.0,114.0,5.0,0.043859649122807015
+64,mixed,1.0,dirty,Student records with institutional-format email,921.0,1000.0,79.0,0.079
+64,mixed,1.0,dirty,Courses currently offered,56.0,53.0,3.0,0.05660377358490566
+64,mixed,1.0,dirty,Mean grade (completed modules),63.8,61.31,2.489999999999995,0.0406132767900831
+64,mixed,1.0,dirty,Pass rate (grade >= 40),0.9606,0.9635,0.0029000000000000137,0.003009859885832915
+64,mixed,1.0,dirty,Mean modules per student,4.77,5.06,0.29000000000000004,0.05731225296442689
+64,mixed,1.0,cleaned,Active student headcount,429.0,340.0,89.0,0.26176470588235295
+64,mixed,1.0,cleaned,Graduates on record,501.0,591.0,90.0,0.15228426395939088
+64,mixed,1.0,cleaned,Total student records (people),999.0,1000.0,1.0,0.001
+64,mixed,1.0,cleaned,Computer Science students,114.0,114.0,0.0,0.0
+64,mixed,1.0,cleaned,Student records with institutional-format email,940.0,1000.0,60.0,0.06
+64,mixed,1.0,cleaned,Courses currently offered,56.0,53.0,3.0,0.05660377358490566
+64,mixed,1.0,cleaned,Mean grade (completed modules),61.34,61.31,0.030000000000001137,0.000489316587832346
+64,mixed,1.0,cleaned,Pass rate (grade >= 40),0.9639,0.9635,0.00039999999999995595,0.00041515308770104405
+64,mixed,1.0,cleaned,Mean modules per student,4.96,5.06,0.09999999999999964,0.019762845849802303
+65,mixed,1.0,dirty,Active student headcount,459.0,356.0,103.0,0.2893258426966292
+65,mixed,1.0,dirty,Graduates on record,536.0,590.0,54.0,0.09152542372881356
+65,mixed,1.0,dirty,Total student records (people),1050.0,1000.0,50.0,0.05
+65,mixed,1.0,dirty,Computer Science students,127.0,136.0,9.0,0.0661764705882353
+65,mixed,1.0,dirty,Student records with institutional-format email,921.0,1000.0,79.0,0.079
+65,mixed,1.0,dirty,Courses currently offered,56.0,53.0,3.0,0.05660377358490566
+65,mixed,1.0,dirty,Mean grade (completed modules),63.68,61.21,2.469999999999999,0.04035288351576538
+65,mixed,1.0,dirty,Pass rate (grade >= 40),0.9653,0.9661,0.0007999999999999119,0.0008280716281957478
+65,mixed,1.0,dirty,Mean modules per student,4.77,5.06,0.29000000000000004,0.05731225296442689
+65,mixed,1.0,cleaned,Active student headcount,444.0,356.0,88.0,0.24719101123595505
+65,mixed,1.0,cleaned,Graduates on record,503.0,590.0,87.0,0.14745762711864407
+65,mixed,1.0,cleaned,Total student records (people),1001.0,1000.0,1.0,0.001
+65,mixed,1.0,cleaned,Computer Science students,136.0,136.0,0.0,0.0
+65,mixed,1.0,cleaned,Student records with institutional-format email,940.0,1000.0,60.0,0.06
+65,mixed,1.0,cleaned,Courses currently offered,56.0,53.0,3.0,0.05660377358490566
+65,mixed,1.0,cleaned,Mean grade (completed modules),61.25,61.21,0.03999999999999915,0.0006534879921581302
+65,mixed,1.0,cleaned,Pass rate (grade >= 40),0.9671,0.9661,0.0010000000000000009,0.0010350895352447995
+65,mixed,1.0,cleaned,Mean modules per student,4.96,5.06,0.09999999999999964,0.019762845849802303
+66,mixed,1.0,dirty,Active student headcount,437.0,335.0,102.0,0.3044776119402985
+66,mixed,1.0,dirty,Graduates on record,538.0,594.0,56.0,0.09427609427609428
+66,mixed,1.0,dirty,Total student records (people),1050.0,1000.0,50.0,0.05
+66,mixed,1.0,dirty,Computer Science students,126.0,130.0,4.0,0.03076923076923077
+66,mixed,1.0,dirty,Student records with institutional-format email,921.0,1000.0,79.0,0.079
+66,mixed,1.0,dirty,Courses currently offered,56.0,53.0,3.0,0.05660377358490566
+66,mixed,1.0,dirty,Mean grade (completed modules),64.61,61.71,2.8999999999999986,0.04699400421325552
+66,mixed,1.0,dirty,Pass rate (grade >= 40),0.9647,0.9669,0.0021999999999999797,0.0022753128555176127
+66,mixed,1.0,dirty,Mean modules per student,4.75,5.04,0.29000000000000004,0.05753968253968254
+66,mixed,1.0,cleaned,Active student headcount,425.0,335.0,90.0,0.26865671641791045
+66,mixed,1.0,cleaned,Graduates on record,505.0,594.0,89.0,0.14983164983164984
+66,mixed,1.0,cleaned,Total student records (people),1001.0,1000.0,1.0,0.001
+66,mixed,1.0,cleaned,Computer Science students,130.0,130.0,0.0,0.0
+66,mixed,1.0,cleaned,Student records with institutional-format email,941.0,1000.0,59.0,0.059
+66,mixed,1.0,cleaned,Courses currently offered,56.0,53.0,3.0,0.05660377358490566
+66,mixed,1.0,cleaned,Mean grade (completed modules),61.68,61.71,0.030000000000001137,0.00048614487117162755
+66,mixed,1.0,cleaned,Pass rate (grade >= 40),0.9674,0.9669,0.000500000000000056,0.0005171165580722474
+66,mixed,1.0,cleaned,Mean modules per student,4.94,5.04,0.09999999999999964,0.01984126984126977
+67,mixed,1.0,dirty,Active student headcount,456.0,342.0,114.0,0.3333333333333333
+67,mixed,1.0,dirty,Graduates on record,526.0,591.0,65.0,0.10998307952622674
+67,mixed,1.0,dirty,Total student records (people),1050.0,1000.0,50.0,0.05
+67,mixed,1.0,dirty,Computer Science students,111.0,122.0,11.0,0.09016393442622951
+67,mixed,1.0,dirty,Student records with institutional-format email,921.0,1000.0,79.0,0.079
+67,mixed,1.0,dirty,Courses currently offered,56.0,53.0,3.0,0.05660377358490566
+67,mixed,1.0,dirty,Mean grade (completed modules),63.3,61.51,1.7899999999999991,0.02910095919362704
+67,mixed,1.0,dirty,Pass rate (grade >= 40),0.9655,0.9679,0.0023999999999999577,0.002479594999483374
+67,mixed,1.0,dirty,Mean modules per student,4.81,5.1,0.29000000000000004,0.05686274509803923
+67,mixed,1.0,cleaned,Active student headcount,431.0,342.0,89.0,0.260233918128655
+67,mixed,1.0,cleaned,Graduates on record,503.0,591.0,88.0,0.14890016920473773
+67,mixed,1.0,cleaned,Total student records (people),1001.0,1000.0,1.0,0.001
+67,mixed,1.0,cleaned,Computer Science students,122.0,122.0,0.0,0.0
+67,mixed,1.0,cleaned,Student records with institutional-format email,941.0,1000.0,59.0,0.059
+67,mixed,1.0,cleaned,Courses currently offered,56.0,53.0,3.0,0.05660377358490566
+67,mixed,1.0,cleaned,Mean grade (completed modules),61.54,61.51,0.030000000000001137,0.00048772557307756684
+67,mixed,1.0,cleaned,Pass rate (grade >= 40),0.9689,0.9679,0.0010000000000000009,0.0010331645831180916
+67,mixed,1.0,cleaned,Mean modules per student,5.0,5.1,0.09999999999999964,0.019607843137254832
+68,mixed,1.0,dirty,Active student headcount,485.0,377.0,108.0,0.2864721485411141
+68,mixed,1.0,dirty,Graduates on record,509.0,567.0,58.0,0.10229276895943562
+68,mixed,1.0,dirty,Total student records (people),1050.0,1000.0,50.0,0.05
+68,mixed,1.0,dirty,Computer Science students,121.0,128.0,7.0,0.0546875
+68,mixed,1.0,dirty,Student records with institutional-format email,921.0,1000.0,79.0,0.079
+68,mixed,1.0,dirty,Courses currently offered,56.0,53.0,3.0,0.05660377358490566
+68,mixed,1.0,dirty,Mean grade (completed modules),63.81,61.61,2.200000000000003,0.0357084888816751
+68,mixed,1.0,dirty,Pass rate (grade >= 40),0.963,0.9646,0.0016000000000000458,0.0016587186398507629
+68,mixed,1.0,dirty,Mean modules per student,4.72,5.0,0.28000000000000025,0.05600000000000005
+68,mixed,1.0,cleaned,Active student headcount,462.0,377.0,85.0,0.22546419098143236
+68,mixed,1.0,cleaned,Graduates on record,482.0,567.0,85.0,0.14991181657848324
+68,mixed,1.0,cleaned,Total student records (people),1000.0,1000.0,0.0,0.0
+68,mixed,1.0,cleaned,Computer Science students,128.0,128.0,0.0,0.0
+68,mixed,1.0,cleaned,Student records with institutional-format email,940.0,1000.0,60.0,0.06
+68,mixed,1.0,cleaned,Courses currently offered,56.0,53.0,3.0,0.05660377358490566
+68,mixed,1.0,cleaned,Mean grade (completed modules),61.65,61.61,0.03999999999999915,0.0006492452523940781
+68,mixed,1.0,cleaned,Pass rate (grade >= 40),0.9655,0.9646,0.0009000000000000119,0.0009330292349160397
+68,mixed,1.0,cleaned,Mean modules per student,4.91,5.0,0.08999999999999986,0.01799999999999997
+69,mixed,1.0,dirty,Active student headcount,443.0,348.0,95.0,0.27298850574712646
+69,mixed,1.0,dirty,Graduates on record,527.0,578.0,51.0,0.08823529411764706
+69,mixed,1.0,dirty,Total student records (people),1050.0,1000.0,50.0,0.05
+69,mixed,1.0,dirty,Computer Science students,109.0,125.0,16.0,0.128
+69,mixed,1.0,dirty,Student records with institutional-format email,921.0,1000.0,79.0,0.079
+69,mixed,1.0,dirty,Courses currently offered,56.0,53.0,3.0,0.05660377358490566
+69,mixed,1.0,dirty,Mean grade (completed modules),63.15,61.69,1.4600000000000009,0.023666720700275586
+69,mixed,1.0,dirty,Pass rate (grade >= 40),0.9664,0.9701,0.0036999999999999256,0.003814039789712324
+69,mixed,1.0,dirty,Mean modules per student,4.71,5.0,0.29000000000000004,0.05800000000000001
+69,mixed,1.0,cleaned,Active student headcount,435.0,348.0,87.0,0.25
+69,mixed,1.0,cleaned,Graduates on record,492.0,578.0,86.0,0.14878892733564014
+69,mixed,1.0,cleaned,Total student records (people),1001.0,1000.0,1.0,0.001
+69,mixed,1.0,cleaned,Computer Science students,125.0,125.0,0.0,0.0
+69,mixed,1.0,cleaned,Student records with institutional-format email,941.0,1000.0,59.0,0.059
+69,mixed,1.0,cleaned,Courses currently offered,56.0,53.0,3.0,0.05660377358490566
+69,mixed,1.0,cleaned,Mean grade (completed modules),61.72,61.69,0.030000000000001137,0.0004863024801426672
+69,mixed,1.0,cleaned,Pass rate (grade >= 40),0.9691,0.9701,0.0010000000000000009,0.0010308215647871362
+69,mixed,1.0,cleaned,Mean modules per student,4.89,5.0,0.11000000000000032,0.022000000000000065
+70,mixed,1.0,dirty,Active student headcount,432.0,321.0,111.0,0.34579439252336447
+70,mixed,1.0,dirty,Graduates on record,552.0,613.0,61.0,0.09951060358890701
+70,mixed,1.0,dirty,Total student records (people),1050.0,1000.0,50.0,0.05
+70,mixed,1.0,dirty,Computer Science students,108.0,125.0,17.0,0.136
+70,mixed,1.0,dirty,Student records with institutional-format email,921.0,1000.0,79.0,0.079
+70,mixed,1.0,dirty,Courses currently offered,56.0,53.0,3.0,0.05660377358490566
+70,mixed,1.0,dirty,Mean grade (completed modules),63.51,61.67,1.8399999999999963,0.02983622506891513
+70,mixed,1.0,dirty,Pass rate (grade >= 40),0.9701,0.973,0.0029000000000000137,0.002980472764645441
+70,mixed,1.0,dirty,Mean modules per student,4.77,5.06,0.29000000000000004,0.05731225296442689
+70,mixed,1.0,cleaned,Active student headcount,413.0,321.0,92.0,0.2866043613707165
+70,mixed,1.0,cleaned,Graduates on record,522.0,613.0,91.0,0.14845024469820556
+70,mixed,1.0,cleaned,Total student records (people),1001.0,1000.0,1.0,0.001
+70,mixed,1.0,cleaned,Computer Science students,126.0,125.0,1.0,0.008
+70,mixed,1.0,cleaned,Student records with institutional-format email,940.0,1000.0,60.0,0.06
+70,mixed,1.0,cleaned,Courses currently offered,56.0,53.0,3.0,0.05660377358490566
+70,mixed,1.0,cleaned,Mean grade (completed modules),61.68,61.67,0.00999999999999801,0.00016215339711363728
+70,mixed,1.0,cleaned,Pass rate (grade >= 40),0.9734,0.973,0.00040000000000006697,0.0004110996916753001
+70,mixed,1.0,cleaned,Mean modules per student,4.95,5.06,0.10999999999999943,0.021739130434782497
+71,mixed,1.0,dirty,Active student headcount,458.0,348.0,110.0,0.3160919540229885
+71,mixed,1.0,dirty,Graduates on record,541.0,603.0,62.0,0.10281923714759536
+71,mixed,1.0,dirty,Total student records (people),1050.0,1000.0,50.0,0.05
+71,mixed,1.0,dirty,Computer Science students,109.0,119.0,10.0,0.08403361344537816
+71,mixed,1.0,dirty,Student records with institutional-format email,921.0,1000.0,79.0,0.079
+71,mixed,1.0,dirty,Courses currently offered,56.0,53.0,3.0,0.05660377358490566
+71,mixed,1.0,dirty,Mean grade (completed modules),64.31,61.26,3.0500000000000043,0.049787789748612546
+71,mixed,1.0,dirty,Pass rate (grade >= 40),0.9707,0.9715,0.0008000000000000229,0.0008234688625836571
+71,mixed,1.0,dirty,Mean modules per student,4.76,5.05,0.29000000000000004,0.057425742574257435
+71,mixed,1.0,cleaned,Active student headcount,439.0,348.0,91.0,0.2614942528735632
+71,mixed,1.0,cleaned,Graduates on record,514.0,603.0,89.0,0.14759535655058043
+71,mixed,1.0,cleaned,Total student records (people),1002.0,1000.0,2.0,0.002
+71,mixed,1.0,cleaned,Computer Science students,119.0,119.0,0.0,0.0
+71,mixed,1.0,cleaned,Student records with institutional-format email,940.0,1000.0,60.0,0.06
+71,mixed,1.0,cleaned,Courses currently offered,56.0,53.0,3.0,0.05660377358490566
+71,mixed,1.0,cleaned,Mean grade (completed modules),61.24,61.26,0.01999999999999602,0.0003264773098269021
+71,mixed,1.0,cleaned,Pass rate (grade >= 40),0.972,0.9715,0.0004999999999999449,0.0005146680391147143
+71,mixed,1.0,cleaned,Mean modules per student,4.94,5.05,0.10999999999999943,0.02178217821782167
+42,duplicate,0.25,dirty,Active student headcount,350.0,345.0,5.0,0.014492753623188406
+42,duplicate,0.25,dirty,Graduates on record,600.0,594.0,6.0,0.010101010101010102
+42,duplicate,0.25,dirty,Total student records (people),1012.0,1000.0,12.0,0.012
+42,duplicate,0.25,dirty,Computer Science students,133.0,131.0,2.0,0.015267175572519083
+42,duplicate,0.25,dirty,Student records with institutional-format email,1000.0,1000.0,0.0,0.0
+42,duplicate,0.25,dirty,Courses currently offered,53.0,53.0,0.0,0.0
+42,duplicate,0.25,dirty,Mean grade (completed modules),61.65,61.65,0.0,0.0
+42,duplicate,0.25,dirty,Pass rate (grade >= 40),0.9721,0.9721,0.0,0.0
+42,duplicate,0.25,dirty,Mean modules per student,5.02,5.08,0.0600000000000005,0.011811023622047341
+42,duplicate,0.25,cleaned,Active student headcount,345.0,345.0,0.0,0.0
+42,duplicate,0.25,cleaned,Graduates on record,594.0,594.0,0.0,0.0
+42,duplicate,0.25,cleaned,Total student records (people),1000.0,1000.0,0.0,0.0
+42,duplicate,0.25,cleaned,Computer Science students,131.0,131.0,0.0,0.0
+42,duplicate,0.25,cleaned,Student records with institutional-format email,1000.0,1000.0,0.0,0.0
+42,duplicate,0.25,cleaned,Courses currently offered,53.0,53.0,0.0,0.0
+42,duplicate,0.25,cleaned,Mean grade (completed modules),61.65,61.65,0.0,0.0
+42,duplicate,0.25,cleaned,Pass rate (grade >= 40),0.9721,0.9721,0.0,0.0
+42,duplicate,0.25,cleaned,Mean modules per student,5.08,5.08,0.0,0.0
+42,duplicate,1.0,dirty,Active student headcount,361.0,345.0,16.0,0.0463768115942029
+42,duplicate,1.0,dirty,Graduates on record,622.0,594.0,28.0,0.04713804713804714
+42,duplicate,1.0,dirty,Total student records (people),1050.0,1000.0,50.0,0.05
+42,duplicate,1.0,dirty,Computer Science students,137.0,131.0,6.0,0.04580152671755725
+42,duplicate,1.0,dirty,Student records with institutional-format email,1000.0,1000.0,0.0,0.0
+42,duplicate,1.0,dirty,Courses currently offered,53.0,53.0,0.0,0.0
+42,duplicate,1.0,dirty,Mean grade (completed modules),61.65,61.65,0.0,0.0
+42,duplicate,1.0,dirty,Pass rate (grade >= 40),0.9721,0.9721,0.0,0.0
+42,duplicate,1.0,dirty,Mean modules per student,4.84,5.08,0.2400000000000002,0.04724409448818902
+42,duplicate,1.0,cleaned,Active student headcount,345.0,345.0,0.0,0.0
+42,duplicate,1.0,cleaned,Graduates on record,594.0,594.0,0.0,0.0
+42,duplicate,1.0,cleaned,Total student records (people),1000.0,1000.0,0.0,0.0
+42,duplicate,1.0,cleaned,Computer Science students,131.0,131.0,0.0,0.0
+42,duplicate,1.0,cleaned,Student records with institutional-format email,1000.0,1000.0,0.0,0.0
+42,duplicate,1.0,cleaned,Courses currently offered,53.0,53.0,0.0,0.0
+42,duplicate,1.0,cleaned,Mean grade (completed modules),61.65,61.65,0.0,0.0
+42,duplicate,1.0,cleaned,Pass rate (grade >= 40),0.9721,0.9721,0.0,0.0
+42,duplicate,1.0,cleaned,Mean modules per student,5.08,5.08,0.0,0.0
+42,duplicate,2.0,dirty,Active student headcount,374.0,345.0,29.0,0.08405797101449275
+42,duplicate,2.0,dirty,Graduates on record,656.0,594.0,62.0,0.10437710437710437
+42,duplicate,2.0,dirty,Total student records (people),1100.0,1000.0,100.0,0.1
+42,duplicate,2.0,dirty,Computer Science students,145.0,131.0,14.0,0.10687022900763359
+42,duplicate,2.0,dirty,Student records with institutional-format email,1000.0,1000.0,0.0,0.0
+42,duplicate,2.0,dirty,Courses currently offered,53.0,53.0,0.0,0.0
+42,duplicate,2.0,dirty,Mean grade (completed modules),61.65,61.65,0.0,0.0
+42,duplicate,2.0,dirty,Pass rate (grade >= 40),0.9721,0.9721,0.0,0.0
+42,duplicate,2.0,dirty,Mean modules per student,4.62,5.08,0.45999999999999996,0.0905511811023622
+42,duplicate,2.0,cleaned,Active student headcount,345.0,345.0,0.0,0.0
+42,duplicate,2.0,cleaned,Graduates on record,594.0,594.0,0.0,0.0
+42,duplicate,2.0,cleaned,Total student records (people),1000.0,1000.0,0.0,0.0
+42,duplicate,2.0,cleaned,Computer Science students,131.0,131.0,0.0,0.0
+42,duplicate,2.0,cleaned,Student records with institutional-format email,1000.0,1000.0,0.0,0.0
+42,duplicate,2.0,cleaned,Courses currently offered,53.0,53.0,0.0,0.0
+42,duplicate,2.0,cleaned,Mean grade (completed modules),61.65,61.65,0.0,0.0
+42,duplicate,2.0,cleaned,Pass rate (grade >= 40),0.9721,0.9721,0.0,0.0
+42,duplicate,2.0,cleaned,Mean modules per student,5.08,5.08,0.0,0.0
+42,missing,0.25,dirty,Active student headcount,345.0,345.0,0.0,0.0
+42,missing,0.25,dirty,Graduates on record,594.0,594.0,0.0,0.0
+42,missing,0.25,dirty,Total student records (people),1000.0,1000.0,0.0,0.0
+42,missing,0.25,dirty,Computer Science students,128.0,131.0,3.0,0.022900763358778626
+42,missing,0.25,dirty,Student records with institutional-format email,985.0,1000.0,15.0,0.015
+42,missing,0.25,dirty,Courses currently offered,53.0,53.0,0.0,0.0
+42,missing,0.25,dirty,Mean grade (completed modules),61.66,61.65,0.00999999999999801,0.00016220600162202776
+42,missing,0.25,dirty,Pass rate (grade >= 40),0.9727,0.9721,0.0006000000000000449,0.0006172204505709752
+42,missing,0.25,dirty,Mean modules per student,5.08,5.08,0.0,0.0
+42,missing,0.25,cleaned,Active student headcount,345.0,345.0,0.0,0.0
+42,missing,0.25,cleaned,Graduates on record,594.0,594.0,0.0,0.0
+42,missing,0.25,cleaned,Total student records (people),1000.0,1000.0,0.0,0.0
+42,missing,0.25,cleaned,Computer Science students,131.0,131.0,0.0,0.0
+42,missing,0.25,cleaned,Student records with institutional-format email,985.0,1000.0,15.0,0.015
+42,missing,0.25,cleaned,Courses currently offered,53.0,53.0,0.0,0.0
+42,missing,0.25,cleaned,Mean grade (completed modules),61.66,61.65,0.00999999999999801,0.00016220600162202776
+42,missing,0.25,cleaned,Pass rate (grade >= 40),0.9727,0.9721,0.0006000000000000449,0.0006172204505709752
+42,missing,0.25,cleaned,Mean modules per student,5.08,5.08,0.0,0.0
+42,missing,1.0,dirty,Active student headcount,345.0,345.0,0.0,0.0
+42,missing,1.0,dirty,Graduates on record,594.0,594.0,0.0,0.0
+42,missing,1.0,dirty,Total student records (people),1000.0,1000.0,0.0,0.0
+42,missing,1.0,dirty,Computer Science students,124.0,131.0,7.0,0.05343511450381679
+42,missing,1.0,dirty,Student records with institutional-format email,940.0,1000.0,60.0,0.06
+42,missing,1.0,dirty,Courses currently offered,53.0,53.0,0.0,0.0
+42,missing,1.0,dirty,Mean grade (completed modules),61.64,61.65,0.00999999999999801,0.00016220600162202776
+42,missing,1.0,dirty,Pass rate (grade >= 40),0.9721,0.9721,0.0,0.0
+42,missing,1.0,dirty,Mean modules per student,5.08,5.08,0.0,0.0
+42,missing,1.0,cleaned,Active student headcount,345.0,345.0,0.0,0.0
+42,missing,1.0,cleaned,Graduates on record,594.0,594.0,0.0,0.0
+42,missing,1.0,cleaned,Total student records (people),1000.0,1000.0,0.0,0.0
+42,missing,1.0,cleaned,Computer Science students,131.0,131.0,0.0,0.0
+42,missing,1.0,cleaned,Student records with institutional-format email,940.0,1000.0,60.0,0.06
+42,missing,1.0,cleaned,Courses currently offered,53.0,53.0,0.0,0.0
+42,missing,1.0,cleaned,Mean grade (completed modules),61.64,61.65,0.00999999999999801,0.00016220600162202776
+42,missing,1.0,cleaned,Pass rate (grade >= 40),0.9721,0.9721,0.0,0.0
+42,missing,1.0,cleaned,Mean modules per student,5.08,5.08,0.0,0.0
+42,missing,2.0,dirty,Active student headcount,345.0,345.0,0.0,0.0
+42,missing,2.0,dirty,Graduates on record,594.0,594.0,0.0,0.0
+42,missing,2.0,dirty,Total student records (people),1000.0,1000.0,0.0,0.0
+42,missing,2.0,dirty,Computer Science students,122.0,131.0,9.0,0.06870229007633588
+42,missing,2.0,dirty,Student records with institutional-format email,880.0,1000.0,120.0,0.12
+42,missing,2.0,dirty,Courses currently offered,53.0,53.0,0.0,0.0
+42,missing,2.0,dirty,Mean grade (completed modules),61.63,61.65,0.01999999999999602,0.0003244120032440555
+42,missing,2.0,dirty,Pass rate (grade >= 40),0.9733,0.9721,0.0012000000000000899,0.0012344409011419504
+42,missing,2.0,dirty,Mean modules per student,5.08,5.08,0.0,0.0
+42,missing,2.0,cleaned,Active student headcount,345.0,345.0,0.0,0.0
+42,missing,2.0,cleaned,Graduates on record,594.0,594.0,0.0,0.0
+42,missing,2.0,cleaned,Total student records (people),1000.0,1000.0,0.0,0.0
+42,missing,2.0,cleaned,Computer Science students,131.0,131.0,0.0,0.0
+42,missing,2.0,cleaned,Student records with institutional-format email,880.0,1000.0,120.0,0.12
+42,missing,2.0,cleaned,Courses currently offered,53.0,53.0,0.0,0.0
+42,missing,2.0,cleaned,Mean grade (completed modules),61.63,61.65,0.01999999999999602,0.0003244120032440555
+42,missing,2.0,cleaned,Pass rate (grade >= 40),0.9733,0.9721,0.0012000000000000899,0.0012344409011419504
+42,missing,2.0,cleaned,Mean modules per student,5.08,5.08,0.0,0.0
+42,outdated,0.25,dirty,Active student headcount,367.0,345.0,22.0,0.06376811594202898
+42,outdated,0.25,dirty,Graduates on record,572.0,594.0,22.0,0.037037037037037035
+42,outdated,0.25,dirty,Total student records (people),1000.0,1000.0,0.0,0.0
+42,outdated,0.25,dirty,Computer Science students,131.0,131.0,0.0,0.0
+42,outdated,0.25,dirty,Student records with institutional-format email,1000.0,1000.0,0.0,0.0
+42,outdated,0.25,dirty,Courses currently offered,54.0,53.0,1.0,0.018867924528301886
+42,outdated,0.25,dirty,Mean grade (completed modules),61.65,61.65,0.0,0.0
+42,outdated,0.25,dirty,Pass rate (grade >= 40),0.9721,0.9721,0.0,0.0
+42,outdated,0.25,dirty,Mean modules per student,5.08,5.08,0.0,0.0
+42,outdated,0.25,cleaned,Active student headcount,367.0,345.0,22.0,0.06376811594202898
+42,outdated,0.25,cleaned,Graduates on record,572.0,594.0,22.0,0.037037037037037035
+42,outdated,0.25,cleaned,Total student records (people),1000.0,1000.0,0.0,0.0
+42,outdated,0.25,cleaned,Computer Science students,131.0,131.0,0.0,0.0
+42,outdated,0.25,cleaned,Student records with institutional-format email,1000.0,1000.0,0.0,0.0
+42,outdated,0.25,cleaned,Courses currently offered,54.0,53.0,1.0,0.018867924528301886
+42,outdated,0.25,cleaned,Mean grade (completed modules),61.65,61.65,0.0,0.0
+42,outdated,0.25,cleaned,Pass rate (grade >= 40),0.9721,0.9721,0.0,0.0
+42,outdated,0.25,cleaned,Mean modules per student,5.08,5.08,0.0,0.0
+42,outdated,1.0,dirty,Active student headcount,434.0,345.0,89.0,0.2579710144927536
+42,outdated,1.0,dirty,Graduates on record,505.0,594.0,89.0,0.14983164983164984
+42,outdated,1.0,dirty,Total student records (people),1000.0,1000.0,0.0,0.0
+42,outdated,1.0,dirty,Computer Science students,131.0,131.0,0.0,0.0
+42,outdated,1.0,dirty,Student records with institutional-format email,1000.0,1000.0,0.0,0.0
+42,outdated,1.0,dirty,Courses currently offered,56.0,53.0,3.0,0.05660377358490566
+42,outdated,1.0,dirty,Mean grade (completed modules),61.65,61.65,0.0,0.0
+42,outdated,1.0,dirty,Pass rate (grade >= 40),0.9721,0.9721,0.0,0.0
+42,outdated,1.0,dirty,Mean modules per student,5.08,5.08,0.0,0.0
+42,outdated,1.0,cleaned,Active student headcount,434.0,345.0,89.0,0.2579710144927536
+42,outdated,1.0,cleaned,Graduates on record,505.0,594.0,89.0,0.14983164983164984
+42,outdated,1.0,cleaned,Total student records (people),1000.0,1000.0,0.0,0.0
+42,outdated,1.0,cleaned,Computer Science students,131.0,131.0,0.0,0.0
+42,outdated,1.0,cleaned,Student records with institutional-format email,1000.0,1000.0,0.0,0.0
+42,outdated,1.0,cleaned,Courses currently offered,56.0,53.0,3.0,0.05660377358490566
+42,outdated,1.0,cleaned,Mean grade (completed modules),61.65,61.65,0.0,0.0
+42,outdated,1.0,cleaned,Pass rate (grade >= 40),0.9721,0.9721,0.0,0.0
+42,outdated,1.0,cleaned,Mean modules per student,5.08,5.08,0.0,0.0
+42,outdated,2.0,dirty,Active student headcount,523.0,345.0,178.0,0.5159420289855072
+42,outdated,2.0,dirty,Graduates on record,416.0,594.0,178.0,0.2996632996632997
+42,outdated,2.0,dirty,Total student records (people),1000.0,1000.0,0.0,0.0
+42,outdated,2.0,dirty,Computer Science students,131.0,131.0,0.0,0.0
+42,outdated,2.0,dirty,Student records with institutional-format email,1000.0,1000.0,0.0,0.0
+42,outdated,2.0,dirty,Courses currently offered,56.0,53.0,3.0,0.05660377358490566
+42,outdated,2.0,dirty,Mean grade (completed modules),61.65,61.65,0.0,0.0
+42,outdated,2.0,dirty,Pass rate (grade >= 40),0.9721,0.9721,0.0,0.0
+42,outdated,2.0,dirty,Mean modules per student,5.08,5.08,0.0,0.0
+42,outdated,2.0,cleaned,Active student headcount,523.0,345.0,178.0,0.5159420289855072
+42,outdated,2.0,cleaned,Graduates on record,416.0,594.0,178.0,0.2996632996632997
+42,outdated,2.0,cleaned,Total student records (people),1000.0,1000.0,0.0,0.0
+42,outdated,2.0,cleaned,Computer Science students,131.0,131.0,0.0,0.0
+42,outdated,2.0,cleaned,Student records with institutional-format email,1000.0,1000.0,0.0,0.0
+42,outdated,2.0,cleaned,Courses currently offered,56.0,53.0,3.0,0.05660377358490566
+42,outdated,2.0,cleaned,Mean grade (completed modules),61.65,61.65,0.0,0.0
+42,outdated,2.0,cleaned,Pass rate (grade >= 40),0.9721,0.9721,0.0,0.0
+42,outdated,2.0,cleaned,Mean modules per student,5.08,5.08,0.0,0.0
+42,inconsistent_code,0.25,dirty,Active student headcount,345.0,345.0,0.0,0.0
+42,inconsistent_code,0.25,dirty,Graduates on record,594.0,594.0,0.0,0.0
+42,inconsistent_code,0.25,dirty,Total student records (people),1000.0,1000.0,0.0,0.0
+42,inconsistent_code,0.25,dirty,Computer Science students,129.0,131.0,2.0,0.015267175572519083
+42,inconsistent_code,0.25,dirty,Student records with institutional-format email,1000.0,1000.0,0.0,0.0
+42,inconsistent_code,0.25,dirty,Courses currently offered,53.0,53.0,0.0,0.0
+42,inconsistent_code,0.25,dirty,Mean grade (completed modules),61.65,61.65,0.0,0.0
+42,inconsistent_code,0.25,dirty,Pass rate (grade >= 40),0.9721,0.9721,0.0,0.0
+42,inconsistent_code,0.25,dirty,Mean modules per student,5.08,5.08,0.0,0.0
+42,inconsistent_code,0.25,cleaned,Active student headcount,345.0,345.0,0.0,0.0
+42,inconsistent_code,0.25,cleaned,Graduates on record,594.0,594.0,0.0,0.0
+42,inconsistent_code,0.25,cleaned,Total student records (people),1000.0,1000.0,0.0,0.0
+42,inconsistent_code,0.25,cleaned,Computer Science students,131.0,131.0,0.0,0.0
+42,inconsistent_code,0.25,cleaned,Student records with institutional-format email,1000.0,1000.0,0.0,0.0
+42,inconsistent_code,0.25,cleaned,Courses currently offered,53.0,53.0,0.0,0.0
+42,inconsistent_code,0.25,cleaned,Mean grade (completed modules),61.65,61.65,0.0,0.0
+42,inconsistent_code,0.25,cleaned,Pass rate (grade >= 40),0.9721,0.9721,0.0,0.0
+42,inconsistent_code,0.25,cleaned,Mean modules per student,5.08,5.08,0.0,0.0
+42,inconsistent_code,1.0,dirty,Active student headcount,345.0,345.0,0.0,0.0
+42,inconsistent_code,1.0,dirty,Graduates on record,594.0,594.0,0.0,0.0
+42,inconsistent_code,1.0,dirty,Total student records (people),1000.0,1000.0,0.0,0.0
+42,inconsistent_code,1.0,dirty,Computer Science students,121.0,131.0,10.0,0.07633587786259542
+42,inconsistent_code,1.0,dirty,Student records with institutional-format email,1000.0,1000.0,0.0,0.0
+42,inconsistent_code,1.0,dirty,Courses currently offered,53.0,53.0,0.0,0.0
+42,inconsistent_code,1.0,dirty,Mean grade (completed modules),61.65,61.65,0.0,0.0
+42,inconsistent_code,1.0,dirty,Pass rate (grade >= 40),0.9721,0.9721,0.0,0.0
+42,inconsistent_code,1.0,dirty,Mean modules per student,5.08,5.08,0.0,0.0
+42,inconsistent_code,1.0,cleaned,Active student headcount,345.0,345.0,0.0,0.0
+42,inconsistent_code,1.0,cleaned,Graduates on record,594.0,594.0,0.0,0.0
+42,inconsistent_code,1.0,cleaned,Total student records (people),1000.0,1000.0,0.0,0.0
+42,inconsistent_code,1.0,cleaned,Computer Science students,131.0,131.0,0.0,0.0
+42,inconsistent_code,1.0,cleaned,Student records with institutional-format email,1000.0,1000.0,0.0,0.0
+42,inconsistent_code,1.0,cleaned,Courses currently offered,53.0,53.0,0.0,0.0
+42,inconsistent_code,1.0,cleaned,Mean grade (completed modules),61.65,61.65,0.0,0.0
+42,inconsistent_code,1.0,cleaned,Pass rate (grade >= 40),0.9721,0.9721,0.0,0.0
+42,inconsistent_code,1.0,cleaned,Mean modules per student,5.08,5.08,0.0,0.0
+42,inconsistent_code,2.0,dirty,Active student headcount,345.0,345.0,0.0,0.0
+42,inconsistent_code,2.0,dirty,Graduates on record,594.0,594.0,0.0,0.0
+42,inconsistent_code,2.0,dirty,Total student records (people),1000.0,1000.0,0.0,0.0
+42,inconsistent_code,2.0,dirty,Computer Science students,110.0,131.0,21.0,0.16030534351145037
+42,inconsistent_code,2.0,dirty,Student records with institutional-format email,1000.0,1000.0,0.0,0.0
+42,inconsistent_code,2.0,dirty,Courses currently offered,53.0,53.0,0.0,0.0
+42,inconsistent_code,2.0,dirty,Mean grade (completed modules),61.65,61.65,0.0,0.0
+42,inconsistent_code,2.0,dirty,Pass rate (grade >= 40),0.9721,0.9721,0.0,0.0
+42,inconsistent_code,2.0,dirty,Mean modules per student,5.08,5.08,0.0,0.0
+42,inconsistent_code,2.0,cleaned,Active student headcount,345.0,345.0,0.0,0.0
+42,inconsistent_code,2.0,cleaned,Graduates on record,594.0,594.0,0.0,0.0
+42,inconsistent_code,2.0,cleaned,Total student records (people),1000.0,1000.0,0.0,0.0
+42,inconsistent_code,2.0,cleaned,Computer Science students,131.0,131.0,0.0,0.0
+42,inconsistent_code,2.0,cleaned,Student records with institutional-format email,1000.0,1000.0,0.0,0.0
+42,inconsistent_code,2.0,cleaned,Courses currently offered,53.0,53.0,0.0,0.0
+42,inconsistent_code,2.0,cleaned,Mean grade (completed modules),61.65,61.65,0.0,0.0
+42,inconsistent_code,2.0,cleaned,Pass rate (grade >= 40),0.9721,0.9721,0.0,0.0
+42,inconsistent_code,2.0,cleaned,Mean modules per student,5.08,5.08,0.0,0.0
+42,inconsistent_format,0.25,dirty,Active student headcount,345.0,345.0,0.0,0.0
+42,inconsistent_format,0.25,dirty,Graduates on record,594.0,594.0,0.0,0.0
+42,inconsistent_format,0.25,dirty,Total student records (people),1000.0,1000.0,0.0,0.0
+42,inconsistent_format,0.25,dirty,Computer Science students,131.0,131.0,0.0,0.0
+42,inconsistent_format,0.25,dirty,Student records with institutional-format email,1000.0,1000.0,0.0,0.0
+42,inconsistent_format,0.25,dirty,Courses currently offered,53.0,53.0,0.0,0.0
+42,inconsistent_format,0.25,dirty,Mean grade (completed modules),61.65,61.65,0.0,0.0
+42,inconsistent_format,0.25,dirty,Pass rate (grade >= 40),0.9721,0.9721,0.0,0.0
+42,inconsistent_format,0.25,dirty,Mean modules per student,5.08,5.08,0.0,0.0
+42,inconsistent_format,0.25,cleaned,Active student headcount,345.0,345.0,0.0,0.0
+42,inconsistent_format,0.25,cleaned,Graduates on record,594.0,594.0,0.0,0.0
+42,inconsistent_format,0.25,cleaned,Total student records (people),1000.0,1000.0,0.0,0.0
+42,inconsistent_format,0.25,cleaned,Computer Science students,131.0,131.0,0.0,0.0
+42,inconsistent_format,0.25,cleaned,Student records with institutional-format email,1000.0,1000.0,0.0,0.0
+42,inconsistent_format,0.25,cleaned,Courses currently offered,53.0,53.0,0.0,0.0
+42,inconsistent_format,0.25,cleaned,Mean grade (completed modules),61.65,61.65,0.0,0.0
+42,inconsistent_format,0.25,cleaned,Pass rate (grade >= 40),0.9721,0.9721,0.0,0.0
+42,inconsistent_format,0.25,cleaned,Mean modules per student,5.08,5.08,0.0,0.0
+42,inconsistent_format,1.0,dirty,Active student headcount,345.0,345.0,0.0,0.0
+42,inconsistent_format,1.0,dirty,Graduates on record,594.0,594.0,0.0,0.0
+42,inconsistent_format,1.0,dirty,Total student records (people),1000.0,1000.0,0.0,0.0
+42,inconsistent_format,1.0,dirty,Computer Science students,131.0,131.0,0.0,0.0
+42,inconsistent_format,1.0,dirty,Student records with institutional-format email,1000.0,1000.0,0.0,0.0
+42,inconsistent_format,1.0,dirty,Courses currently offered,53.0,53.0,0.0,0.0
+42,inconsistent_format,1.0,dirty,Mean grade (completed modules),61.65,61.65,0.0,0.0
+42,inconsistent_format,1.0,dirty,Pass rate (grade >= 40),0.9721,0.9721,0.0,0.0
+42,inconsistent_format,1.0,dirty,Mean modules per student,5.08,5.08,0.0,0.0
+42,inconsistent_format,1.0,cleaned,Active student headcount,345.0,345.0,0.0,0.0
+42,inconsistent_format,1.0,cleaned,Graduates on record,594.0,594.0,0.0,0.0
+42,inconsistent_format,1.0,cleaned,Total student records (people),1000.0,1000.0,0.0,0.0
+42,inconsistent_format,1.0,cleaned,Computer Science students,131.0,131.0,0.0,0.0
+42,inconsistent_format,1.0,cleaned,Student records with institutional-format email,1000.0,1000.0,0.0,0.0
+42,inconsistent_format,1.0,cleaned,Courses currently offered,53.0,53.0,0.0,0.0
+42,inconsistent_format,1.0,cleaned,Mean grade (completed modules),61.65,61.65,0.0,0.0
+42,inconsistent_format,1.0,cleaned,Pass rate (grade >= 40),0.9721,0.9721,0.0,0.0
+42,inconsistent_format,1.0,cleaned,Mean modules per student,5.08,5.08,0.0,0.0
+42,inconsistent_format,2.0,dirty,Active student headcount,345.0,345.0,0.0,0.0
+42,inconsistent_format,2.0,dirty,Graduates on record,594.0,594.0,0.0,0.0
+42,inconsistent_format,2.0,dirty,Total student records (people),1000.0,1000.0,0.0,0.0
+42,inconsistent_format,2.0,dirty,Computer Science students,131.0,131.0,0.0,0.0
+42,inconsistent_format,2.0,dirty,Student records with institutional-format email,1000.0,1000.0,0.0,0.0
+42,inconsistent_format,2.0,dirty,Courses currently offered,53.0,53.0,0.0,0.0
+42,inconsistent_format,2.0,dirty,Mean grade (completed modules),61.65,61.65,0.0,0.0
+42,inconsistent_format,2.0,dirty,Pass rate (grade >= 40),0.9721,0.9721,0.0,0.0
+42,inconsistent_format,2.0,dirty,Mean modules per student,5.08,5.08,0.0,0.0
+42,inconsistent_format,2.0,cleaned,Active student headcount,345.0,345.0,0.0,0.0
+42,inconsistent_format,2.0,cleaned,Graduates on record,594.0,594.0,0.0,0.0
+42,inconsistent_format,2.0,cleaned,Total student records (people),1000.0,1000.0,0.0,0.0
+42,inconsistent_format,2.0,cleaned,Computer Science students,131.0,131.0,0.0,0.0
+42,inconsistent_format,2.0,cleaned,Student records with institutional-format email,1000.0,1000.0,0.0,0.0
+42,inconsistent_format,2.0,cleaned,Courses currently offered,53.0,53.0,0.0,0.0
+42,inconsistent_format,2.0,cleaned,Mean grade (completed modules),61.65,61.65,0.0,0.0
+42,inconsistent_format,2.0,cleaned,Pass rate (grade >= 40),0.9721,0.9721,0.0,0.0
+42,inconsistent_format,2.0,cleaned,Mean modules per student,5.08,5.08,0.0,0.0
+42,invalid,0.25,dirty,Active student headcount,345.0,345.0,0.0,0.0
+42,invalid,0.25,dirty,Graduates on record,594.0,594.0,0.0,0.0
+42,invalid,0.25,dirty,Total student records (people),1000.0,1000.0,0.0,0.0
+42,invalid,0.25,dirty,Computer Science students,131.0,131.0,0.0,0.0
+42,invalid,0.25,dirty,Student records with institutional-format email,995.0,1000.0,5.0,0.005
+42,invalid,0.25,dirty,Courses currently offered,53.0,53.0,0.0,0.0
+42,invalid,0.25,dirty,Mean grade (completed modules),62.35,61.65,0.7000000000000028,0.011354420113544247
+42,invalid,0.25,dirty,Pass rate (grade >= 40),0.9717,0.9721,0.00039999999999995595,0.00041148030038057397
+42,invalid,0.25,dirty,Mean modules per student,5.08,5.08,0.0,0.0
+42,invalid,0.25,cleaned,Active student headcount,345.0,345.0,0.0,0.0
+42,invalid,0.25,cleaned,Graduates on record,594.0,594.0,0.0,0.0
+42,invalid,0.25,cleaned,Total student records (people),1000.0,1000.0,0.0,0.0
+42,invalid,0.25,cleaned,Computer Science students,131.0,131.0,0.0,0.0
+42,invalid,0.25,cleaned,Student records with institutional-format email,1000.0,1000.0,0.0,0.0
+42,invalid,0.25,cleaned,Courses currently offered,53.0,53.0,0.0,0.0
+42,invalid,0.25,cleaned,Mean grade (completed modules),61.67,61.65,0.020000000000003126,0.00032441200324417077
+42,invalid,0.25,cleaned,Pass rate (grade >= 40),0.972,0.9721,9.999999999998899e-05,0.00010287007509514349
+42,invalid,0.25,cleaned,Mean modules per student,5.08,5.08,0.0,0.0
+42,invalid,1.0,dirty,Active student headcount,345.0,345.0,0.0,0.0
+42,invalid,1.0,dirty,Graduates on record,594.0,594.0,0.0,0.0
+42,invalid,1.0,dirty,Total student records (people),1000.0,1000.0,0.0,0.0
+42,invalid,1.0,dirty,Computer Science students,131.0,131.0,0.0,0.0
+42,invalid,1.0,dirty,Student records with institutional-format email,980.0,1000.0,20.0,0.02
+42,invalid,1.0,dirty,Courses currently offered,53.0,53.0,0.0,0.0
+42,invalid,1.0,dirty,Mean grade (completed modules),64.31,61.65,2.6600000000000037,0.04314679643146802
+42,invalid,1.0,dirty,Pass rate (grade >= 40),0.9698,0.9721,0.0022999999999999687,0.002366011727188529
+42,invalid,1.0,dirty,Mean modules per student,5.08,5.08,0.0,0.0
+42,invalid,1.0,cleaned,Active student headcount,345.0,345.0,0.0,0.0
+42,invalid,1.0,cleaned,Graduates on record,594.0,594.0,0.0,0.0
+42,invalid,1.0,cleaned,Total student records (people),1000.0,1000.0,0.0,0.0
+42,invalid,1.0,cleaned,Computer Science students,131.0,131.0,0.0,0.0
+42,invalid,1.0,cleaned,Student records with institutional-format email,1000.0,1000.0,0.0,0.0
+42,invalid,1.0,cleaned,Courses currently offered,53.0,53.0,0.0,0.0
+42,invalid,1.0,cleaned,Mean grade (completed modules),61.68,61.65,0.030000000000001137,0.0004866180048661985
+42,invalid,1.0,cleaned,Pass rate (grade >= 40),0.9721,0.9721,0.0,0.0
+42,invalid,1.0,cleaned,Mean modules per student,5.08,5.08,0.0,0.0
+42,invalid,2.0,dirty,Active student headcount,345.0,345.0,0.0,0.0
+42,invalid,2.0,dirty,Graduates on record,594.0,594.0,0.0,0.0
+42,invalid,2.0,dirty,Total student records (people),1000.0,1000.0,0.0,0.0
+42,invalid,2.0,dirty,Computer Science students,131.0,131.0,0.0,0.0
+42,invalid,2.0,dirty,Student records with institutional-format email,960.0,1000.0,40.0,0.04
+42,invalid,2.0,dirty,Courses currently offered,53.0,53.0,0.0,0.0
+42,invalid,2.0,dirty,Mean grade (completed modules),66.85,61.65,5.199999999999996,0.08434712084347114
+42,invalid,2.0,dirty,Pass rate (grade >= 40),0.9671,0.9721,0.0050000000000000044,0.005143503754757746
+42,invalid,2.0,dirty,Mean modules per student,5.08,5.08,0.0,0.0
+42,invalid,2.0,cleaned,Active student headcount,345.0,345.0,0.0,0.0
+42,invalid,2.0,cleaned,Graduates on record,594.0,594.0,0.0,0.0
+42,invalid,2.0,cleaned,Total student records (people),1000.0,1000.0,0.0,0.0
+42,invalid,2.0,cleaned,Computer Science students,131.0,131.0,0.0,0.0
+42,invalid,2.0,cleaned,Student records with institutional-format email,1000.0,1000.0,0.0,0.0
+42,invalid,2.0,cleaned,Courses currently offered,53.0,53.0,0.0,0.0
+42,invalid,2.0,cleaned,Mean grade (completed modules),61.69,61.65,0.03999999999999915,0.0006488240064882263
+42,invalid,2.0,cleaned,Pass rate (grade >= 40),0.9722,0.9721,9.999999999998899e-05,0.00010287007509514349
+42,invalid,2.0,cleaned,Mean modules per student,5.08,5.08,0.0,0.0
+42,orphan_fk,0.25,dirty,Active student headcount,345.0,345.0,0.0,0.0
+42,orphan_fk,0.25,dirty,Graduates on record,594.0,594.0,0.0,0.0
+42,orphan_fk,0.25,dirty,Total student records (people),1000.0,1000.0,0.0,0.0
+42,orphan_fk,0.25,dirty,Computer Science students,131.0,131.0,0.0,0.0
+42,orphan_fk,0.25,dirty,Student records with institutional-format email,1000.0,1000.0,0.0,0.0
+42,orphan_fk,0.25,dirty,Courses currently offered,53.0,53.0,0.0,0.0
+42,orphan_fk,0.25,dirty,Mean grade (completed modules),61.65,61.65,0.0,0.0
+42,orphan_fk,0.25,dirty,Pass rate (grade >= 40),0.9721,0.9721,0.0,0.0
+42,orphan_fk,0.25,dirty,Mean modules per student,5.07,5.08,0.009999999999999787,0.001968503937007832
+42,orphan_fk,0.25,cleaned,Active student headcount,345.0,345.0,0.0,0.0
+42,orphan_fk,0.25,cleaned,Graduates on record,594.0,594.0,0.0,0.0
+42,orphan_fk,0.25,cleaned,Total student records (people),1000.0,1000.0,0.0,0.0
+42,orphan_fk,0.25,cleaned,Computer Science students,131.0,131.0,0.0,0.0
+42,orphan_fk,0.25,cleaned,Student records with institutional-format email,1000.0,1000.0,0.0,0.0
+42,orphan_fk,0.25,cleaned,Courses currently offered,53.0,53.0,0.0,0.0
+42,orphan_fk,0.25,cleaned,Mean grade (completed modules),61.64,61.65,0.00999999999999801,0.00016220600162202776
+42,orphan_fk,0.25,cleaned,Pass rate (grade >= 40),0.972,0.9721,9.999999999998899e-05,0.00010287007509514349
+42,orphan_fk,0.25,cleaned,Mean modules per student,5.07,5.08,0.009999999999999787,0.001968503937007832
+42,orphan_fk,1.0,dirty,Active student headcount,345.0,345.0,0.0,0.0
+42,orphan_fk,1.0,dirty,Graduates on record,594.0,594.0,0.0,0.0
+42,orphan_fk,1.0,dirty,Total student records (people),1000.0,1000.0,0.0,0.0
+42,orphan_fk,1.0,dirty,Computer Science students,131.0,131.0,0.0,0.0
+42,orphan_fk,1.0,dirty,Student records with institutional-format email,1000.0,1000.0,0.0,0.0
+42,orphan_fk,1.0,dirty,Courses currently offered,53.0,53.0,0.0,0.0
+42,orphan_fk,1.0,dirty,Mean grade (completed modules),61.65,61.65,0.0,0.0
+42,orphan_fk,1.0,dirty,Pass rate (grade >= 40),0.9721,0.9721,0.0,0.0
+42,orphan_fk,1.0,dirty,Mean modules per student,5.03,5.08,0.04999999999999982,0.009842519685039335
+42,orphan_fk,1.0,cleaned,Active student headcount,345.0,345.0,0.0,0.0
+42,orphan_fk,1.0,cleaned,Graduates on record,594.0,594.0,0.0,0.0
+42,orphan_fk,1.0,cleaned,Total student records (people),1000.0,1000.0,0.0,0.0
+42,orphan_fk,1.0,cleaned,Computer Science students,131.0,131.0,0.0,0.0
+42,orphan_fk,1.0,cleaned,Student records with institutional-format email,1000.0,1000.0,0.0,0.0
+42,orphan_fk,1.0,cleaned,Courses currently offered,53.0,53.0,0.0,0.0
+42,orphan_fk,1.0,cleaned,Mean grade (completed modules),61.64,61.65,0.00999999999999801,0.00016220600162202776
+42,orphan_fk,1.0,cleaned,Pass rate (grade >= 40),0.972,0.9721,9.999999999998899e-05,0.00010287007509514349
+42,orphan_fk,1.0,cleaned,Mean modules per student,5.03,5.08,0.04999999999999982,0.009842519685039335
+42,orphan_fk,2.0,dirty,Active student headcount,345.0,345.0,0.0,0.0
+42,orphan_fk,2.0,dirty,Graduates on record,594.0,594.0,0.0,0.0
+42,orphan_fk,2.0,dirty,Total student records (people),1000.0,1000.0,0.0,0.0
+42,orphan_fk,2.0,dirty,Computer Science students,131.0,131.0,0.0,0.0
+42,orphan_fk,2.0,dirty,Student records with institutional-format email,1000.0,1000.0,0.0,0.0
+42,orphan_fk,2.0,dirty,Courses currently offered,53.0,53.0,0.0,0.0
+42,orphan_fk,2.0,dirty,Mean grade (completed modules),61.65,61.65,0.0,0.0
+42,orphan_fk,2.0,dirty,Pass rate (grade >= 40),0.9721,0.9721,0.0,0.0
+42,orphan_fk,2.0,dirty,Mean modules per student,4.98,5.08,0.09999999999999964,0.01968503937007867
+42,orphan_fk,2.0,cleaned,Active student headcount,345.0,345.0,0.0,0.0
+42,orphan_fk,2.0,cleaned,Graduates on record,594.0,594.0,0.0,0.0
+42,orphan_fk,2.0,cleaned,Total student records (people),1000.0,1000.0,0.0,0.0
+42,orphan_fk,2.0,cleaned,Computer Science students,131.0,131.0,0.0,0.0
+42,orphan_fk,2.0,cleaned,Student records with institutional-format email,1000.0,1000.0,0.0,0.0
+42,orphan_fk,2.0,cleaned,Courses currently offered,53.0,53.0,0.0,0.0
+42,orphan_fk,2.0,cleaned,Mean grade (completed modules),61.64,61.65,0.00999999999999801,0.00016220600162202776
+42,orphan_fk,2.0,cleaned,Pass rate (grade >= 40),0.9717,0.9721,0.00039999999999995595,0.00041148030038057397
+42,orphan_fk,2.0,cleaned,Mean modules per student,4.98,5.08,0.09999999999999964,0.01968503937007867
+42,inconsistent_temporal,0.25,dirty,Active student headcount,345.0,345.0,0.0,0.0
+42,inconsistent_temporal,0.25,dirty,Graduates on record,594.0,594.0,0.0,0.0
+42,inconsistent_temporal,0.25,dirty,Total student records (people),1000.0,1000.0,0.0,0.0
+42,inconsistent_temporal,0.25,dirty,Computer Science students,131.0,131.0,0.0,0.0
+42,inconsistent_temporal,0.25,dirty,Student records with institutional-format email,1000.0,1000.0,0.0,0.0
+42,inconsistent_temporal,0.25,dirty,Courses currently offered,53.0,53.0,0.0,0.0
+42,inconsistent_temporal,0.25,dirty,Mean grade (completed modules),61.65,61.65,0.0,0.0
+42,inconsistent_temporal,0.25,dirty,Pass rate (grade >= 40),0.9721,0.9721,0.0,0.0
+42,inconsistent_temporal,0.25,dirty,Mean modules per student,5.08,5.08,0.0,0.0
+42,inconsistent_temporal,0.25,cleaned,Active student headcount,345.0,345.0,0.0,0.0
+42,inconsistent_temporal,0.25,cleaned,Graduates on record,594.0,594.0,0.0,0.0
+42,inconsistent_temporal,0.25,cleaned,Total student records (people),1000.0,1000.0,0.0,0.0
+42,inconsistent_temporal,0.25,cleaned,Computer Science students,131.0,131.0,0.0,0.0
+42,inconsistent_temporal,0.25,cleaned,Student records with institutional-format email,1000.0,1000.0,0.0,0.0
+42,inconsistent_temporal,0.25,cleaned,Courses currently offered,53.0,53.0,0.0,0.0
+42,inconsistent_temporal,0.25,cleaned,Mean grade (completed modules),61.64,61.65,0.00999999999999801,0.00016220600162202776
+42,inconsistent_temporal,0.25,cleaned,Pass rate (grade >= 40),0.972,0.9721,9.999999999998899e-05,0.00010287007509514349
+42,inconsistent_temporal,0.25,cleaned,Mean modules per student,5.07,5.08,0.009999999999999787,0.001968503937007832
+42,inconsistent_temporal,1.0,dirty,Active student headcount,345.0,345.0,0.0,0.0
+42,inconsistent_temporal,1.0,dirty,Graduates on record,594.0,594.0,0.0,0.0
+42,inconsistent_temporal,1.0,dirty,Total student records (people),1000.0,1000.0,0.0,0.0
+42,inconsistent_temporal,1.0,dirty,Computer Science students,131.0,131.0,0.0,0.0
+42,inconsistent_temporal,1.0,dirty,Student records with institutional-format email,1000.0,1000.0,0.0,0.0
+42,inconsistent_temporal,1.0,dirty,Courses currently offered,53.0,53.0,0.0,0.0
+42,inconsistent_temporal,1.0,dirty,Mean grade (completed modules),61.65,61.65,0.0,0.0
+42,inconsistent_temporal,1.0,dirty,Pass rate (grade >= 40),0.9721,0.9721,0.0,0.0
+42,inconsistent_temporal,1.0,dirty,Mean modules per student,5.08,5.08,0.0,0.0
+42,inconsistent_temporal,1.0,cleaned,Active student headcount,345.0,345.0,0.0,0.0
+42,inconsistent_temporal,1.0,cleaned,Graduates on record,594.0,594.0,0.0,0.0
+42,inconsistent_temporal,1.0,cleaned,Total student records (people),1000.0,1000.0,0.0,0.0
+42,inconsistent_temporal,1.0,cleaned,Computer Science students,131.0,131.0,0.0,0.0
+42,inconsistent_temporal,1.0,cleaned,Student records with institutional-format email,1000.0,1000.0,0.0,0.0
+42,inconsistent_temporal,1.0,cleaned,Courses currently offered,53.0,53.0,0.0,0.0
+42,inconsistent_temporal,1.0,cleaned,Mean grade (completed modules),61.64,61.65,0.00999999999999801,0.00016220600162202776
+42,inconsistent_temporal,1.0,cleaned,Pass rate (grade >= 40),0.9721,0.9721,0.0,0.0
+42,inconsistent_temporal,1.0,cleaned,Mean modules per student,5.04,5.08,0.040000000000000036,0.007874015748031503
+42,inconsistent_temporal,2.0,dirty,Active student headcount,345.0,345.0,0.0,0.0
+42,inconsistent_temporal,2.0,dirty,Graduates on record,594.0,594.0,0.0,0.0
+42,inconsistent_temporal,2.0,dirty,Total student records (people),1000.0,1000.0,0.0,0.0
+42,inconsistent_temporal,2.0,dirty,Computer Science students,131.0,131.0,0.0,0.0
+42,inconsistent_temporal,2.0,dirty,Student records with institutional-format email,1000.0,1000.0,0.0,0.0
+42,inconsistent_temporal,2.0,dirty,Courses currently offered,53.0,53.0,0.0,0.0
+42,inconsistent_temporal,2.0,dirty,Mean grade (completed modules),61.65,61.65,0.0,0.0
+42,inconsistent_temporal,2.0,dirty,Pass rate (grade >= 40),0.9721,0.9721,0.0,0.0
+42,inconsistent_temporal,2.0,dirty,Mean modules per student,5.08,5.08,0.0,0.0
+42,inconsistent_temporal,2.0,cleaned,Active student headcount,345.0,345.0,0.0,0.0
+42,inconsistent_temporal,2.0,cleaned,Graduates on record,594.0,594.0,0.0,0.0
+42,inconsistent_temporal,2.0,cleaned,Total student records (people),1000.0,1000.0,0.0,0.0
+42,inconsistent_temporal,2.0,cleaned,Computer Science students,131.0,131.0,0.0,0.0
+42,inconsistent_temporal,2.0,cleaned,Student records with institutional-format email,1000.0,1000.0,0.0,0.0
+42,inconsistent_temporal,2.0,cleaned,Courses currently offered,53.0,53.0,0.0,0.0
+42,inconsistent_temporal,2.0,cleaned,Mean grade (completed modules),61.63,61.65,0.01999999999999602,0.0003244120032440555
+42,inconsistent_temporal,2.0,cleaned,Pass rate (grade >= 40),0.9718,0.9721,0.00029999999999996696,0.00030861022528543046
+42,inconsistent_temporal,2.0,cleaned,Mean modules per student,4.99,5.08,0.08999999999999986,0.017716535433070838
+42,mixed,0.0,dirty,Active student headcount,345.0,345.0,0.0,0.0
+42,mixed,0.0,dirty,Graduates on record,594.0,594.0,0.0,0.0
+42,mixed,0.0,dirty,Total student records (people),1000.0,1000.0,0.0,0.0
+42,mixed,0.0,dirty,Computer Science students,131.0,131.0,0.0,0.0
+42,mixed,0.0,dirty,Student records with institutional-format email,1000.0,1000.0,0.0,0.0
+42,mixed,0.0,dirty,Courses currently offered,53.0,53.0,0.0,0.0
+42,mixed,0.0,dirty,Mean grade (completed modules),61.65,61.65,0.0,0.0
+42,mixed,0.0,dirty,Pass rate (grade >= 40),0.9721,0.9721,0.0,0.0
+42,mixed,0.0,dirty,Mean modules per student,5.08,5.08,0.0,0.0
+42,mixed,0.0,cleaned,Active student headcount,345.0,345.0,0.0,0.0
+42,mixed,0.0,cleaned,Graduates on record,594.0,594.0,0.0,0.0
+42,mixed,0.0,cleaned,Total student records (people),1000.0,1000.0,0.0,0.0
+42,mixed,0.0,cleaned,Computer Science students,131.0,131.0,0.0,0.0
+42,mixed,0.0,cleaned,Student records with institutional-format email,1000.0,1000.0,0.0,0.0
+42,mixed,0.0,cleaned,Courses currently offered,53.0,53.0,0.0,0.0
+42,mixed,0.0,cleaned,Mean grade (completed modules),61.65,61.65,0.0,0.0
+42,mixed,0.0,cleaned,Pass rate (grade >= 40),0.9721,0.9721,0.0,0.0
+42,mixed,0.0,cleaned,Mean modules per student,5.08,5.08,0.0,0.0

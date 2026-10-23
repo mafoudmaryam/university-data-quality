@@ -8,6 +8,7 @@ Outputs (in ../data):
 Reference date for the dataset is 2026-10-01 (start of academic year 2026/27).
 Programmes are three years long; enrolments are recorded per academic year.
 """
+import csv
 import random
 import sqlite3
 from pathlib import Path
@@ -85,7 +86,16 @@ def make_truth(rng: random.Random):
     return students, courses, pd.DataFrame(enrolments)
 
 
-def corrupt(students, courses, enrolments, rng: random.Random):
+def corrupt(students, courses, enrolments, rng: random.Random, *, scale=1.0, error_types=None):
+    """Scale baseline injection probabilities; optionally isolate an error family.
+
+    Duplicate-key changes belong to the duplicate family. Rates are capped at 1.
+    """
+    if scale < 0:
+        raise ValueError("scale must be nonnegative")
+    enabled = set(error_types) if error_types is not None else {
+        "duplicate", "missing", "outdated", "inconsistent_code",
+        "inconsistent_format", "invalid", "orphan_fk", "inconsistent_temporal"}
     s, c, e = students.copy(), courses.copy(), enrolments.copy()
     for df in (s, c, e):
         for col in df.columns:
@@ -96,13 +106,16 @@ def corrupt(students, courses, enrolments, rng: random.Random):
         log.append({"table": table, "record_id": rid, "column": col, "error_type": etype,
                     "true_value": true, "dirty_value": dirty})
 
-    def pick(df, frac, where=None):
+    def pick(df, frac, where=None, *, family):
+        if family not in enabled:
+            return []
+        frac = min(1.0, frac * scale)
         pool = df if where is None else df[where]
         return list(pool.sample(frac=frac, random_state=rng.randint(0, 10**6)).index) if len(pool) else []
 
     # 1. DUPLICATES: re-keyed copies of 5% of students, with spelling/format variations
     dup_rows, next_id = [], N_STUDENTS + 1
-    for i in pick(s, 0.05):
+    for i in pick(s, 0.05, family="duplicate"):
         orig = s.loc[i].copy()
         d = orig.copy()
         d["student_id"] = next_id
@@ -130,21 +143,24 @@ def corrupt(students, courses, enrolments, rng: random.Random):
 
     # 2. MISSING VALUES
     for col, frac in [("email", 0.06), ("dob", 0.04), ("programme_code", 0.03)]:
-        for i in pick(s, frac, originals & s[col].notna()):
+        for i in pick(s, frac, originals & s[col].notna(), family="missing"):
             note("students", int(s.at[i, "student_id"]), col, "missing", s.at[i, col], None)
             s.at[i, col] = None
-    for i in pick(e, 0.05, e.grade.notna()):
+    for i in pick(e, 0.05, e.grade.notna(), family="missing"):
         note("enrolments", int(e.at[i, "enrolment_id"]), "grade", "missing", e.at[i, "grade"], None)
         e.at[i, "grade"] = None
 
     # 3. OUTDATED RECORDS: graduates never updated, retired courses still listed
-    for i in pick(s, 0.15, originals & (s.status == "graduated")):
+    for i in pick(s, 0.15, originals & (s.status == "graduated"), family="outdated"):
         sid = int(s.at[i, "student_id"])
         note("students", sid, "status", "outdated", "graduated", "active")
         note("students", sid, "graduation_date", "outdated", s.at[i, "graduation_date"], None)
         s.at[i, "status"], s.at[i, "graduation_date"] = "active", None
-        s.at[i, "last_updated"] = f"{s.at[i, 'enrol_year']}-09-15"
-    for i in c.index[c.active == 0]:
+        old_update = s.at[i, "last_updated"]
+        new_update = f"{s.at[i, 'enrol_year']}-09-15"
+        note("students", sid, "last_updated", "outdated", old_update, new_update)
+        s.at[i, "last_updated"] = new_update
+    for i in pick(c, 1.0, c.active == 0, family="outdated"):
         note("courses", c.at[i, "course_code"], "active", "outdated", 0, 1)
         c.at[i, "active"] = 1
 
@@ -152,40 +168,40 @@ def corrupt(students, courses, enrolments, rng: random.Random):
     prog_variants = {"CS": ["cs", "Comp Sci", "Computer Science"], "IS": ["I.S.", "Info Systems", "is"],
                      "BUS": ["Business", "bus "], "MATH": ["Maths", "MTH"], "PSY": ["Psych", "psy"],
                      "LAW": ["Law", "law"], "ENG": ["Eng.", "Engineering"], "BIO": ["Biology", "bio"]}
-    for i in pick(s, 0.08, originals & s.programme_code.notna()):
+    for i in pick(s, 0.08, originals & s.programme_code.notna(), family="inconsistent_code"):
         v = rng.choice(prog_variants[s.at[i, "programme_code"]])
         note("students", int(s.at[i, "student_id"]), "programme_code", "inconsistent_code", s.at[i, "programme_code"], v)
         s.at[i, "programme_code"] = v
-    for i in pick(s, 0.10, originals & s.dob.notna()):
+    for i in pick(s, 0.10, originals & s.dob.notna(), family="inconsistent_format"):
         v = pd.Timestamp(s.at[i, "dob"]).strftime(rng.choice(["%d/%m/%Y", "%m-%d-%Y", "%d %b %Y"]))
         note("students", int(s.at[i, "student_id"]), "dob", "inconsistent_format", s.at[i, "dob"], v)
         s.at[i, "dob"] = v
     gmap = {"F": ["female", "f", "Female"], "M": ["male", "m", "Male"], "X": ["other", "non-binary"]}
-    for i in pick(s, 0.10, originals):
+    for i in pick(s, 0.10, originals, family="inconsistent_code"):
         v = rng.choice(gmap[s.at[i, "gender"]])
         note("students", int(s.at[i, "student_id"]), "gender", "inconsistent_code", s.at[i, "gender"], v)
         s.at[i, "gender"] = v
     cmap = {"United Kingdom": ["UK", "U.K.", "England", "united kingdom"], "Ireland": ["IE", "Eire"],
             "France": ["FR", "france"], "Nigeria": ["NG"], "India": ["IN", "india"], "Morocco": ["MA", "Maroc"],
             "China": ["CN", "PRC"]}
-    for i in pick(s, 0.10, originals):
+    for i in pick(s, 0.10, originals, family="inconsistent_code"):
         v = rng.choice(cmap[s.at[i, "country"]])
         note("students", int(s.at[i, "student_id"]), "country", "inconsistent_code", s.at[i, "country"], v)
         s.at[i, "country"] = v
-    for i in pick(s, 0.02, originals & s.email.notna()):
+    for i in pick(s, 0.02, originals & s.email.notna(), family="invalid"):
         v = s.at[i, "email"].replace("@", "")
         note("students", int(s.at[i, "student_id"]), "email", "invalid", s.at[i, "email"], v)
         s.at[i, "email"] = v
-    for i in pick(e, 0.01, e.grade.notna()):
+    for i in pick(e, 0.01, e.grade.notna(), family="invalid"):
         v = rng.choice([105, 110, -5, 999])
         note("enrolments", int(e.at[i, "enrolment_id"]), "grade", "invalid", e.at[i, "grade"], v)
         e.at[i, "grade"] = v
     # orphan enrolments (student key does not exist) and impossible years (before student enrolled)
-    for i in pick(e, 0.01):
+    for i in pick(e, 0.01, family="orphan_fk"):
         v = int(rng.randint(5000, 5999))
         note("enrolments", int(e.at[i, "enrolment_id"]), "student_id", "orphan_fk", int(e.at[i, "student_id"]), v)
         e.at[i, "student_id"] = v
-    for i in pick(e, 0.01):
+    for i in pick(e, 0.01, family="inconsistent_temporal"):
         v = int(e.at[i, "academic_year"]) - rng.randint(2, 4)
         note("enrolments", int(e.at[i, "enrolment_id"]), "academic_year", "inconsistent_temporal",
              int(e.at[i, "academic_year"]), v)
@@ -209,7 +225,7 @@ def main():
     ds, dc, de, log = corrupt(students, courses, enrolments, rng)
     save(DATA / "truth.sqlite", students=students, courses=courses, enrolments=enrolments)
     save(DATA / "dirty.sqlite", students=ds, courses=dc, enrolments=de)
-    log.to_csv(DATA / "injection_log.csv", index=False)
+    log.to_csv(DATA / "injection_log.csv", index=False, quoting=csv.QUOTE_NONNUMERIC)
     for name, df in [("students", ds), ("courses", dc), ("enrolments", de)]:
         df.to_csv(DATA / f"dirty_{name}.csv", index=False)
     print(f"truth: {len(students)} students, {len(courses)} courses, {len(enrolments)} enrolments")

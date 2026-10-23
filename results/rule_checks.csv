@@ -16,5 +16,5 @@ Consistency,enrolment references unknown student,enrolments,51,0.010031471282454
 Consistency,enrolment references unknown course,enrolments,0,0.0,0,0.0
 Consistency,enrolment year before student's start year,enrolments,39,0.007671125098347758,0,0.0
 Consistency,graduated student without graduation date,students,0,0.0,0,0.0
-Timeliness,'active' student past expected completion,students,89,0.2,0,0.0
-Timeliness,'active' course with no enrolments in 2 years,courses,3,0.05357142857142857,0,0.0
+Timeliness,'active' student past expected completion,students,89,0.2,89,0.20506912442396313
+Timeliness,'active' course with no enrolments in 2 years,courses,3,0.05357142857142857,3,0.05357142857142857

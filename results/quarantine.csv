@@ -1,0 +1,91 @@
+enrolment_id,student_id,course_code,academic_year,grade,reason
+110,23,MATH107,2017,52.0,year before start
+206,5094,BIO106,2020,65.0,orphan student_id
+241,48,ENG103,2023,46.0,year before start
+285,5964,BIO103,2026,,orphan student_id
+316,62,BUS104,2024,,year before start
+333,5803,CS107,2024,66.0,orphan student_id
+469,92,PSY107,2020,44.0,year before start
+564,5617,LAW107,2024,67.0,orphan student_id
+684,5237,CS103,2025,53.0,orphan student_id
+729,5190,IS104,2025,63.0,orphan student_id
+740,144,CS104,2022,59.0,year before start
+810,157,IS104,2020,74.0,year before start
+812,5892,IS102,2025,56.0,orphan student_id
+893,173,CS103,2018,76.0,year before start
+967,188,LAW106,2016,60.0,year before start
+1005,196,BIO105,2022,52.0,year before start
+1038,202,PSY105,2019,47.0,year before start
+1059,206,BUS107,2015,74.0,year before start
+1101,5758,CS104,2023,43.0,orphan student_id
+1112,5433,PSY104,2025,59.0,orphan student_id
+1234,5017,LAW104,2025,61.0,orphan student_id
+1401,5180,PSY103,2025,76.0,orphan student_id
+1511,5586,BUS101,2021,57.0,orphan student_id
+1526,5976,BUS106,2024,,orphan student_id
+1540,5887,CS102,2022,94.0,orphan student_id
+1555,5836,IS107,2024,47.0,orphan student_id
+1627,5078,BUS101,2022,66.0,orphan student_id
+1762,5183,PSY103,2022,82.0,orphan student_id
+1785,5561,PSY105,2022,49.0,orphan student_id
+1834,358,LAW101,2022,,year before start
+1845,361,LAW102,2015,56.0,year before start
+1926,5171,PSY103,2025,49.0,orphan student_id
+1963,5068,CS103,2025,61.0,orphan student_id
+2035,5068,ENG105,2025,64.0,orphan student_id
+2059,403,ENG101,2018,67.0,year before start
+2251,443,PSY106,2018,54.0,year before start
+2314,457,LAW104,2017,46.0,year before start
+2492,5275,PSY105,2021,65.0,orphan student_id
+2506,493,LAW107,2022,,year before start
+2557,503,ENG106,2021,59.0,year before start
+2567,5891,CS104,2024,50.0,orphan student_id
+2581,507,MATH105,2020,55.0,year before start
+2635,519,MATH104,2022,,year before start
+2649,522,ENG101,2016,55.0,year before start
+2672,526,BUS102,2023,,year before start
+2757,547,LAW107,2017,64.0,year before start
+2785,552,LAW107,2016,64.0,year before start
+2797,5533,PSY105,2022,60.0,orphan student_id
+2837,561,ENG103,2021,43.0,year before start
+2977,5797,ENG101,2021,59.0,orphan student_id
+2978,5419,ENG104,2021,48.0,orphan student_id
+3110,5295,CS102,2024,73.0,orphan student_id
+3112,5127,CS104,2025,63.0,orphan student_id
+3188,629,CS102,2021,50.0,year before start
+3196,5937,PSY101,2020,70.0,orphan student_id
+3201,631,IS102,2017,61.0,year before start
+3223,635,ENG102,2022,50.0,year before start
+3233,5791,LAW107,2022,61.0,orphan student_id
+3245,5319,LAW102,2017,84.0,orphan student_id
+3425,5241,LAW107,2024,62.0,orphan student_id
+3579,5170,IS101,2019,63.0,orphan student_id
+3641,5827,BIO101,2026,,orphan student_id
+3808,746,LAW103,2017,62.0,year before start
+3840,754,CS102,2023,,year before start
+3880,762,BUS104,2018,68.0,year before start
+3900,5473,CS105,2021,69.0,orphan student_id
+3997,5635,PSY105,2024,43.0,orphan student_id
+4129,5200,CS106,2021,47.0,orphan student_id
+4149,815,PSY107,2017,58.0,year before start
+4168,5103,IS104,2024,65.0,orphan student_id
+4183,822,IS104,2019,57.0,year before start
+4285,843,ENG104,2021,62.0,year before start
+4291,5481,CS102,2026,,orphan student_id
+4333,5892,LAW104,2025,76.0,orphan student_id
+4349,5566,PSY105,2023,68.0,orphan student_id
+4357,5234,PSY106,2021,76.0,orphan student_id
+4411,5801,IS105,2024,35.0,orphan student_id
+4475,5801,BIO105,2021,49.0,orphan student_id
+4537,5916,LAW101,2021,77.0,orphan student_id
+4632,914,LAW101,2024,,year before start
+4661,919,BIO107,2019,64.0,year before start
+4708,929,PSY101,2022,54.0,year before start
+4719,5984,CS101,2022,61.0,orphan student_id
+4760,938,BUS102,2019,49.0,year before start
+4853,957,IS106,2023,51.0,year before start
+4885,5964,PSY103,2025,70.0,orphan student_id
+4920,5729,CS107,2023,45.0,orphan student_id
+4946,5053,BIO104,2020,65.0,orphan student_id
+4983,5546,IS105,2017,71.0,orphan student_id
+5084,5670,PSY107,2024,,orphan student_id

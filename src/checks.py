@@ -59,10 +59,20 @@ def duplicate_pairs(students, threshold=0.85):
     for _, block in s[s._email.notna()].groupby("_email"):
         ids = sorted(block.student_id)
         pairs += [(int(ids[0]), int(d)) for d in ids[1:]]
-    return sorted(set(pairs))
+    # Collapse connected matches so every member maps to one surviving ID.
+    parent = {int(i): int(i) for i in students.student_id}
+    def root(i):
+        while parent[i] != i:
+            parent[i] = parent[parent[i]]
+            i = parent[i]
+        return i
+    for a, b in pairs:
+        ra, rb = root(a), root(b)
+        parent[max(ra, rb)] = min(ra, rb)
+    return [(root(i), i) for i in sorted(parent) if root(i) != i]
 
 
-def run_checks(db_path):
+def run_checks(db_path, *, include_flagged=False):
     t = load(db_path)
     s, c, e = t["students"], t["courses"], t["enrolments"]
     results, flagged = [], {"students": set(), "courses": set(), "enrolments": set()}
@@ -92,13 +102,13 @@ def run_checks(db_path):
     rule("Validity", "email not in institutional format", "students",
          s.email.notna() & ~s.email.fillna("").str.match(EMAIL_RE), s.email.notna().sum(), "student_id")
     rule("Validity", "dob not ISO-8601 (YYYY-MM-DD)", "students",
-         s.dob.notna() & ~s.dob.fillna("").str.match(ISO_DATE_RE), s.dob.notna().sum(), "student_id")
+         s.dob.notna() & (~s.dob.fillna("").str.match(ISO_DATE_RE) | s.dob.map(parse_date).isna()), s.dob.notna().sum(), "student_id")
     rule("Validity", "gender not in code list", "students", ~s.gender.isin(GENDERS), len(s), "student_id")
     rule("Validity", "programme not in code list", "students",
          s.programme_code.notna() & ~s.programme_code.isin(PROGRAMMES), s.programme_code.notna().sum(), "student_id")
     rule("Validity", "country not in code list", "students", ~s.country.isin(COUNTRIES), len(s), "student_id")
     g = pd.to_numeric(e.grade, errors="coerce")
-    rule("Validity", "grade outside 0-100", "enrolments", g.notna() & ((g < 0) | (g > 100)), g.notna().sum(), "enrolment_id")
+    rule("Validity", "grade outside 0-100", "enrolments", e.grade.notna() & (g.isna() | (g < 0) | (g > 100)), e.grade.notna().sum(), "enrolment_id")
 
     # Consistency / referential integrity
     rule("Consistency", "enrolment references unknown student", "enrolments",
@@ -114,7 +124,7 @@ def run_checks(db_path):
     # Timeliness (currency)
     rule("Timeliness", "'active' student past expected completion", "students",
          (s.status == "active") & (s.enrol_year + 3 <= REF_YEAR), (s.status == "active").sum(), "student_id")
-    recent = set(e.loc[e.academic_year >= REF_YEAR - 2, "course_code"])
+    recent = set(e.loc[e.academic_year >= REF_YEAR - 1, "course_code"])
     rule("Timeliness", "'active' course with no enrolments in 2 years", "courses",
          (c.active == 1) & ~c.course_code.isin(recent), (c.active == 1).sum(), "course_code")
 
@@ -122,8 +132,8 @@ def run_checks(db_path):
     r["rate"] = (r.violations / r.checked.where(r.checked > 0)).fillna(0)
     sizes = {"students": len(s), "courses": len(c), "enrolments": len(e)}
     records = pd.DataFrame([{"table": k, "records": sizes[k], "records_flagged": len(v),
-                             "record_error_rate": len(v) / sizes[k]} for k, v in flagged.items()])
-    return r, records
+                             "record_error_rate": len(v) / sizes[k] if sizes[k] else 0.0} for k, v in flagged.items()])
+    return (r, records, flagged) if include_flagged else (r, records)
 
 
 if __name__ == "__main__":
